@@ -2,7 +2,7 @@
 
 This is an open-science repository that contains the output obtained from
 executing [PITest](http://pitest.org) with a different mutation engine named
-[Descartes]() that implements [exterme mutation]() operators.
+[Descartes](https://github.com/STAMP-project/pitest-descartes) that implements [exterme mutation](http://dl.acm.org/citation.cfm?doid=2896941.2896944) operators.
 
 The repository contains a folder for each project studied. Each folder contains
 a set of markdown files. One of them contains a summary and there is one file
