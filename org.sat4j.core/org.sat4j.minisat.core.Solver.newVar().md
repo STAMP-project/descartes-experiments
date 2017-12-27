@@ -22,6 +22,7 @@ This method is covered by 1 test(s).
 
 
 ## Remarks
+This method is marked as deprecated.
 > Place here any remarks you have regarding this method.
 
 ## Involved commit(s)
