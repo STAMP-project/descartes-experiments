@@ -1,0 +1,126 @@
+# Summary
+**spoon.support.visitor.equals.EqualsChecker.scanCtStatement(spoon.reflect.code.CtStatement)**
+
+This method is **strong pseudo-tested**.
+It is covered by 100 test(s). 
+
+
+## Transformations applied
+
+- void
+
+
+The test suite was not able to detect any transformation applied.
+
+More information about the transformations applied can be found [here](https://github.com/STAMP-project/pitest-descartes)
+
+## Covering tests
+This method is covered by 100 test(s).
+* spoon.test.annotation.AnnotationValuesTest.testAnnotationPrintAnnotation()
+* spoon.test.factory.FactoryTest.testCtModel()
+* spoon.test.filters.FilterTest.unionOfTwoFilters()
+* spoon.test.generics.GenericsTest.testInvocationGenerics()
+* spoon.reflect.ast.AstCheckerTest.testAvoidSetCollectionSavedOnAST()
+* spoon.processing.CtGenerationTest.testGenerateReplacementVisitor()
+* spoon.test.comparison.EqualTest.testEqualsActualTypeRef()
+* spoon.reflect.visitor.CtScannerTest.testScan()
+* spoon.test.generics.GenericsTest.testDeclarationOfTypeParameterReference()
+* spoon.test.filters.FilterTest.testQueryBuilderWithFilterChain()
+* spoon.test.delete.DeleteTest.testDeleteAStatementInMethod()
+* spoon.test.fieldaccesses.FieldAccessTest.testIncrementationOnAVarIsAUnaryOperator()
+* spoon.test.fieldaccesses.FieldAccessTest.testTypeOfFieldAccess()
+* spoon.test.exceptions.ExceptionTest.testExceptionInSnippet()
+* spoon.test.annotation.AnnotationTest.testUsageOfTypeAnnotationInCast()
+* spoon.test.factory.FieldFactoryTest.testCreateFromSource()
+* spoon.test.architecture.SpoonArchitectureEnforcerTest.testSpecPackage()
+* spoon.reflect.declaration.CtTypeInformationTest.testGetSuperclass()
+* spoon.test.architecture.SpoonArchitectureEnforcerTest.testGoodTestClassNames()
+* spoon.test.casts.CastTest.testCast1()
+* spoon.processing.CtGenerationTest.testGenerateCloneVisitor()
+* spoon.test.comparison.EqualTest.testEqualsComment()
+* spoon.reflect.declaration.CtTypeInformationTest.testClassTypingContextContinueScanning()
+* spoon.test.generics.GenericsTest.testRecursiveTypeAdapting()
+* spoon.test.generics.GenericsTest.testCtTypeReference_getSuperclass()
+* spoon.test.annotation.AnnotationTest.testAnnotatedElementTypes()
+* spoon.test.fieldaccesses.FieldAccessTest.testGetReference()
+* spoon.test.fieldaccesses.FieldAccessTest.testFieldAccessAutoExplicit()
+* spoon.test.generics.GenericsTest.testClassTypingContext()
+* spoon.test.delete.DeleteTest.testDeleteStatementInCase()
+* spoon.test.generics.GenericsTest.testConstructorCallGenerics()
+* spoon.test.generics.GenericsTest.testClassContextOnInnerClass()
+* spoon.processing.CtGenerationTest.testGenerateRoleHandler()
+* spoon.test.annotation.AnnotationTest.testOutputGeneratedByTypeAnnotation()
+* spoon.test.annotation.AnnotationTest.testUsageOfTypeAnnotationInExtendsImplementsOfAClass()
+* spoon.test.ctType.CtTypeTest.testHasMethodNotHasMethod()
+* spoon.test.delete.DeleteTest.testDeleteAStatementInStaticAnonymousExecutable()
+* spoon.test.annotation.AnnotationTest.testUsageOfTypeAnnotationWithGenericTypesInStatements()
+* spoon.support.visitor.java.JavaReflectionTreeBuilderTest.testScannerClass()
+* spoon.test.delete.DeleteTest.testDeleteAStatementInAnonymousExecutable()
+* spoon.test.ctClass.CtClassTest.testAllTypeReferencesToALocalTypeShouldNotStartWithNumber()
+* spoon.test.generics.GenericsTest.testName()
+* spoon.reflect.ast.CloneTest.testCloneListener()
+* spoon.test.compilationunit.GetBinaryFilesTest.testAnonymousClasses()
+* spoon.test.eval.EvalTest.testVisitorPartialEvaluator_if()
+* spoon.test.generics.GenericsTest.testGenericsInQualifiedNameInConstructorCall()
+* spoon.test.annotation.AnnotationTest.testUsageOfTypeAnnotationOnLocalVariableInMethod()
+* spoon.test.ctType.CtTypeParameterTest.testTypeSame()
+* spoon.test.annotation.AnnotationTest.testUsageOfTypeAnnotationInReturnTypeInMethod()
+* spoon.test.eval.EvalTest.testVisitorPartialEvaluator_binary()
+* spoon.test.annotation.AnnotationTest.testUsageOfTypeAnnotationInNewInstance()
+* spoon.processing.CtGenerationTest.testGenerateCtBiScanner()
+* spoon.test.generics.GenericsTest.testDiamond1()
+* spoon.test.filters.FilterTest.testOverridingMethodFromSubClassOfAbstractClass()
+* spoon.test.generics.GenericsTest.testGetExecDeclarationOfEnumSetOf()
+* spoon.test.filters.FilterTest.testInvocationFilterWithExecutableInLibrary()
+* spoon.reflect.declaration.CtTypeInformationTest.testGetAllMethodsWontReturnOverriddenMethod()
+* spoon.test.architecture.SpoonArchitectureEnforcerTest.noTreeSetInSpoon()
+* spoon.test.ctBlock.TestCtBlock.testAddStatementInBlock()
+* spoon.test.casts.CastTest.testCast3()
+* spoon.test.casts.CastTest.testCast2()
+* spoon.reflect.visitor.CtScannerTest.testScannerCallsAllProperties()
+* spoon.test.generics.GenericsTest.testMethodTypingContext()
+* spoon.test.ctType.CtTypeTest.testHasMethodInDirectMethod()
+* spoon.test.filters.FilterTest.testOverridingMethodFromSubClassOfInterface()
+* spoon.test.comparison.EqualTest.testEqualsMultitype()
+* spoon.test.api.APITest.testSetterInNodes()
+* spoon.test.ctBlock.TestCtBlock.testAddStatementInCase()
+* spoon.test.ctType.CtTypeParameterTest.testTypeErasure()
+* spoon.test.generics.GenericsTest.testisGeneric()
+* spoon.test.annotation.AnnotationTest.testUsageOfTypeAnnotationBeforeExceptionInSignatureOfMethod()
+* spoon.test.delete.DeleteTest.testDeleteACaseOfASwitch()
+* spoon.test.compilation.CompilationTest.testFilterResourcesDir()
+* spoon.test.compilation.CompilationTest.testNewInstance()
+* spoon.test.annotation.AnnotationTest.testUsageOfParametersInTypeAnnotation()
+* spoon.test.ctClass.CtClassTest.testParentOfTheEnclosingClassOfStaticClass()
+* spoon.test.ctClass.CtClassTest.testNoClasspathWithSuperClassOfAClassInAnInterface()
+* spoon.test.filters.FilterTest.testSubInheritanceHierarchyResolver()
+* spoon.test.ctType.CtTypeTest.testHasMethodOnNull()
+* spoon.test.annotation.AnnotationTest.testUsageOfTypeAnnotationWithGenericTypesInClassDeclaration()
+* spoon.test.api.APITest.testPrintNotAllSourcesInCommandLine()
+* spoon.test.annotation.AnnotationTest.testUsageOfTypeAnnotationOnParameterInMethod()
+* spoon.test.fieldaccesses.FieldAccessTest.testFieldAccessInAnonymousClass()
+* spoon.test.filters.FilterTest.testOverridingMethodFromAbstractClass()
+* spoon.test.generics.GenericsTest.testMethodsWithGenericsWhoExtendsObject()
+* spoon.test.filters.FilterTest.testOverridingMethodFromInterface()
+* spoon.test.fieldaccesses.FieldAccessTest.testFieldWriteWithPlusEqualsOperation()
+* spoon.test.generics.GenericsTest.testIsGenericsMethod()
+* spoon.test.delete.DeleteTest.testDeleteAStatementInConstructor()
+* spoon.test.generics.GenericsTest.testGenericInField()
+* spoon.test.annotation.AnnotationTest.testAbstractAllAnnotationProcessor()
+* spoon.test.generics.GenericsTest.testMethodTypingContextAdaptMethod()
+* spoon.test.fieldaccesses.FieldAccessTest.testFieldAccessDeclaredInADefaultClass()
+* spoon.test.generics.GenericsTest.testTypeAdapted()
+* spoon.test.architecture.SpoonArchitectureEnforcerTest.testInterfacesAreCtScannable()
+* spoon.test.architecture.SpoonArchitectureEnforcerTest.testStaticClasses()
+* spoon.test.comment.CommentTest.testDocumentationContract()
+* spoon.test.generics.GenericsTest.testNewClassGenerics()
+* spoon.test.generics.GenericsTest.testGenericTypeReference()
+* spoon.test.generics.GenericsTest.testClassTypingContextMethodSignature()
+
+
+## Remarks
+> Place here any remarks you have regarding this method.
+
+## Involved commit(s)
+
+> Place here any commit hash related to this issue.
