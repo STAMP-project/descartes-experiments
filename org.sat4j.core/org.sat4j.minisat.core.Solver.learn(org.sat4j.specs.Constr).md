@@ -539,7 +539,7 @@ This method is covered by 520 test(s).
 
 
 ## Remarks
-> Place here any remarks you have regarding this method.
+It is a key function to the solver. This fact might indicate that the problem instances used for the tests are "easy" and the solver succeeds because it doesn't have to learn new clauses (searching in a binary tree + backjumping). Execution time might be impacted when the code is removed. The tests cases should take longer to complete. **TODO:** This has to be verified.
 
 ## Involved commit(s)
 
