@@ -20,10 +20,11 @@ More information about the transformations applied can be found [here](https://g
 This method is covered by 1 test(s).
 * org.sat4j.BugSAT26.testConsecutiveCallToSolver() (Distance: 1)
 
-
 ## Remarks
-> Place here any remarks you have regarding this method.
+The scenario that targest this test is decribed [here](https://jira.ow2.org/browse/SAT-26). 
+The test case was augmented with new assertions to make it more useful.
+It can be checked [here](https://gitlab.ow2.org/sat4j/sat4j/commit/afab137a4c1a54219f3990713b4647ff84b8bfea).
 
 ## Involved commit(s)
+[afab137a4c1a54219f3990713b4647ff84b8bfea](https://gitlab.ow2.org/sat4j/sat4j/commit/afab137a4c1a54219f3990713b4647ff84b8bfea
 
-> Place here any commit hash related to this issue.
