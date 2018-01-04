@@ -26,8 +26,7 @@ This method is covered by 3 test(s).
 
 
 ## Remarks
-> Place here any remarks you have regarding this method.
+A new test case was added to target this method.
 
 ## Involved commit(s)
-
-> Place here any commit hash related to this issue.
+[534c264fc53002997418f24653744da41c806b9f](https://github.com/xwiki/xwiki-commons/commit/534c264fc53002997418f24653744da41c806b9f)
