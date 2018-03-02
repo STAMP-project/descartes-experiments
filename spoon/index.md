@@ -1,1358 +1,1141 @@
-# Summary
+# Spoon
 
-Spoon
+**Revision:** [fd878bc71b73fc1da82356eaa6578f760c70f0de](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java/)
 
-**Commit:** [fd878bc71b73fc1da82356eaa6578f760c70f0de](https://github.com/INRIA/spoon/tree/fd878bc71b73fc1da82356eaa6578f760c70f0de/)
+**Origin:** [https://github.com/INRIA/spoon.git](https://github.com/INRIA/spoon.git)
 
-# Strong Pseudo Tested Methods
+## Classes
 
-* [spoon.reflect.factory.FactoryImpl.createClass()](./spoon.reflect.factory.FactoryImpl.createClass().md)
-    (Covered by: 1 test(s))
-    
 
-* [spoon.reflect.visitor.DefaultJavaPrettyPrinter.visitCtAssert(spoon.reflect.code.CtAssert)](./spoon.reflect.visitor.DefaultJavaPrettyPrinter.visitCtAssert(spoon.reflect.code.CtAssert).md)
-    (Covered by: 1 test(s))
-    
+* spoon.Launcher
 
-* [spoon.reflect.visitor.DefaultJavaPrettyPrinter.visitCtCatchVariableReference(spoon.reflect.reference.CtCatchVariableReference)](./spoon.reflect.visitor.DefaultJavaPrettyPrinter.visitCtCatchVariableReference(spoon.reflect.reference.CtCatchVariableReference).md)
-    (Covered by: 1 test(s))
-    
+    - [setSourceOutputDirectory(java.lang.String)](methods/spoon.Launcher.setSourceOutputDirectory(java.lang.String).md)
 
-* [spoon.reflect.visitor.DefaultJavaPrettyPrinter.visitCtParameterReference(spoon.reflect.reference.CtParameterReference)](./spoon.reflect.visitor.DefaultJavaPrettyPrinter.visitCtParameterReference(spoon.reflect.reference.CtParameterReference).md)
-    (Covered by: 1 test(s))
-    
+        (**Pseudo-tested**, tests: 97, distance: 1) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/Launcher.java#L773)
 
-* [spoon.support.visitor.replace.ReplacementVisitor.visitCtBinaryOperator(spoon.reflect.code.CtBinaryOperator)](./spoon.support.visitor.replace.ReplacementVisitor.visitCtBinaryOperator(spoon.reflect.code.CtBinaryOperator).md)
-    (Covered by: 1 test(s))
-    
 
-* [spoon.support.visitor.replace.ReplacementVisitor.visitCtConditional(spoon.reflect.code.CtConditional)](./spoon.support.visitor.replace.ReplacementVisitor.visitCtConditional(spoon.reflect.code.CtConditional).md)
-    (Covered by: 1 test(s))
-    
+* spoon.reflect.factory.FactoryImpl
 
-* [spoon.support.visitor.replace.ReplacementVisitor.visitCtConstructor(spoon.reflect.declaration.CtConstructor)](./spoon.support.visitor.replace.ReplacementVisitor.visitCtConstructor(spoon.reflect.declaration.CtConstructor).md)
-    (Covered by: 1 test(s))
-    
+    - [createSwitch()](methods/spoon.reflect.factory.FactoryImpl.createSwitch().md)
 
-* [spoon.support.visitor.replace.ReplacementVisitor.visitCtDo(spoon.reflect.code.CtDo)](./spoon.support.visitor.replace.ReplacementVisitor.visitCtDo(spoon.reflect.code.CtDo).md)
-    (Covered by: 1 test(s))
-    
+        (**Pseudo-tested**, tests: 1, distance: 1) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/factory/FactoryImpl.java#L663)
 
-* [spoon.support.visitor.replace.ReplacementVisitor.visitCtExecutableReference(spoon.reflect.reference.CtExecutableReference)](./spoon.support.visitor.replace.ReplacementVisitor.visitCtExecutableReference(spoon.reflect.reference.CtExecutableReference).md)
-    (Covered by: 1 test(s))
-    
 
-* [spoon.support.visitor.replace.ReplacementVisitor.visitCtField(spoon.reflect.declaration.CtField)](./spoon.support.visitor.replace.ReplacementVisitor.visitCtField(spoon.reflect.declaration.CtField).md)
-    (Covered by: 1 test(s))
-    
+* spoon.reflect.factory.MethodFactory
 
-* [spoon.support.visitor.replace.ReplacementVisitor.visitCtFieldRead(spoon.reflect.code.CtFieldRead)](./spoon.support.visitor.replace.ReplacementVisitor.visitCtFieldRead(spoon.reflect.code.CtFieldRead).md)
-    (Covered by: 1 test(s))
-    
+    - [createReference(spoon.reflect.declaration.CtMethod)](methods/spoon.reflect.factory.MethodFactory.createReference(spoon.reflect.declaration.CtMethod).md)
 
-* [spoon.support.visitor.replace.ReplacementVisitor.visitCtFieldReference(spoon.reflect.reference.CtFieldReference)](./spoon.support.visitor.replace.ReplacementVisitor.visitCtFieldReference(spoon.reflect.reference.CtFieldReference).md)
-    (Covered by: 1 test(s))
-    
+        (**Pseudo-tested**, tests: 1, distance: 1) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/factory/MethodFactory.java#L138)
 
-* [spoon.support.visitor.replace.ReplacementVisitor.visitCtLiteral(spoon.reflect.code.CtLiteral)](./spoon.support.visitor.replace.ReplacementVisitor.visitCtLiteral(spoon.reflect.code.CtLiteral).md)
-    (Covered by: 1 test(s))
-    
 
-* [spoon.support.visitor.replace.ReplacementVisitor.visitCtLocalVariable(spoon.reflect.code.CtLocalVariable)](./spoon.support.visitor.replace.ReplacementVisitor.visitCtLocalVariable(spoon.reflect.code.CtLocalVariable).md)
-    (Covered by: 1 test(s))
-    
+* spoon.template.AbstractTemplate
 
-* [spoon.support.visitor.replace.ReplacementVisitor.visitCtLocalVariableReference(spoon.reflect.reference.CtLocalVariableReference)](./spoon.support.visitor.replace.ReplacementVisitor.visitCtLocalVariableReference(spoon.reflect.reference.CtLocalVariableReference).md)
-    (Covered by: 1 test(s))
-    
+    - [isWellFormed()](methods/spoon.template.AbstractTemplate.isWellFormed().md)
 
-* [spoon.support.visitor.replace.ReplacementVisitor.visitCtReturn(spoon.reflect.code.CtReturn)](./spoon.support.visitor.replace.ReplacementVisitor.visitCtReturn(spoon.reflect.code.CtReturn).md)
-    (Covered by: 1 test(s))
-    
+        (**Partially-tested**, tests: 1, distance: 1) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/template/AbstractTemplate.java#L37)
 
-* [spoon.support.visitor.replace.ReplacementVisitor.visitCtThisAccess(spoon.reflect.code.CtThisAccess)](./spoon.support.visitor.replace.ReplacementVisitor.visitCtThisAccess(spoon.reflect.code.CtThisAccess).md)
-    (Covered by: 1 test(s))
-    
 
-* [spoon.support.visitor.replace.ReplacementVisitor.visitCtTypeAccess(spoon.reflect.code.CtTypeAccess)](./spoon.support.visitor.replace.ReplacementVisitor.visitCtTypeAccess(spoon.reflect.code.CtTypeAccess).md)
-    (Covered by: 1 test(s))
-    
+* spoon.testing.AbstractCtElementAssert
 
-* [spoon.support.visitor.replace.ReplacementVisitor.visitCtTypeReference(spoon.reflect.reference.CtTypeReference)](./spoon.support.visitor.replace.ReplacementVisitor.visitCtTypeReference(spoon.reflect.reference.CtTypeReference).md)
-    (Covered by: 1 test(s))
-    
+    - [isEqualTo(java.lang.String)](methods/spoon.testing.AbstractCtElementAssert.isEqualTo(java.lang.String).md)
 
-* [spoon.support.visitor.replace.ReplacementVisitor.visitCtVariableRead(spoon.reflect.code.CtVariableRead)](./spoon.support.visitor.replace.ReplacementVisitor.visitCtVariableRead(spoon.reflect.code.CtVariableRead).md)
-    (Covered by: 1 test(s))
-    
+        (**Pseudo-tested**, tests: 3, distance: 1) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/testing/AbstractCtElementAssert.java#L57)
 
-* [spoon.support.visitor.replace.ReplacementVisitor.visitCtVariableWrite(spoon.reflect.code.CtVariableWrite)](./spoon.support.visitor.replace.ReplacementVisitor.visitCtVariableWrite(spoon.reflect.code.CtVariableWrite).md)
-    (Covered by: 1 test(s))
-    
 
-* [spoon.support.visitor.replace.ReplacementVisitor.visitCtWhile(spoon.reflect.code.CtWhile)](./spoon.support.visitor.replace.ReplacementVisitor.visitCtWhile(spoon.reflect.code.CtWhile).md)
-    (Covered by: 1 test(s))
-    
+* spoon.support.JavaOutputProcessor
 
-* [spoon.reflect.visitor.CtScanner.visitCtCodeSnippetExpression(spoon.reflect.code.CtCodeSnippetExpression)](./spoon.reflect.visitor.CtScanner.visitCtCodeSnippetExpression(spoon.reflect.code.CtCodeSnippetExpression).md)
-    (Covered by: 1 test(s))
-    
+    - [createPackageFile(spoon.reflect.declaration.CtPackage)](methods/spoon.support.JavaOutputProcessor.createPackageFile(spoon.reflect.declaration.CtPackage).md)
 
-* [spoon.reflect.visitor.CtScanner.visitCtUnboundVariableReference(spoon.reflect.reference.CtUnboundVariableReference)](./spoon.reflect.visitor.CtScanner.visitCtUnboundVariableReference(spoon.reflect.reference.CtUnboundVariableReference).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.visitor.clone.CloneVisitor.visitCtAnnotationType(spoon.reflect.declaration.CtAnnotationType)](./spoon.support.visitor.clone.CloneVisitor.visitCtAnnotationType(spoon.reflect.declaration.CtAnnotationType).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.visitor.clone.CloneVisitor.visitCtCodeSnippetStatement(spoon.reflect.code.CtCodeSnippetStatement)](./spoon.support.visitor.clone.CloneVisitor.visitCtCodeSnippetStatement(spoon.reflect.code.CtCodeSnippetStatement).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.reflect.visitor.CtBiScannerDefault.visitCtModule(spoon.reflect.declaration.CtModule)](./spoon.reflect.visitor.CtBiScannerDefault.visitCtModule(spoon.reflect.declaration.CtModule).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.reflect.visitor.CtBiScannerDefault.visitCtNewClass(spoon.reflect.code.CtNewClass)](./spoon.reflect.visitor.CtBiScannerDefault.visitCtNewClass(spoon.reflect.code.CtNewClass).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.reflect.visitor.CtBiScannerDefault.visitCtOperatorAssignment(spoon.reflect.code.CtOperatorAssignment)](./spoon.reflect.visitor.CtBiScannerDefault.visitCtOperatorAssignment(spoon.reflect.code.CtOperatorAssignment).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.reflect.visitor.CtBiScannerDefault.visitCtSuperAccess(spoon.reflect.code.CtSuperAccess)](./spoon.reflect.visitor.CtBiScannerDefault.visitCtSuperAccess(spoon.reflect.code.CtSuperAccess).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.reflect.visitor.CtBiScannerDefault.visitCtSwitch(spoon.reflect.code.CtSwitch)](./spoon.reflect.visitor.CtBiScannerDefault.visitCtSwitch(spoon.reflect.code.CtSwitch).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.reflect.visitor.CtBiScannerDefault.visitCtTryWithResource(spoon.reflect.code.CtTryWithResource)](./spoon.reflect.visitor.CtBiScannerDefault.visitCtTryWithResource(spoon.reflect.code.CtTryWithResource).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.reflect.visitor.CtBiScannerDefault.visitCtWhile(spoon.reflect.code.CtWhile)](./spoon.reflect.visitor.CtBiScannerDefault.visitCtWhile(spoon.reflect.code.CtWhile).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.compiler.jdt.ParentExiter.visitCtSuperAccess(spoon.reflect.code.CtSuperAccess)](./spoon.support.compiler.jdt.ParentExiter.visitCtSuperAccess(spoon.reflect.code.CtSuperAccess).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.reflect.visitor.ImportScannerImpl.addMethodImport(spoon.reflect.reference.CtExecutableReference)](./spoon.reflect.visitor.ImportScannerImpl.addMethodImport(spoon.reflect.reference.CtExecutableReference).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.reflect.visitor.ImportScannerImpl.isInCollisionWithLocalMethod(spoon.reflect.reference.CtExecutableReference)](./spoon.reflect.visitor.ImportScannerImpl.isInCollisionWithLocalMethod(spoon.reflect.reference.CtExecutableReference).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.visitor.clone.CloneBuilder.visitCtBreak(spoon.reflect.code.CtBreak)](./spoon.support.visitor.clone.CloneBuilder.visitCtBreak(spoon.reflect.code.CtBreak).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.visitor.clone.CloneBuilder.visitCtCodeSnippetStatement(spoon.reflect.code.CtCodeSnippetStatement)](./spoon.support.visitor.clone.CloneBuilder.visitCtCodeSnippetStatement(spoon.reflect.code.CtCodeSnippetStatement).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.reflect.declaration.CtConstructorImpl.clone()](./spoon.support.reflect.declaration.CtConstructorImpl.clone().md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.reflect.declaration.CtAnonymousExecutableImpl.hasModifier(spoon.reflect.declaration.ModifierKind)](./spoon.support.reflect.declaration.CtAnonymousExecutableImpl.hasModifier(spoon.reflect.declaration.ModifierKind).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.reflect.visitor.chain.CtQueryImpl.getIndexOfCallerInStackOfLambda()](./spoon.reflect.visitor.chain.CtQueryImpl.getIndexOfCallerInStackOfLambda().md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.reflect.visitor.chain.CtQueryImpl.getStepDescription(spoon.reflect.visitor.chain.CtQueryImpl$AbstractStep,java.lang.String,java.lang.Object[])](./spoon.reflect.visitor.chain.CtQueryImpl.getStepDescription(spoon.reflect.visitor.chain.CtQueryImpl$AbstractStep,java.lang.String,java.lang.Object[]).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.reflect.visitor.chain.CtQueryImpl.logging(boolean)](./spoon.reflect.visitor.chain.CtQueryImpl.logging(boolean).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.reflect.code.CtLocalVariableImpl.getAssignment()](./spoon.support.reflect.code.CtLocalVariableImpl.getAssignment().md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.reflect.declaration.CtParameterImpl.hasModifier(spoon.reflect.declaration.ModifierKind)](./spoon.support.reflect.declaration.CtParameterImpl.hasModifier(spoon.reflect.declaration.ModifierKind).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.template.TemplateMatcher.checkListStatements(java.util.List)](./spoon.template.TemplateMatcher.checkListStatements(java.util.List).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.template.TemplateMatcher.getVarargs(spoon.reflect.declaration.CtClass,java.util.List)](./spoon.template.TemplateMatcher.getVarargs(spoon.reflect.declaration.CtClass,java.util.List).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.template.TemplateMatcher.nextListStatement(java.util.List,spoon.reflect.declaration.CtElement)](./spoon.template.TemplateMatcher.nextListStatement(java.util.List,spoon.reflect.declaration.CtElement).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.reflect.declaration.CtPackageImpl.toString()](./spoon.support.reflect.declaration.CtPackageImpl.toString().md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.reflect.declaration.CtClassImpl.insertAfter(spoon.reflect.code.CtStatement)](./spoon.support.reflect.declaration.CtClassImpl.insertAfter(spoon.reflect.code.CtStatement).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.reflect.eval.VisitorPartialEvaluator.visitCtAssignment(spoon.reflect.code.CtAssignment)](./spoon.support.reflect.eval.VisitorPartialEvaluator.visitCtAssignment(spoon.reflect.code.CtAssignment).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.reflect.eval.VisitorPartialEvaluator.visitCtDo(spoon.reflect.code.CtDo)](./spoon.support.reflect.eval.VisitorPartialEvaluator.visitCtDo(spoon.reflect.code.CtDo).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.reflect.eval.VisitorPartialEvaluator.visitCtField(spoon.reflect.declaration.CtField)](./spoon.support.reflect.eval.VisitorPartialEvaluator.visitCtField(spoon.reflect.declaration.CtField).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.reflect.eval.VisitorPartialEvaluator.visitCtLocalVariable(spoon.reflect.code.CtLocalVariable)](./spoon.support.reflect.eval.VisitorPartialEvaluator.visitCtLocalVariable(spoon.reflect.code.CtLocalVariable).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.reflect.eval.VisitorPartialEvaluator.visitCtVariableWrite(spoon.reflect.code.CtVariableWrite)](./spoon.support.reflect.eval.VisitorPartialEvaluator.visitCtVariableWrite(spoon.reflect.code.CtVariableWrite).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.reflect.eval.VisitorPartialEvaluator.visitCtWhile(spoon.reflect.code.CtWhile)](./spoon.support.reflect.eval.VisitorPartialEvaluator.visitCtWhile(spoon.reflect.code.CtWhile).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.reflect.CtModifierHandler.hasModifier(spoon.reflect.declaration.ModifierKind)](./spoon.support.reflect.CtModifierHandler.hasModifier(spoon.reflect.declaration.ModifierKind).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.reflect.declaration.CtEnumImpl.getEnumValue(java.lang.String)](./spoon.support.reflect.declaration.CtEnumImpl.getEnumValue(java.lang.String).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.reflect.declaration.CtEnumImpl.valueOfMethod()](./spoon.support.reflect.declaration.CtEnumImpl.valueOfMethod().md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.reflect.declaration.CtEnumImpl.valuesMethod()](./spoon.support.reflect.declaration.CtEnumImpl.valuesMethod().md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.compiler.jdt.JDTCommentBuilder$1.visitCtInterface(spoon.reflect.declaration.CtInterface)](./spoon.support.compiler.jdt.JDTCommentBuilder$1.visitCtInterface(spoon.reflect.declaration.CtInterface).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.MavenLauncher$InheritanceModel.addModule(spoon.MavenLauncher$InheritanceModel)](./spoon.MavenLauncher$InheritanceModel.addModule(spoon.MavenLauncher$InheritanceModel).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.visitor.equals.EqualsChecker.visitCtOperatorAssignment(spoon.reflect.code.CtOperatorAssignment)](./spoon.support.visitor.equals.EqualsChecker.visitCtOperatorAssignment(spoon.reflect.code.CtOperatorAssignment).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.testing.utils.ModelUtils.canBeBuilt(java.io.File,int)](./spoon.testing.utils.ModelUtils.canBeBuilt(java.io.File,int).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.visitor.TypeReferenceScanner.visitCtExecutableReference(spoon.reflect.reference.CtExecutableReference)](./spoon.support.visitor.TypeReferenceScanner.visitCtExecutableReference(spoon.reflect.reference.CtExecutableReference).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.visitor.TypeReferenceScanner.visitCtFieldReference(spoon.reflect.reference.CtFieldReference)](./spoon.support.visitor.TypeReferenceScanner.visitCtFieldReference(spoon.reflect.reference.CtFieldReference).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.reflect.path.CtRole.valueOf(java.lang.String)](./spoon.reflect.path.CtRole.valueOf(java.lang.String).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.reflect.declaration.CtAnnotationMethodImpl.clone()](./spoon.support.reflect.declaration.CtAnnotationMethodImpl.clone().md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.reflect.factory.ExecutableFactory.createReference(spoon.reflect.reference.CtTypeReference,spoon.reflect.reference.CtTypeReference,java.lang.String,java.util.List)](./spoon.reflect.factory.ExecutableFactory.createReference(spoon.reflect.reference.CtTypeReference,spoon.reflect.reference.CtTypeReference,java.lang.String,java.util.List).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.reflect.code.CtUnaryOperatorImpl.clone()](./spoon.support.reflect.code.CtUnaryOperatorImpl.clone().md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.template.SubstitutionVisitor$InheritanceSustitutionScanner.visitCtComment(spoon.reflect.code.CtComment)](./spoon.support.template.SubstitutionVisitor$InheritanceSustitutionScanner.visitCtComment(spoon.reflect.code.CtComment).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.template.SubstitutionVisitor$InheritanceSustitutionScanner.visitCtLiteral(spoon.reflect.code.CtLiteral)](./spoon.support.template.SubstitutionVisitor$InheritanceSustitutionScanner.visitCtLiteral(spoon.reflect.code.CtLiteral).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.reflect.visitor.AccessibleVariablesFinder$1VariableScanner.visitCtTryWithResource(spoon.reflect.code.CtTryWithResource)](./spoon.reflect.visitor.AccessibleVariablesFinder$1VariableScanner.visitCtTryWithResource(spoon.reflect.code.CtTryWithResource).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.reflect.reference.CtParameterReferenceImpl.getDeclaration()](./spoon.support.reflect.reference.CtParameterReferenceImpl.getDeclaration().md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.reflect.reference.CtParameterReferenceImpl.lookupDynamically()](./spoon.support.reflect.reference.CtParameterReferenceImpl.lookupDynamically().md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.reflect.visitor.TypeContext.getPackage()](./spoon.reflect.visitor.TypeContext.getPackage().md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.reflect.code.CtTypeAccessImpl.clone()](./spoon.support.reflect.code.CtTypeAccessImpl.clone().md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.reflect.factory.InterfaceFactory.create(java.lang.String)](./spoon.reflect.factory.InterfaceFactory.create(java.lang.String).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.reflect.factory.InterfaceFactory.create(spoon.reflect.declaration.CtPackage,java.lang.String)](./spoon.reflect.factory.InterfaceFactory.create(spoon.reflect.declaration.CtPackage,java.lang.String).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.reflect.reference.CtLocalVariableReferenceImpl.clone()](./spoon.support.reflect.reference.CtLocalVariableReferenceImpl.clone().md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.reflect.reference.CtLocalVariableReferenceImpl.getDeclaration()](./spoon.support.reflect.reference.CtLocalVariableReferenceImpl.getDeclaration().md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.reflect.declaration.CtImportKind.valueOf(java.lang.String)](./spoon.reflect.declaration.CtImportKind.valueOf(java.lang.String).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.reflect.visitor.filter.FilteringOperator.valueOf(java.lang.String)](./spoon.reflect.visitor.filter.FilteringOperator.valueOf(java.lang.String).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.reflect.visitor.filter.FilteringOperator.values()](./spoon.reflect.visitor.filter.FilteringOperator.values().md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.reflect.code.CtSuperAccessImpl.setTarget(spoon.reflect.code.CtExpression)](./spoon.support.reflect.code.CtSuperAccessImpl.setTarget(spoon.reflect.code.CtExpression).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.reflect.code.CtComment$CommentType.valueOf(java.lang.String)](./spoon.reflect.code.CtComment$CommentType.valueOf(java.lang.String).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.reflect.code.CtComment$CommentType.values()](./spoon.reflect.code.CtComment$CommentType.values().md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.testing.AbstractCtElementAssert.isEqualTo(java.lang.String)](./spoon.testing.AbstractCtElementAssert.isEqualTo(java.lang.String).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.template.TemplateMatcher$1.visitCtTypeParameterReference(spoon.reflect.reference.CtTypeParameterReference)](./spoon.template.TemplateMatcher$1.visitCtTypeParameterReference(spoon.reflect.reference.CtTypeParameterReference).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.template.TemplateMatcher$1.visitCtTypeReference(spoon.reflect.reference.CtTypeReference)](./spoon.template.TemplateMatcher$1.visitCtTypeReference(spoon.reflect.reference.CtTypeReference).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.reflect.code.CtThisAccessImpl.clone()](./spoon.support.reflect.code.CtThisAccessImpl.clone().md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.reflect.code.CtVariableWriteImpl.clone()](./spoon.support.reflect.code.CtVariableWriteImpl.clone().md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.visitor.replace.ReplacementVisitor$CtTypeAccessAccessedTypeReplaceListener.set(spoon.reflect.reference.CtTypeReference)](./spoon.support.visitor.replace.ReplacementVisitor$CtTypeAccessAccessedTypeReplaceListener.set(spoon.reflect.reference.CtTypeReference).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.visitor.replace.ReplacementVisitor$CtFieldReferenceDeclaringTypeReplaceListener.set(spoon.reflect.reference.CtTypeReference)](./spoon.support.visitor.replace.ReplacementVisitor$CtFieldReferenceDeclaringTypeReplaceListener.set(spoon.reflect.reference.CtTypeReference).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.visitor.replace.ReplacementVisitor$CtConditionalConditionReplaceListener.set(spoon.reflect.code.CtExpression)](./spoon.support.visitor.replace.ReplacementVisitor$CtConditionalConditionReplaceListener.set(spoon.reflect.code.CtExpression).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.visitor.replace.ReplacementVisitor$CtExecutableReferenceDeclaringTypeReplaceListener.set(spoon.reflect.reference.CtTypeReference)](./spoon.support.visitor.replace.ReplacementVisitor$CtExecutableReferenceDeclaringTypeReplaceListener.set(spoon.reflect.reference.CtTypeReference).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.processing.SpoonTagger.process()](./spoon.processing.SpoonTagger.process().md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.visitor.replace.ReplacementVisitor$CtConditionalElseExpressionReplaceListener.set(spoon.reflect.code.CtExpression)](./spoon.support.visitor.replace.ReplacementVisitor$CtConditionalElseExpressionReplaceListener.set(spoon.reflect.code.CtExpression).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.visitor.replace.ReplacementVisitor$CtVariableAccessVariableReplaceListener.set(spoon.reflect.reference.CtVariableReference)](./spoon.support.visitor.replace.ReplacementVisitor$CtVariableAccessVariableReplaceListener.set(spoon.reflect.reference.CtVariableReference).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.visitor.replace.ReplacementVisitor$CtIfThenStatementReplaceListener.set(spoon.reflect.code.CtStatement)](./spoon.support.visitor.replace.ReplacementVisitor$CtIfThenStatementReplaceListener.set(spoon.reflect.code.CtStatement).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.visitor.replace.ReplacementVisitor$CtLoopBodyReplaceListener.set(spoon.reflect.code.CtStatement)](./spoon.support.visitor.replace.ReplacementVisitor$CtLoopBodyReplaceListener.set(spoon.reflect.code.CtStatement).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.visitor.replace.ReplacementVisitor$CtWhileLoopingExpressionReplaceListener.set(spoon.reflect.code.CtExpression)](./spoon.support.visitor.replace.ReplacementVisitor$CtWhileLoopingExpressionReplaceListener.set(spoon.reflect.code.CtExpression).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.visitor.replace.ReplacementVisitor$CtBinaryOperatorLeftHandOperandReplaceListener.set(spoon.reflect.code.CtExpression)](./spoon.support.visitor.replace.ReplacementVisitor$CtBinaryOperatorLeftHandOperandReplaceListener.set(spoon.reflect.code.CtExpression).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.visitor.replace.ReplacementVisitor$CtReturnReturnedExpressionReplaceListener.set(spoon.reflect.code.CtExpression)](./spoon.support.visitor.replace.ReplacementVisitor$CtReturnReturnedExpressionReplaceListener.set(spoon.reflect.code.CtExpression).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.visitor.replace.ReplacementVisitor$CtAbstractInvocationExecutableReplaceListener.set(spoon.reflect.reference.CtExecutableReference)](./spoon.support.visitor.replace.ReplacementVisitor$CtAbstractInvocationExecutableReplaceListener.set(spoon.reflect.reference.CtExecutableReference).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.visitor.replace.ReplacementVisitor$CtFieldAccessVariableReplaceListener.set(spoon.reflect.reference.CtFieldReference)](./spoon.support.visitor.replace.ReplacementVisitor$CtFieldAccessVariableReplaceListener.set(spoon.reflect.reference.CtFieldReference).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.visitor.replace.ReplacementVisitor$CtBinaryOperatorRightHandOperandReplaceListener.set(spoon.reflect.code.CtExpression)](./spoon.support.visitor.replace.ReplacementVisitor$CtBinaryOperatorRightHandOperandReplaceListener.set(spoon.reflect.code.CtExpression).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.visitor.replace.ReplacementVisitor$CtDoLoopingExpressionReplaceListener.set(spoon.reflect.code.CtExpression)](./spoon.support.visitor.replace.ReplacementVisitor$CtDoLoopingExpressionReplaceListener.set(spoon.reflect.code.CtExpression).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.visitor.replace.ReplacementVisitor$CtTypeReferencePackageReplaceListener.set(spoon.reflect.reference.CtPackageReference)](./spoon.support.visitor.replace.ReplacementVisitor$CtTypeReferencePackageReplaceListener.set(spoon.reflect.reference.CtPackageReference).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.visitor.replace.ReplacementVisitor$CtTargetedExpressionTargetReplaceListener.set(spoon.reflect.code.CtExpression)](./spoon.support.visitor.replace.ReplacementVisitor$CtTargetedExpressionTargetReplaceListener.set(spoon.reflect.code.CtExpression).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.visitor.replace.ReplacementVisitor$CtExecutableReferenceTypeReplaceListener.set(spoon.reflect.reference.CtTypeReference)](./spoon.support.visitor.replace.ReplacementVisitor$CtExecutableReferenceTypeReplaceListener.set(spoon.reflect.reference.CtTypeReference).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.visitor.replace.ReplacementVisitor$CtAssignmentAssignedReplaceListener.set(spoon.reflect.code.CtExpression)](./spoon.support.visitor.replace.ReplacementVisitor$CtAssignmentAssignedReplaceListener.set(spoon.reflect.code.CtExpression).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.visitor.replace.ReplacementVisitor$CtVariableReferenceTypeReplaceListener.set(spoon.reflect.reference.CtTypeReference)](./spoon.support.visitor.replace.ReplacementVisitor$CtVariableReferenceTypeReplaceListener.set(spoon.reflect.reference.CtTypeReference).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.visitor.replace.ReplacementVisitor$CtTypedElementTypeReplaceListener.set(spoon.reflect.reference.CtTypeReference)](./spoon.support.visitor.replace.ReplacementVisitor$CtTypedElementTypeReplaceListener.set(spoon.reflect.reference.CtTypeReference).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.visitor.replace.ReplacementVisitor$CtVariableDefaultExpressionReplaceListener.set(spoon.reflect.code.CtExpression)](./spoon.support.visitor.replace.ReplacementVisitor$CtVariableDefaultExpressionReplaceListener.set(spoon.reflect.code.CtExpression).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.support.visitor.replace.ReplacementVisitor$CtConditionalThenExpressionReplaceListener.set(spoon.reflect.code.CtExpression)](./spoon.support.visitor.replace.ReplacementVisitor$CtConditionalThenExpressionReplaceListener.set(spoon.reflect.code.CtExpression).md)
-    (Covered by: 1 test(s))
-    
-
-* [spoon.reflect.visitor.DefaultJavaPrettyPrinter.visitCtContinue(spoon.reflect.code.CtContinue)](./spoon.reflect.visitor.DefaultJavaPrettyPrinter.visitCtContinue(spoon.reflect.code.CtContinue).md)
-    (Covered by: 2 test(s))
-    
-
-* [spoon.reflect.visitor.DefaultJavaPrettyPrinter.visitCtTryWithResource(spoon.reflect.code.CtTryWithResource)](./spoon.reflect.visitor.DefaultJavaPrettyPrinter.visitCtTryWithResource(spoon.reflect.code.CtTryWithResource).md)
-    (Covered by: 2 test(s))
-    
-
-* [spoon.support.visitor.clone.CloneVisitor.visitCtAnnotationMethod(spoon.reflect.declaration.CtAnnotationMethod)](./spoon.support.visitor.clone.CloneVisitor.visitCtAnnotationMethod(spoon.reflect.declaration.CtAnnotationMethod).md)
-    (Covered by: 2 test(s))
-    
-
-* [spoon.reflect.visitor.CtBiScannerDefault.visitCtArrayRead(spoon.reflect.code.CtArrayRead)](./spoon.reflect.visitor.CtBiScannerDefault.visitCtArrayRead(spoon.reflect.code.CtArrayRead).md)
-    (Covered by: 2 test(s))
-    
-
-* [spoon.reflect.visitor.CtBiScannerDefault.visitCtBreak(spoon.reflect.code.CtBreak)](./spoon.reflect.visitor.CtBiScannerDefault.visitCtBreak(spoon.reflect.code.CtBreak).md)
-    (Covered by: 2 test(s))
-    
-
-* [spoon.reflect.visitor.CtBiScannerDefault.visitCtCatchVariableReference(spoon.reflect.reference.CtCatchVariableReference)](./spoon.reflect.visitor.CtBiScannerDefault.visitCtCatchVariableReference(spoon.reflect.reference.CtCatchVariableReference).md)
-    (Covered by: 2 test(s))
-    
-
-* [spoon.reflect.visitor.CtBiScannerDefault.visitCtFor(spoon.reflect.code.CtFor)](./spoon.reflect.visitor.CtBiScannerDefault.visitCtFor(spoon.reflect.code.CtFor).md)
-    (Covered by: 2 test(s))
-    
-
-* [spoon.reflect.visitor.CtBiScannerDefault.visitCtThrow(spoon.reflect.code.CtThrow)](./spoon.reflect.visitor.CtBiScannerDefault.visitCtThrow(spoon.reflect.code.CtThrow).md)
-    (Covered by: 2 test(s))
-    
-
-* [spoon.support.reflect.declaration.CtElementImpl.removeAnnotation(spoon.reflect.declaration.CtAnnotation)](./spoon.support.reflect.declaration.CtElementImpl.removeAnnotation(spoon.reflect.declaration.CtAnnotation).md)
-    (Covered by: 2 test(s))
-    
-
-* [spoon.reflect.visitor.ImportScannerImpl.classNamePresentInJavaLang(spoon.reflect.reference.CtTypeReference)](./spoon.reflect.visitor.ImportScannerImpl.classNamePresentInJavaLang(spoon.reflect.reference.CtTypeReference).md)
-    (Covered by: 2 test(s))
-    
-
-* [spoon.Launcher.addProcessor(java.lang.String)](./spoon.Launcher.addProcessor(java.lang.String).md)
-    (Covered by: 2 test(s))
-    
-
-* [spoon.support.compiler.jdt.ReferenceBuilder.getCtCircularTypeReference(org.eclipse.jdt.internal.compiler.lookup.TypeBinding)](./spoon.support.compiler.jdt.ReferenceBuilder.getCtCircularTypeReference(org.eclipse.jdt.internal.compiler.lookup.TypeBinding).md)
-    (Covered by: 2 test(s))
-    
-
-* [spoon.support.compiler.jdt.ReferenceBuilder.getTypeParameterReference(java.lang.String)](./spoon.support.compiler.jdt.ReferenceBuilder.getTypeParameterReference(java.lang.String).md)
-    (Covered by: 2 test(s))
-    
-
-* [spoon.support.reflect.code.CtCatchVariableImpl.setModifiers(java.util.Set)](./spoon.support.reflect.code.CtCatchVariableImpl.setModifiers(java.util.Set).md)
-    (Covered by: 2 test(s))
-    
-
-* [spoon.support.reflect.eval.VisitorPartialEvaluator.visitCtReturn(spoon.reflect.code.CtReturn)](./spoon.support.reflect.eval.VisitorPartialEvaluator.visitCtReturn(spoon.reflect.code.CtReturn).md)
-    (Covered by: 2 test(s))
-    
-
-* [spoon.support.reflect.eval.VisitorPartialEvaluator.visitCtVariableRead(spoon.reflect.code.CtVariableRead)](./spoon.support.reflect.eval.VisitorPartialEvaluator.visitCtVariableRead(spoon.reflect.code.CtVariableRead).md)
-    (Covered by: 2 test(s))
-    
-
-* [spoon.support.reflect.eval.VisitorPartialEvaluator.visitVariableAccess(spoon.reflect.code.CtVariableAccess)](./spoon.support.reflect.eval.VisitorPartialEvaluator.visitVariableAccess(spoon.reflect.code.CtVariableAccess).md)
-    (Covered by: 2 test(s))
-    
-
-* [spoon.support.visitor.equals.EqualsChecker.visitCtBreak(spoon.reflect.code.CtBreak)](./spoon.support.visitor.equals.EqualsChecker.visitCtBreak(spoon.reflect.code.CtBreak).md)
-    (Covered by: 2 test(s))
-    
-
-* [spoon.processing.AbstractAnnotationProcessor.shoudBeConsumed(spoon.reflect.declaration.CtAnnotation)](./spoon.processing.AbstractAnnotationProcessor.shoudBeConsumed(spoon.reflect.declaration.CtAnnotation).md)
-    (Covered by: 2 test(s))
-    
-
-* [spoon.processing.AbstractProcessor.clearProcessedElementType()](./spoon.processing.AbstractProcessor.clearProcessedElementType().md)
-    (Covered by: 2 test(s))
-    
-
-* [spoon.support.QueueProcessingManager.addProcessor(java.lang.Class)](./spoon.support.QueueProcessingManager.addProcessor(java.lang.Class).md)
-    (Covered by: 2 test(s))
-    
-
-* [spoon.support.QueueProcessingManager.addProcessor(java.lang.String)](./spoon.support.QueueProcessingManager.addProcessor(java.lang.String).md)
-    (Covered by: 2 test(s))
-    
-
-* [spoon.support.reflect.code.CtBreakImpl.setTargetLabel(java.lang.String)](./spoon.support.reflect.code.CtBreakImpl.setTargetLabel(java.lang.String).md)
-    (Covered by: 2 test(s))
-    
-
-* [spoon.support.reflect.code.CtAssertImpl.setExpression(spoon.reflect.code.CtExpression)](./spoon.support.reflect.code.CtAssertImpl.setExpression(spoon.reflect.code.CtExpression).md)
-    (Covered by: 2 test(s))
-    
-
-* [spoon.reflect.code.BinaryOperatorKind.valueOf(java.lang.String)](./spoon.reflect.code.BinaryOperatorKind.valueOf(java.lang.String).md)
-    (Covered by: 2 test(s))
-    
-
-* [spoon.reflect.code.BinaryOperatorKind.values()](./spoon.reflect.code.BinaryOperatorKind.values().md)
-    (Covered by: 2 test(s))
-    
-
-* [spoon.reflect.code.UnaryOperatorKind.valueOf(java.lang.String)](./spoon.reflect.code.UnaryOperatorKind.valueOf(java.lang.String).md)
-    (Covered by: 2 test(s))
-    
-
-* [spoon.reflect.code.UnaryOperatorKind.values()](./spoon.reflect.code.UnaryOperatorKind.values().md)
-    (Covered by: 2 test(s))
-    
-
-* [spoon.support.visitor.java.JavaReflectionTreeBuilder$7.addArrayReference(spoon.reflect.reference.CtArrayTypeReference)](./spoon.support.visitor.java.JavaReflectionTreeBuilder$7.addArrayReference(spoon.reflect.reference.CtArrayTypeReference).md)
-    (Covered by: 2 test(s))
-    
-
-* [spoon.reflect.visitor.DefaultJavaPrettyPrinter.visitCtExecutableReference(spoon.reflect.reference.CtExecutableReference)](./spoon.reflect.visitor.DefaultJavaPrettyPrinter.visitCtExecutableReference(spoon.reflect.reference.CtExecutableReference).md)
-    (Covered by: 3 test(s))
-    
-
-* [spoon.reflect.visitor.DefaultJavaPrettyPrinter.visitCtLocalVariableReference(spoon.reflect.reference.CtLocalVariableReference)](./spoon.reflect.visitor.DefaultJavaPrettyPrinter.visitCtLocalVariableReference(spoon.reflect.reference.CtLocalVariableReference).md)
-    (Covered by: 3 test(s))
-    
-
-* [spoon.reflect.visitor.DefaultJavaPrettyPrinter.visitCtTypeReferenceWithoutGenerics(spoon.reflect.reference.CtTypeReference)](./spoon.reflect.visitor.DefaultJavaPrettyPrinter.visitCtTypeReferenceWithoutGenerics(spoon.reflect.reference.CtTypeReference).md)
-    (Covered by: 3 test(s))
-    
-
-* [spoon.support.visitor.clone.CloneVisitor.visitCtComment(spoon.reflect.code.CtComment)](./spoon.support.visitor.clone.CloneVisitor.visitCtComment(spoon.reflect.code.CtComment).md)
-    (Covered by: 3 test(s))
-    
-
-* [spoon.support.visitor.clone.CloneVisitor.visitCtJavaDoc(spoon.reflect.code.CtJavaDoc)](./spoon.support.visitor.clone.CloneVisitor.visitCtJavaDoc(spoon.reflect.code.CtJavaDoc).md)
-    (Covered by: 3 test(s))
-    
-
-* [spoon.reflect.visitor.CtBiScannerDefault.visitCtBinaryOperator(spoon.reflect.code.CtBinaryOperator)](./spoon.reflect.visitor.CtBiScannerDefault.visitCtBinaryOperator(spoon.reflect.code.CtBinaryOperator).md)
-    (Covered by: 3 test(s))
-    
-
-* [spoon.reflect.visitor.CtBiScannerDefault.visitCtForEach(spoon.reflect.code.CtForEach)](./spoon.reflect.visitor.CtBiScannerDefault.visitCtForEach(spoon.reflect.code.CtForEach).md)
-    (Covered by: 3 test(s))
-    
-
-* [spoon.reflect.visitor.CtBiScannerDefault.visitCtIf(spoon.reflect.code.CtIf)](./spoon.reflect.visitor.CtBiScannerDefault.visitCtIf(spoon.reflect.code.CtIf).md)
-    (Covered by: 3 test(s))
-    
-
-* [spoon.reflect.visitor.CtBiScannerDefault.visitCtReturn(spoon.reflect.code.CtReturn)](./spoon.reflect.visitor.CtBiScannerDefault.visitCtReturn(spoon.reflect.code.CtReturn).md)
-    (Covered by: 3 test(s))
-    
-
-* [spoon.support.reflect.code.CtCatchVariableImpl.getVisibility()](./spoon.support.reflect.code.CtCatchVariableImpl.getVisibility().md)
-    (Covered by: 3 test(s))
-    
-
-* [spoon.support.visitor.equals.EqualsChecker.visitCtBinaryOperator(spoon.reflect.code.CtBinaryOperator)](./spoon.support.visitor.equals.EqualsChecker.visitCtBinaryOperator(spoon.reflect.code.CtBinaryOperator).md)
-    (Covered by: 3 test(s))
-    
-
-* [spoon.support.reflect.code.CtJavaDocImpl.setTags(java.util.List)](./spoon.support.reflect.code.CtJavaDocImpl.setTags(java.util.List).md)
-    (Covered by: 3 test(s))
-    
-
-* [spoon.reflect.path.CtRole.getCamelCaseName()](./spoon.reflect.path.CtRole.getCamelCaseName().md)
-    (Covered by: 3 test(s))
-    
-
-* [spoon.support.compiler.jdt.JDTImportBuilder.getOrLoadClass(java.lang.String)](./spoon.support.compiler.jdt.JDTImportBuilder.getOrLoadClass(java.lang.String).md)
-    (Covered by: 3 test(s))
-    
-
-* [spoon.support.visitor.java.JavaReflectionTreeBuilder$3.addConstructor(spoon.reflect.declaration.CtConstructor)](./spoon.support.visitor.java.JavaReflectionTreeBuilder$3.addConstructor(spoon.reflect.declaration.CtConstructor).md)
-    (Covered by: 3 test(s))
-    
-
-* [spoon.reflect.visitor.CtScanner.visitCtCodeSnippetStatement(spoon.reflect.code.CtCodeSnippetStatement)](./spoon.reflect.visitor.CtScanner.visitCtCodeSnippetStatement(spoon.reflect.code.CtCodeSnippetStatement).md)
-    (Covered by: 4 test(s))
-    
-
-* [spoon.reflect.visitor.CtBiScannerDefault.visitCtAssignment(spoon.reflect.code.CtAssignment)](./spoon.reflect.visitor.CtBiScannerDefault.visitCtAssignment(spoon.reflect.code.CtAssignment).md)
-    (Covered by: 4 test(s))
-    
-
-* [spoon.reflect.visitor.CtBiScannerDefault.visitCtFieldWrite(spoon.reflect.code.CtFieldWrite)](./spoon.reflect.visitor.CtBiScannerDefault.visitCtFieldWrite(spoon.reflect.code.CtFieldWrite).md)
-    (Covered by: 4 test(s))
-    
-
-* [spoon.reflect.visitor.CtBiScannerDefault.visitCtImport(spoon.reflect.declaration.CtImport)](./spoon.reflect.visitor.CtBiScannerDefault.visitCtImport(spoon.reflect.declaration.CtImport).md)
-    (Covered by: 4 test(s))
-    
-
-* [spoon.reflect.visitor.CtBiScannerDefault.visitCtUnaryOperator(spoon.reflect.code.CtUnaryOperator)](./spoon.reflect.visitor.CtBiScannerDefault.visitCtUnaryOperator(spoon.reflect.code.CtUnaryOperator).md)
-    (Covered by: 4 test(s))
-    
-
-* [spoon.reflect.visitor.CtBiScannerDefault.visitCtVariableWrite(spoon.reflect.code.CtVariableWrite)](./spoon.reflect.visitor.CtBiScannerDefault.visitCtVariableWrite(spoon.reflect.code.CtVariableWrite).md)
-    (Covered by: 4 test(s))
-    
-
-* [spoon.reflect.visitor.ImportScannerImpl.addFieldImport(spoon.reflect.reference.CtFieldReference)](./spoon.reflect.visitor.ImportScannerImpl.addFieldImport(spoon.reflect.reference.CtFieldReference).md)
-    (Covered by: 4 test(s))
-    
-
-* [spoon.reflect.visitor.ImportScannerImpl.visitCtEnum(spoon.reflect.declaration.CtEnum)](./spoon.reflect.visitor.ImportScannerImpl.visitCtEnum(spoon.reflect.declaration.CtEnum).md)
-    (Covered by: 4 test(s))
-    
-
-* [spoon.support.visitor.clone.CloneBuilder.visitCtConstructorCall(spoon.reflect.code.CtConstructorCall)](./spoon.support.visitor.clone.CloneBuilder.visitCtConstructorCall(spoon.reflect.code.CtConstructorCall).md)
-    (Covered by: 4 test(s))
-    
-
-* [spoon.support.reflect.code.CtConstructorCallImpl.setLabel(java.lang.String)](./spoon.support.reflect.code.CtConstructorCallImpl.setLabel(java.lang.String).md)
-    (Covered by: 4 test(s))
-    
-
-* [spoon.support.reflect.code.CtLambdaImpl.setExpression(spoon.reflect.code.CtExpression)](./spoon.support.reflect.code.CtLambdaImpl.setExpression(spoon.reflect.code.CtExpression).md)
-    (Covered by: 4 test(s))
-    
-
-* [spoon.support.visitor.equals.EqualsChecker.visitCtImport(spoon.reflect.declaration.CtImport)](./spoon.support.visitor.equals.EqualsChecker.visitCtImport(spoon.reflect.declaration.CtImport).md)
-    (Covered by: 4 test(s))
-    
-
-* [spoon.support.visitor.equals.EqualsChecker.visitCtUnaryOperator(spoon.reflect.code.CtUnaryOperator)](./spoon.support.visitor.equals.EqualsChecker.visitCtUnaryOperator(spoon.reflect.code.CtUnaryOperator).md)
-    (Covered by: 4 test(s))
-    
-
-* [spoon.support.reflect.code.CtUnaryOperatorImpl.setLabel(java.lang.String)](./spoon.support.reflect.code.CtUnaryOperatorImpl.setLabel(java.lang.String).md)
-    (Covered by: 4 test(s))
-    
-
-* [spoon.support.reflect.code.CtAssignmentImpl.setTypeCasts(java.util.List)](./spoon.support.reflect.code.CtAssignmentImpl.setTypeCasts(java.util.List).md)
-    (Covered by: 4 test(s))
-    
-
-* [spoon.testing.utils.Check.assertIsSame(spoon.reflect.declaration.CtElement,spoon.reflect.declaration.CtElement)](./spoon.testing.utils.Check.assertIsSame(spoon.reflect.declaration.CtElement,spoon.reflect.declaration.CtElement).md)
-    (Covered by: 4 test(s))
-    
-
-* [spoon.testing.AbstractCtElementAssert.isEqualTo(spoon.reflect.declaration.CtElement)](./spoon.testing.AbstractCtElementAssert.isEqualTo(spoon.reflect.declaration.CtElement).md)
-    (Covered by: 4 test(s))
-    
-
-* [spoon.reflect.visitor.DefaultJavaPrettyPrinter.visitCtWhile(spoon.reflect.code.CtWhile)](./spoon.reflect.visitor.DefaultJavaPrettyPrinter.visitCtWhile(spoon.reflect.code.CtWhile).md)
-    (Covered by: 5 test(s))
-    
-
-* [spoon.reflect.visitor.CtBiScannerDefault.visitCtConstructorCall(spoon.reflect.code.CtConstructorCall)](./spoon.reflect.visitor.CtBiScannerDefault.visitCtConstructorCall(spoon.reflect.code.CtConstructorCall).md)
-    (Covered by: 5 test(s))
-    
-
-* [spoon.support.reflect.reference.CtTypeReferenceImpl.handleParentNotFound(spoon.support.SpoonClassNotFoundException)](./spoon.support.reflect.reference.CtTypeReferenceImpl.handleParentNotFound(spoon.support.SpoonClassNotFoundException).md)
-    (Covered by: 5 test(s))
-    
-
-* [spoon.testing.utils.ModelUtils.canBeBuilt(java.lang.String,int)](./spoon.testing.utils.ModelUtils.canBeBuilt(java.lang.String,int).md)
-    (Covered by: 5 test(s))
-    
-
-* [spoon.reflect.visitor.TypeContext.isNameConflict(java.lang.String)](./spoon.reflect.visitor.TypeContext.isNameConflict(java.lang.String).md)
-    (Covered by: 5 test(s))
-    
-
-* [spoon.processing.AbstractManualProcessor.getTraversalStrategy()](./spoon.processing.AbstractManualProcessor.getTraversalStrategy().md)
-    (Covered by: 5 test(s))
-    
-
-* [spoon.testing.utils.Check.assertNotNull(java.lang.Object)](./spoon.testing.utils.Check.assertNotNull(java.lang.Object).md)
-    (Covered by: 5 test(s))
-    
-
-* [spoon.testing.utils.ProcessorUtils.process(spoon.reflect.factory.Factory,java.util.Collection)](./spoon.testing.utils.ProcessorUtils.process(spoon.reflect.factory.Factory,java.util.Collection).md)
-    (Covered by: 5 test(s))
-    
-
-* [spoon.reflect.visitor.CtBiScannerDefault.visitCtParameterReference(spoon.reflect.reference.CtParameterReference)](./spoon.reflect.visitor.CtBiScannerDefault.visitCtParameterReference(spoon.reflect.reference.CtParameterReference).md)
-    (Covered by: 6 test(s))
-    
-
-* [spoon.template.Substitution.checkTemplateContracts(spoon.reflect.declaration.CtClass)](./spoon.template.Substitution.checkTemplateContracts(spoon.reflect.declaration.CtClass).md)
-    (Covered by: 6 test(s))
-    
-
-* [spoon.support.template.Parameters.getTemplateParametersAsMap(spoon.reflect.factory.Factory,spoon.reflect.declaration.CtType,spoon.template.Template)](./spoon.support.template.Parameters.getTemplateParametersAsMap(spoon.reflect.factory.Factory,spoon.reflect.declaration.CtType,spoon.template.Template).md)
-    (Covered by: 6 test(s))
-    
-
-* [spoon.support.template.Parameters.getValue(spoon.template.Template,java.lang.String,java.lang.reflect.Field)](./spoon.support.template.Parameters.getValue(spoon.template.Template,java.lang.String,java.lang.reflect.Field).md)
-    (Covered by: 6 test(s))
-    
-
-* [spoon.support.template.SubstitutionVisitor.addGeneratedBy(boolean)](./spoon.support.template.SubstitutionVisitor.addGeneratedBy(boolean).md)
-    (Covered by: 6 test(s))
-    
-
-* [spoon.reflect.visitor.AccessibleVariablesFinder$1VariableScanner.visitCtFor(spoon.reflect.code.CtFor)](./spoon.reflect.visitor.AccessibleVariablesFinder$1VariableScanner.visitCtFor(spoon.reflect.code.CtFor).md)
-    (Covered by: 6 test(s))
-    
-
-* [spoon.reflect.visitor.AccessibleVariablesFinder$1VariableScanner.visitCtLocalVariable(spoon.reflect.code.CtLocalVariable)](./spoon.reflect.visitor.AccessibleVariablesFinder$1VariableScanner.visitCtLocalVariable(spoon.reflect.code.CtLocalVariable).md)
-    (Covered by: 6 test(s))
-    
-
-* [spoon.reflect.visitor.PrintingContext$Writable.forceWildcardGenerics(boolean)](./spoon.reflect.visitor.PrintingContext$Writable.forceWildcardGenerics(boolean).md)
-    (Covered by: 6 test(s))
-    
-
-* [spoon.support.compiler.jdt.JDTImportBuilder.build()](./spoon.support.compiler.jdt.JDTImportBuilder.build().md)
-    (Covered by: 6 test(s))
-    
-
-* [spoon.support.visitor.clone.CloneVisitor.visitCtIntersectionTypeReference(spoon.reflect.reference.CtIntersectionTypeReference)](./spoon.support.visitor.clone.CloneVisitor.visitCtIntersectionTypeReference(spoon.reflect.reference.CtIntersectionTypeReference).md)
-    (Covered by: 7 test(s))
-    
-
-* [spoon.reflect.visitor.CtBiScannerDefault.visitCtLocalVariableReference(spoon.reflect.reference.CtLocalVariableReference)](./spoon.reflect.visitor.CtBiScannerDefault.visitCtLocalVariableReference(spoon.reflect.reference.CtLocalVariableReference).md)
-    (Covered by: 7 test(s))
-    
-
-* [spoon.support.reflect.declaration.CtAnnotationImpl.getDefaultValue(java.lang.String)](./spoon.support.reflect.declaration.CtAnnotationImpl.getDefaultValue(java.lang.String).md)
-    (Covered by: 7 test(s))
-    
-
-* [spoon.support.template.Parameters.getIndex(spoon.reflect.code.CtExpression)](./spoon.support.template.Parameters.getIndex(spoon.reflect.code.CtExpression).md)
-    (Covered by: 7 test(s))
-    
-
-* [spoon.support.template.SubstitutionVisitor$InheritanceSustitutionScanner.visitCtFieldRead(spoon.reflect.code.CtFieldRead)](./spoon.support.template.SubstitutionVisitor$InheritanceSustitutionScanner.visitCtFieldRead(spoon.reflect.code.CtFieldRead).md)
-    (Covered by: 7 test(s))
-    
-
-* [spoon.support.template.SubstitutionVisitor$InheritanceSustitutionScanner.visitCtInvocation(spoon.reflect.code.CtInvocation)](./spoon.support.template.SubstitutionVisitor$InheritanceSustitutionScanner.visitCtInvocation(spoon.reflect.code.CtInvocation).md)
-    (Covered by: 7 test(s))
-    
-
-* [spoon.support.template.SubstitutionVisitor$InheritanceSustitutionScanner.visitFieldAccess(spoon.reflect.code.CtFieldAccess)](./spoon.support.template.SubstitutionVisitor$InheritanceSustitutionScanner.visitFieldAccess(spoon.reflect.code.CtFieldAccess).md)
-    (Covered by: 7 test(s))
-    
-
-* [spoon.support.reflect.reference.CtIntersectionTypeReferenceImpl.clone()](./spoon.support.reflect.reference.CtIntersectionTypeReferenceImpl.clone().md)
-    (Covered by: 7 test(s))
-    
-
-* [spoon.reflect.visitor.CtBiScannerDefault.visitCtThisAccess(spoon.reflect.code.CtThisAccess)](./spoon.reflect.visitor.CtBiScannerDefault.visitCtThisAccess(spoon.reflect.code.CtThisAccess).md)
-    (Covered by: 8 test(s))
-    
-
-* [spoon.reflect.factory.TypeFactory.createTypeParameterReference(java.lang.String)](./spoon.reflect.factory.TypeFactory.createTypeParameterReference(java.lang.String).md)
-    (Covered by: 8 test(s))
-    
-
-* [spoon.reflect.visitor.CtScanner.visitCtAssert(spoon.reflect.code.CtAssert)](./spoon.reflect.visitor.CtScanner.visitCtAssert(spoon.reflect.code.CtAssert).md)
-    (Covered by: 9 test(s))
-    
-
-* [spoon.reflect.visitor.CtBiScannerDefault.visitCtInvocation(spoon.reflect.code.CtInvocation)](./spoon.reflect.visitor.CtBiScannerDefault.visitCtInvocation(spoon.reflect.code.CtInvocation).md)
-    (Covered by: 9 test(s))
-    
-
-* [spoon.support.compiler.jdt.ParentExiter.visitCtAssert(spoon.reflect.code.CtAssert)](./spoon.support.compiler.jdt.ParentExiter.visitCtAssert(spoon.reflect.code.CtAssert).md)
-    (Covered by: 9 test(s))
-    
-
-* [spoon.support.reflect.declaration.CtConstructorImpl.setFormalCtTypeParameters(java.util.List)](./spoon.support.reflect.declaration.CtConstructorImpl.setFormalCtTypeParameters(java.util.List).md)
-    (Covered by: 9 test(s))
-    
-
-* [spoon.support.reflect.declaration.CtConstructorImpl.setSimpleName(java.lang.String)](./spoon.support.reflect.declaration.CtConstructorImpl.setSimpleName(java.lang.String).md)
-    (Covered by: 9 test(s))
-    
-
-* [spoon.reflect.visitor.chain.CtQueryImpl.detectTargetClassFromCCE(java.lang.ClassCastException,java.lang.Object)](./spoon.reflect.visitor.chain.CtQueryImpl.detectTargetClassFromCCE(java.lang.ClassCastException,java.lang.Object).md)
-    (Covered by: 9 test(s))
-    
-
-* [spoon.support.reflect.declaration.CtClassImpl.setLabel(java.lang.String)](./spoon.support.reflect.declaration.CtClassImpl.setLabel(java.lang.String).md)
-    (Covered by: 9 test(s))
-    
-
-* [spoon.support.reflect.code.CtAssertImpl.setAssertExpression(spoon.reflect.code.CtExpression)](./spoon.support.reflect.code.CtAssertImpl.setAssertExpression(spoon.reflect.code.CtExpression).md)
-    (Covered by: 9 test(s))
-    
-
-* [spoon.testing.utils.ModelUtils.canBeBuilt(java.lang.String,int,boolean)](./spoon.testing.utils.ModelUtils.canBeBuilt(java.lang.String,int,boolean).md)
-    (Covered by: 10 test(s))
-    
-
-* [spoon.support.reflect.declaration.CtTypeImpl$1.accept(spoon.reflect.declaration.CtField)](./spoon.support.reflect.declaration.CtTypeImpl$1.accept(spoon.reflect.declaration.CtField).md)
-    (Covered by: 10 test(s))
-    
-
-* [spoon.support.compiler.jdt.ParentExiter.visitCtTryWithResource(spoon.reflect.code.CtTryWithResource)](./spoon.support.compiler.jdt.ParentExiter.visitCtTryWithResource(spoon.reflect.code.CtTryWithResource).md)
-    (Covered by: 11 test(s))
-    
-
-* [spoon.support.StandardEnvironment.prefix(java.lang.StringBuffer,org.apache.log4j.Level)](./spoon.support.StandardEnvironment.prefix(java.lang.StringBuffer,org.apache.log4j.Level).md)
-    (Covered by: 11 test(s))
-    
-
-* [spoon.support.StandardEnvironment.print(java.lang.String,org.apache.log4j.Level)](./spoon.support.StandardEnvironment.print(java.lang.String,org.apache.log4j.Level).md)
-    (Covered by: 11 test(s))
-    
-
-* [spoon.support.StandardEnvironment.report(spoon.processing.Processor,org.apache.log4j.Level,java.lang.String)](./spoon.support.StandardEnvironment.report(spoon.processing.Processor,org.apache.log4j.Level,java.lang.String).md)
-    (Covered by: 11 test(s))
-    
-
-* [spoon.support.JavaOutputProcessor.createPackageFile(spoon.reflect.declaration.CtPackage)](./spoon.support.JavaOutputProcessor.createPackageFile(spoon.reflect.declaration.CtPackage).md)
-    (Covered by: 11 test(s))
-    
-
-* [spoon.testing.utils.ModelUtils.canBeBuilt(java.io.File,int,boolean)](./spoon.testing.utils.ModelUtils.canBeBuilt(java.io.File,int,boolean).md)
-    (Covered by: 11 test(s))
-    
-
-* [spoon.support.reflect.code.CtTryWithResourceImpl.addResource(spoon.reflect.code.CtLocalVariable)](./spoon.support.reflect.code.CtTryWithResourceImpl.addResource(spoon.reflect.code.CtLocalVariable).md)
-    (Covered by: 11 test(s))
-    
-
-* [spoon.reflect.visitor.CtScanner.visitCtIntersectionTypeReference(spoon.reflect.reference.CtIntersectionTypeReference)](./spoon.reflect.visitor.CtScanner.visitCtIntersectionTypeReference(spoon.reflect.reference.CtIntersectionTypeReference).md)
-    (Covered by: 12 test(s))
-    
-
-* [spoon.support.reflect.code.CtLocalVariableImpl.getVisibility()](./spoon.support.reflect.code.CtLocalVariableImpl.getVisibility().md)
-    (Covered by: 13 test(s))
-    
-
-* [spoon.support.reflect.code.CtInvocationImpl.setType(spoon.reflect.reference.CtTypeReference)](./spoon.support.reflect.code.CtInvocationImpl.setType(spoon.reflect.reference.CtTypeReference).md)
-    (Covered by: 13 test(s))
-    
-
-* [spoon.support.StandardEnvironment.getProcessorProperties(java.lang.String)](./spoon.support.StandardEnvironment.getProcessorProperties(java.lang.String).md)
-    (Covered by: 13 test(s))
-    
-
-* [spoon.processing.AbstractProcessor.init()](./spoon.processing.AbstractProcessor.init().md)
-    (Covered by: 13 test(s))
-    
-
-* [spoon.processing.AbstractProcessor.initProperties(spoon.processing.ProcessorProperties)](./spoon.processing.AbstractProcessor.initProperties(spoon.processing.ProcessorProperties).md)
-    (Covered by: 13 test(s))
-    
-
-* [spoon.processing.AbstractProcessor.loadProperties()](./spoon.processing.AbstractProcessor.loadProperties().md)
-    (Covered by: 13 test(s))
-    
-
-* [spoon.testing.utils.ProcessorUtils.initProperties(spoon.processing.Processor,spoon.processing.ProcessorProperties)](./spoon.testing.utils.ProcessorUtils.initProperties(spoon.processing.Processor,spoon.processing.ProcessorProperties).md)
-    (Covered by: 13 test(s))
-    
-
-* [spoon.support.visitor.equals.EqualsChecker.visitCtExecutableReference(spoon.reflect.reference.CtExecutableReference)](./spoon.support.visitor.equals.EqualsChecker.visitCtExecutableReference(spoon.reflect.reference.CtExecutableReference).md)
-    (Covered by: 14 test(s))
-    
-
-* [spoon.support.reflect.code.CtLambdaImpl.addParameter(spoon.reflect.declaration.CtParameter)](./spoon.support.reflect.code.CtLambdaImpl.addParameter(spoon.reflect.declaration.CtParameter).md)
-    (Covered by: 15 test(s))
-    
-
-* [spoon.support.visitor.MethodTypingContext.getIndexOfTypeParam(spoon.reflect.declaration.CtFormalTypeDeclarer,spoon.reflect.reference.CtTypeReference)](./spoon.support.visitor.MethodTypingContext.getIndexOfTypeParam(spoon.reflect.declaration.CtFormalTypeDeclarer,spoon.reflect.reference.CtTypeReference).md)
-    (Covered by: 15 test(s))
-    
-
-* [spoon.support.reflect.code.CtTryImpl.setFinalizer(spoon.reflect.code.CtBlock)](./spoon.support.reflect.code.CtTryImpl.setFinalizer(spoon.reflect.code.CtBlock).md)
-    (Covered by: 15 test(s))
-    
-
-* [spoon.reflect.visitor.CtBiScannerDefault.visitCtNewArray(spoon.reflect.code.CtNewArray)](./spoon.reflect.visitor.CtBiScannerDefault.visitCtNewArray(spoon.reflect.code.CtNewArray).md)
-    (Covered by: 16 test(s))
-    
-
-* [spoon.support.reflect.declaration.CtTypeParameterImpl.setModifiers(java.util.Set)](./spoon.support.reflect.declaration.CtTypeParameterImpl.setModifiers(java.util.Set).md)
-    (Covered by: 16 test(s))
-    
-
-* [spoon.support.reflect.declaration.CtAnonymousExecutableImpl.getVisibility()](./spoon.support.reflect.declaration.CtAnonymousExecutableImpl.getVisibility().md)
-    (Covered by: 16 test(s))
-    
-
-* [spoon.support.reflect.code.CtLambdaImpl.setSimpleName(java.lang.String)](./spoon.support.reflect.code.CtLambdaImpl.setSimpleName(java.lang.String).md)
-    (Covered by: 16 test(s))
-    
-
-* [spoon.support.reflect.code.CtNewArrayImpl.setDimensionExpressions(java.util.List)](./spoon.support.reflect.code.CtNewArrayImpl.setDimensionExpressions(java.util.List).md)
-    (Covered by: 18 test(s))
-    
-
-* [spoon.reflect.visitor.CtScanner.visitCtJavaDocTag(spoon.reflect.code.CtJavaDocTag)](./spoon.reflect.visitor.CtScanner.visitCtJavaDocTag(spoon.reflect.code.CtJavaDocTag).md)
-    (Covered by: 19 test(s))
-    
-
-* [spoon.reflect.code.CtJavaDocTag$TagType.valueOf(java.lang.String)](./spoon.reflect.code.CtJavaDocTag$TagType.valueOf(java.lang.String).md)
-    (Covered by: 19 test(s))
-    
-
-* [spoon.reflect.visitor.CtScanner.visitCtComment(spoon.reflect.code.CtComment)](./spoon.reflect.visitor.CtScanner.visitCtComment(spoon.reflect.code.CtComment).md)
-    (Covered by: 20 test(s))
-    
-
-* [spoon.reflect.visitor.ImportScannerImpl.visitCtCatchVariable(spoon.reflect.code.CtCatchVariable)](./spoon.reflect.visitor.ImportScannerImpl.visitCtCatchVariable(spoon.reflect.code.CtCatchVariable).md)
-    (Covered by: 20 test(s))
-    
-
-* [spoon.support.compiler.jdt.JDTTreeBuilder.visit(org.eclipse.jdt.internal.compiler.ast.LabeledStatement,org.eclipse.jdt.internal.compiler.lookup.BlockScope)](./spoon.support.compiler.jdt.JDTTreeBuilder.visit(org.eclipse.jdt.internal.compiler.ast.LabeledStatement,org.eclipse.jdt.internal.compiler.lookup.BlockScope).md)
-    (Covered by: 21 test(s))
-    
-
-* [spoon.reflect.visitor.ImportScannerImpl.visitCtAnnotationType(spoon.reflect.declaration.CtAnnotationType)](./spoon.reflect.visitor.ImportScannerImpl.visitCtAnnotationType(spoon.reflect.declaration.CtAnnotationType).md)
-    (Covered by: 21 test(s))
-    
-
-* [spoon.support.visitor.clone.CloneBuilder.visitCtInvocation(spoon.reflect.code.CtInvocation)](./spoon.support.visitor.clone.CloneBuilder.visitCtInvocation(spoon.reflect.code.CtInvocation).md)
-    (Covered by: 21 test(s))
-    
-
-* [spoon.support.reflect.code.CtInvocationImpl.setLabel(java.lang.String)](./spoon.support.reflect.code.CtInvocationImpl.setLabel(java.lang.String).md)
-    (Covered by: 21 test(s))
-    
-
-* [spoon.support.reflect.code.CtContinueImpl.setTargetLabel(java.lang.String)](./spoon.support.reflect.code.CtContinueImpl.setTargetLabel(java.lang.String).md)
-    (Covered by: 21 test(s))
-    
-
-* [spoon.reflect.visitor.ImportScannerImpl.visitCtInterface(spoon.reflect.declaration.CtInterface)](./spoon.reflect.visitor.ImportScannerImpl.visitCtInterface(spoon.reflect.declaration.CtInterface).md)
-    (Covered by: 22 test(s))
-    
-
-* [spoon.reflect.visitor.CtScanner.visitCtContinue(spoon.reflect.code.CtContinue)](./spoon.reflect.visitor.CtScanner.visitCtContinue(spoon.reflect.code.CtContinue).md)
-    (Covered by: 23 test(s))
-    
-
-* [spoon.support.visitor.MethodTypingContext.checkSameTypingContext(spoon.support.visitor.ClassTypingContext,spoon.reflect.declaration.CtFormalTypeDeclarer)](./spoon.support.visitor.MethodTypingContext.checkSameTypingContext(spoon.support.visitor.ClassTypingContext,spoon.reflect.declaration.CtFormalTypeDeclarer).md)
-    (Covered by: 24 test(s))
-    
-
-* [spoon.Launcher.setSourceOutputDirectory(java.lang.String)](./spoon.Launcher.setSourceOutputDirectory(java.lang.String).md)
-    (Covered by: 25 test(s))
-    
-
-* [spoon.support.visitor.clone.CloneBuilder.scanCtStatement(spoon.reflect.code.CtStatement)](./spoon.support.visitor.clone.CloneBuilder.scanCtStatement(spoon.reflect.code.CtStatement).md)
-    (Covered by: 25 test(s))
-    
-
-* [spoon.support.reflect.cu.position.SourcePositionImpl.toString()](./spoon.support.reflect.cu.position.SourcePositionImpl.toString().md)
-    (Covered by: 25 test(s))
-    
-
-* [spoon.reflect.visitor.ImportScannerImpl.isImportedInMethodImports(spoon.reflect.reference.CtExecutableReference)](./spoon.reflect.visitor.ImportScannerImpl.isImportedInMethodImports(spoon.reflect.reference.CtExecutableReference).md)
-    (Covered by: 26 test(s))
-    
-
-* [spoon.reflect.visitor.CtScanner.visitCtArrayRead(spoon.reflect.code.CtArrayRead)](./spoon.reflect.visitor.CtScanner.visitCtArrayRead(spoon.reflect.code.CtArrayRead).md)
-    (Covered by: 29 test(s))
-    
-
-* [spoon.reflect.visitor.CtScanner.visitCtBreak(spoon.reflect.code.CtBreak)](./spoon.reflect.visitor.CtScanner.visitCtBreak(spoon.reflect.code.CtBreak).md)
-    (Covered by: 34 test(s))
-    
-
-* [spoon.support.visitor.equals.EqualsChecker.visitCtArrayTypeReference(spoon.reflect.reference.CtArrayTypeReference)](./spoon.support.visitor.equals.EqualsChecker.visitCtArrayTypeReference(spoon.reflect.reference.CtArrayTypeReference).md)
-    (Covered by: 34 test(s))
-    
-
-* [spoon.support.visitor.clone.CloneBuilder.visitCtAnnotation(spoon.reflect.declaration.CtAnnotation)](./spoon.support.visitor.clone.CloneBuilder.visitCtAnnotation(spoon.reflect.declaration.CtAnnotation).md)
-    (Covered by: 35 test(s))
-    
-
-* [spoon.support.reflect.code.CtStatementImpl.setLabel(java.lang.String)](./spoon.support.reflect.code.CtStatementImpl.setLabel(java.lang.String).md)
-    (Covered by: 37 test(s))
-    
-
-* [spoon.reflect.visitor.ImportScannerImpl.isImportedInFieldImports(spoon.reflect.reference.CtFieldReference)](./spoon.reflect.visitor.ImportScannerImpl.isImportedInFieldImports(spoon.reflect.reference.CtFieldReference).md)
-    (Covered by: 38 test(s))
-    
-
-* [spoon.reflect.visitor.CtBiScannerDefault.visitCtLiteral(spoon.reflect.code.CtLiteral)](./spoon.reflect.visitor.CtBiScannerDefault.visitCtLiteral(spoon.reflect.code.CtLiteral).md)
-    (Covered by: 42 test(s))
-    
-
-* [spoon.support.visitor.equals.EqualsChecker.visitCtLiteral(spoon.reflect.code.CtLiteral)](./spoon.support.visitor.equals.EqualsChecker.visitCtLiteral(spoon.reflect.code.CtLiteral).md)
-    (Covered by: 42 test(s))
-    
-
-* [spoon.reflect.visitor.CtScanner.visitCtAnnotationMethod(spoon.reflect.declaration.CtAnnotationMethod)](./spoon.reflect.visitor.CtScanner.visitCtAnnotationMethod(spoon.reflect.declaration.CtAnnotationMethod).md)
-    (Covered by: 43 test(s))
-    
-
-* [spoon.reflect.visitor.ImportScannerImpl.visitCtFieldRead(spoon.reflect.code.CtFieldRead)](./spoon.reflect.visitor.ImportScannerImpl.visitCtFieldRead(spoon.reflect.code.CtFieldRead).md)
-    (Covered by: 45 test(s))
-    
-
-* [spoon.reflect.visitor.CtBiScannerDefault.visitCtTypeAccess(spoon.reflect.code.CtTypeAccess)](./spoon.reflect.visitor.CtBiScannerDefault.visitCtTypeAccess(spoon.reflect.code.CtTypeAccess).md)
-    (Covered by: 48 test(s))
-    
-
-* [spoon.support.visitor.java.JavaReflectionVisitorImpl.visitArrayReference(java.lang.Class)](./spoon.support.visitor.java.JavaReflectionVisitorImpl.visitArrayReference(java.lang.Class).md)
-    (Covered by: 55 test(s))
-    
-
-* [spoon.support.visitor.java.JavaReflectionTreeBuilder$7.addClassReference(spoon.reflect.reference.CtTypeReference)](./spoon.support.visitor.java.JavaReflectionTreeBuilder$7.addClassReference(spoon.reflect.reference.CtTypeReference).md)
-    (Covered by: 55 test(s))
-    
-
-* [spoon.reflect.visitor.ImportScannerImpl.visitCtFieldReference(spoon.reflect.reference.CtFieldReference)](./spoon.reflect.visitor.ImportScannerImpl.visitCtFieldReference(spoon.reflect.reference.CtFieldReference).md)
-    (Covered by: 59 test(s))
-    
-
-* [spoon.reflect.visitor.EarlyTerminatingScanner.terminate()](./spoon.reflect.visitor.EarlyTerminatingScanner.terminate().md)
-    (Covered by: 60 test(s))
-    
-
-* [spoon.support.visitor.java.JavaReflectionVisitorImpl.visitInterfaceReference(java.lang.Class)](./spoon.support.visitor.java.JavaReflectionVisitorImpl.visitInterfaceReference(java.lang.Class).md)
-    (Covered by: 61 test(s))
-    
-
-* [spoon.support.reflect.declaration.CtAnnotationImpl.setShadow(boolean)](./spoon.support.reflect.declaration.CtAnnotationImpl.setShadow(boolean).md)
-    (Covered by: 62 test(s))
-    
-
-* [spoon.support.JavaOutputProcessor.createModuleFile(spoon.reflect.declaration.CtModule)](./spoon.support.JavaOutputProcessor.createModuleFile(spoon.reflect.declaration.CtModule).md)
-    (Covered by: 62 test(s))
-    
-
-* [spoon.reflect.visitor.ImportScannerImpl.visitCtExecutableReference(spoon.reflect.reference.CtExecutableReference)](./spoon.reflect.visitor.ImportScannerImpl.visitCtExecutableReference(spoon.reflect.reference.CtExecutableReference).md)
-    (Covered by: 63 test(s))
-    
-
-* [spoon.support.reflect.declaration.CtFieldImpl.setShadow(boolean)](./spoon.support.reflect.declaration.CtFieldImpl.setShadow(boolean).md)
-    (Covered by: 63 test(s))
-    
-
-* [spoon.reflect.visitor.DefaultJavaPrettyPrinter.getLineNumberMapping()](./spoon.reflect.visitor.DefaultJavaPrettyPrinter.getLineNumberMapping().md)
-    (Covered by: 69 test(s))
-    
-
-* [spoon.reflect.visitor.ImportScannerImpl.visitCtClass(spoon.reflect.declaration.CtClass)](./spoon.reflect.visitor.ImportScannerImpl.visitCtClass(spoon.reflect.declaration.CtClass).md)
-    (Covered by: 77 test(s))
-    
+        (**Pseudo-tested**, tests: 15, distance: 2) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/JavaOutputProcessor.java#L181)
 
-* [spoon.support.compiler.jdt.ParentExiter.visitCtThrow(spoon.reflect.code.CtThrow)](./spoon.support.compiler.jdt.ParentExiter.visitCtThrow(spoon.reflect.code.CtThrow).md)
-    (Covered by: 80 test(s))
-    
 
-* [spoon.reflect.visitor.ImportScannerImpl.addClassImport(spoon.reflect.reference.CtTypeReference)](./spoon.reflect.visitor.ImportScannerImpl.addClassImport(spoon.reflect.reference.CtTypeReference).md)
-    (Covered by: 80 test(s))
-    
+* spoon.support.reflect.code.CtCommentImpl
 
-* [spoon.reflect.visitor.ImportScannerImpl.scan(spoon.reflect.declaration.CtElement)](./spoon.reflect.visitor.ImportScannerImpl.scan(spoon.reflect.declaration.CtElement).md)
-    (Covered by: 80 test(s))
-    
+    - [equals(java.lang.Object)](methods/spoon.support.reflect.code.CtCommentImpl.equals(java.lang.Object).md)
 
-* [spoon.support.visitor.java.JavaReflectionVisitorImpl.visitConstructor(java.lang.reflect.Constructor)](./spoon.support.visitor.java.JavaReflectionVisitorImpl.visitConstructor(java.lang.reflect.Constructor).md)
-    (Covered by: 80 test(s))
-    
+        (**Partially-tested**, tests: 3, distance: 3) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/code/CtCommentImpl.java#L78)
 
-* [spoon.support.visitor.java.reflect.RtParameter.isVarArgs()](./spoon.support.visitor.java.reflect.RtParameter.isVarArgs().md)
-    (Covered by: 82 test(s))
-    
 
-* [spoon.support.reflect.declaration.CtParameterImpl.setShadow(boolean)](./spoon.support.reflect.declaration.CtParameterImpl.setShadow(boolean).md)
-    (Covered by: 84 test(s))
-    
+* spoon.MavenLauncher$InheritanceModel
 
-* [spoon.support.reflect.declaration.CtConstructorImpl.setShadow(boolean)](./spoon.support.reflect.declaration.CtConstructorImpl.setShadow(boolean).md)
-    (Covered by: 85 test(s))
-    
+    - [addModule(spoon.MavenLauncher$InheritanceModel)](methods/spoon.MavenLauncher$InheritanceModel.addModule(spoon.MavenLauncher$InheritanceModel).md)
 
-* [spoon.reflect.factory.FactoryImpl.createImport(spoon.reflect.reference.CtReference)](./spoon.reflect.factory.FactoryImpl.createImport(spoon.reflect.reference.CtReference).md)
-    (Covered by: 86 test(s))
-    
+        (**Pseudo-tested**, tests: 1, distance: 4) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/MavenLauncher.java#L156)
 
-* [spoon.support.visitor.java.JavaReflectionTreeBuilder.setModifier(spoon.reflect.declaration.CtModifiable,int)](./spoon.support.visitor.java.JavaReflectionTreeBuilder.setModifier(spoon.reflect.declaration.CtModifiable,int).md)
-    (Covered by: 91 test(s))
-    
 
-* [spoon.support.visitor.java.reflect.RtMethod._java8_isDefault(java.lang.reflect.Method)](./spoon.support.visitor.java.reflect.RtMethod._java8_isDefault(java.lang.reflect.Method).md)
-    (Covered by: 91 test(s))
-    
+* spoon.support.reflect.declaration.CtElementImpl
 
-* [spoon.support.reflect.declaration.CtPackageImpl.setShadow(boolean)](./spoon.support.reflect.declaration.CtPackageImpl.setShadow(boolean).md)
-    (Covered by: 92 test(s))
-    
+    - [removeAnnotation(spoon.reflect.declaration.CtAnnotation)](methods/spoon.support.reflect.declaration.CtElementImpl.removeAnnotation(spoon.reflect.declaration.CtAnnotation).md)
 
-* [spoon.support.reflect.declaration.CtMethodImpl.setShadow(boolean)](./spoon.support.reflect.declaration.CtMethodImpl.setShadow(boolean).md)
-    (Covered by: 96 test(s))
-    
+        (**Pseudo-tested**, tests: 2, distance: 4) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtElementImpl.java#L228)
 
-* [spoon.support.visitor.equals.EqualsChecker.scanCtStatement(spoon.reflect.code.CtStatement)](./spoon.support.visitor.equals.EqualsChecker.scanCtStatement(spoon.reflect.code.CtStatement).md)
-    (Covered by: 100 test(s))
-    
 
-* [spoon.support.reflect.declaration.CtTypeImpl.getVisibility()](./spoon.support.reflect.declaration.CtTypeImpl.getVisibility().md)
-    (Covered by: 107 test(s))
-    
+* spoon.support.reflect.declaration.CtPackageImpl
 
-* [spoon.support.compiler.jdt.PositionBuilder.findNextNonWhitespace(char[],int)](./spoon.support.compiler.jdt.PositionBuilder.findNextNonWhitespace(char[],int).md)
-    (Covered by: 115 test(s))
-    
+    - [setShadow(boolean)](methods/spoon.support.reflect.declaration.CtPackageImpl.setShadow(boolean).md)
 
-* [spoon.reflect.factory.TypeFactory.nullType()](./spoon.reflect.factory.TypeFactory.nullType().md)
-    (Covered by: 124 test(s))
-    
+        (**Pseudo-tested**, tests: 266, distance: 4) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtPackageImpl.java#L269)
 
-* [spoon.reflect.visitor.CtScanner.visitCtArrayTypeReference(spoon.reflect.reference.CtArrayTypeReference)](./spoon.reflect.visitor.CtScanner.visitCtArrayTypeReference(spoon.reflect.reference.CtArrayTypeReference).md)
-    (Covered by: 136 test(s))
-    
 
-* [spoon.reflect.visitor.CtScanner.scan(spoon.reflect.path.CtRole,java.lang.Object)](./spoon.reflect.visitor.CtScanner.scan(spoon.reflect.path.CtRole,java.lang.Object).md)
-    (Covered by: 230 test(s))
-    
+* spoon.support.reflect.code.CtTypeAccessImpl
 
-* [spoon.support.reflect.reference.CtTypeReferenceImpl.unbox()](./spoon.support.reflect.reference.CtTypeReferenceImpl.unbox().md)
-    (Covered by: 276 test(s))
-    
+    - [setType(spoon.reflect.reference.CtTypeReference)](methods/spoon.support.reflect.code.CtTypeAccessImpl.setType(spoon.reflect.reference.CtTypeReference).md)
 
-* [spoon.support.compiler.jdt.JDTTreeBuilder.endVisit(org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration,org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope)](./spoon.support.compiler.jdt.JDTTreeBuilder.endVisit(org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration,org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope).md)
-    (Covered by: 360 test(s))
-    
+        (**Pseudo-tested**, tests: 3, distance: 5) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/code/CtTypeAccessImpl.java#L62)
 
-* [spoon.support.reflect.declaration.CtElementImpl.setComments(java.util.List)](./spoon.support.reflect.declaration.CtElementImpl.setComments(java.util.List).md)
-    (Covered by: 372 test(s))
-    
 
-* [spoon.support.reflect.reference.CtTypeReferenceImpl.setShadow(boolean)](./spoon.support.reflect.reference.CtTypeReferenceImpl.setShadow(boolean).md)
-    (Covered by: 376 test(s))
-    
+* spoon.support.reflect.declaration.CtInterfaceImpl
 
-* [spoon.Launcher.createEnvironment()](./spoon.Launcher.createEnvironment().md)
-    (Covered by: 376 test(s))
-    
+    - [setSuperclass(spoon.reflect.reference.CtTypeReference)](methods/spoon.support.reflect.declaration.CtInterfaceImpl.setSuperclass(spoon.reflect.reference.CtTypeReference).md)
 
-* [spoon.support.reflect.declaration.CtElementImpl.hashCode()](./spoon.support.reflect.declaration.CtElementImpl.hashCode().md)
-    (Covered by: 407 test(s))
-    
+        (**Pseudo-tested**, tests: 3, distance: 5) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtInterfaceImpl.java#L72)
 
 
-# Weak Pseudo Tested Methods
+* spoon.support.visitor.java.JavaReflectionTreeBuilder$3
 
-* [spoon.support.reflect.declaration.CtTypeParameterImpl.isSameInSameScope(spoon.reflect.declaration.CtTypeParameter,spoon.reflect.reference.CtTypeReference)](./spoon.support.reflect.declaration.CtTypeParameterImpl.isSameInSameScope(spoon.reflect.declaration.CtTypeParameter,spoon.reflect.reference.CtTypeReference).md)
-    (Covered by: 1 test(s))
-    
+    - [addConstructor(spoon.reflect.declaration.CtConstructor)](methods/spoon.support.visitor.java.JavaReflectionTreeBuilder$3.addConstructor(spoon.reflect.declaration.CtConstructor).md)
 
-* [spoon.support.reflect.declaration.CtTypeParameterImpl.isSubtypeOf(spoon.support.visitor.GenericTypeAdapter,spoon.reflect.declaration.CtTypeParameter,spoon.reflect.declaration.CtTypeParameter)](./spoon.support.reflect.declaration.CtTypeParameterImpl.isSubtypeOf(spoon.support.visitor.GenericTypeAdapter,spoon.reflect.declaration.CtTypeParameter,spoon.reflect.declaration.CtTypeParameter).md)
-    (Covered by: 1 test(s))
-    
+        (**Pseudo-tested**, tests: 9, distance: 5) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/visitor/java/JavaReflectionTreeBuilder.java#L183)
 
-* [spoon.reflect.visitor.ImportScannerImpl.getSignature(spoon.reflect.reference.CtExecutableReference)](./spoon.reflect.visitor.ImportScannerImpl.getSignature(spoon.reflect.reference.CtExecutableReference).md)
-    (Covered by: 1 test(s))
-    
 
-* [spoon.template.TemplateMatcher.addMatch(java.lang.Object,java.lang.Object)](./spoon.template.TemplateMatcher.addMatch(java.lang.Object,java.lang.Object).md)
-    (Covered by: 1 test(s))
-    
+* spoon.processing.SpoonTagger
 
-* [spoon.template.TemplateMatcher.invokeCallBack(java.lang.Object,java.lang.Object)](./spoon.template.TemplateMatcher.invokeCallBack(java.lang.Object,java.lang.Object).md)
-    (Covered by: 1 test(s))
-    
+    - [process()](methods/spoon.processing.SpoonTagger.process().md)
 
-* [spoon.template.TemplateMatcher.matchCollections(java.util.Collection,java.util.Collection)](./spoon.template.TemplateMatcher.matchCollections(java.util.Collection,java.util.Collection).md)
-    (Covered by: 1 test(s))
-    
+        (**Pseudo-tested**, tests: 1, distance: 6) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/processing/SpoonTagger.java#L28)
 
-* [spoon.template.TemplateMatcher.matchNames(java.lang.String,java.lang.String)](./spoon.template.TemplateMatcher.matchNames(java.lang.String,java.lang.String).md)
-    (Covered by: 1 test(s))
-    
 
-* [spoon.reflect.declaration.CtImportKind.values()](./spoon.reflect.declaration.CtImportKind.values().md)
-    (Covered by: 1 test(s))
-    
+* spoon.support.visitor.java.reflect.RtMethod
 
-* [spoon.support.visitor.SubInheritanceHierarchyResolver$1.matches(spoon.reflect.declaration.CtType)](./spoon.support.visitor.SubInheritanceHierarchyResolver$1.matches(spoon.reflect.declaration.CtType).md)
-    (Covered by: 1 test(s))
-    
+    - [isLightEquals(spoon.support.visitor.java.reflect.RtMethod)](methods/spoon.support.visitor.java.reflect.RtMethod.isLightEquals(spoon.support.visitor.java.reflect.RtMethod).md)
 
-* [spoon.reflect.visitor.filter.ReturnOrThrowFilter.matches(spoon.reflect.code.CtCFlowBreak)](./spoon.reflect.visitor.filter.ReturnOrThrowFilter.matches(spoon.reflect.code.CtCFlowBreak).md)
-    (Covered by: 1 test(s))
-    
+        (**Partially-tested**, tests: 161, distance: 6) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/visitor/java/reflect/RtMethod.java#L198)
 
-* [spoon.reflect.visitor.ElementPrinterHelper.isJavaLangClasses(java.lang.String)](./spoon.reflect.visitor.ElementPrinterHelper.isJavaLangClasses(java.lang.String).md)
-    (Covered by: 2 test(s))
-    
 
-* [spoon.processing.AbstractAnnotationProcessor.isToBeProcessed(spoon.reflect.declaration.CtElement)](./spoon.processing.AbstractAnnotationProcessor.isToBeProcessed(spoon.reflect.declaration.CtElement).md)
-    (Covered by: 2 test(s))
-    
+* spoon.processing.AbstractManualProcessor
 
-* [spoon.processing.AbstractAnnotationProcessor.shoudBeProcessed(spoon.reflect.declaration.CtAnnotation)](./spoon.processing.AbstractAnnotationProcessor.shoudBeProcessed(spoon.reflect.declaration.CtAnnotation).md)
-    (Covered by: 2 test(s))
-    
+    - [getTraversalStrategy()](methods/spoon.processing.AbstractManualProcessor.getTraversalStrategy().md)
 
-* [spoon.support.reflect.code.CtCommentImpl.equals(java.lang.Object)](./spoon.support.reflect.code.CtCommentImpl.equals(java.lang.Object).md)
-    (Covered by: 3 test(s))
-    
+        (**Pseudo-tested**, tests: 5, distance: 7) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/processing/AbstractManualProcessor.java#L67)
 
-* [spoon.support.compiler.jdt.JDTTreeBuilderHelper$1.onAccess(char[][],int)](./spoon.support.compiler.jdt.JDTTreeBuilderHelper$1.onAccess(char[][],int).md)
-    (Covered by: 3 test(s))
-    
 
-* [spoon.reflect.visitor.ImportScannerImpl.declaringTypeIsLocalOrImported(spoon.reflect.reference.CtTypeReference)](./spoon.reflect.visitor.ImportScannerImpl.declaringTypeIsLocalOrImported(spoon.reflect.reference.CtTypeReference).md)
-    (Covered by: 4 test(s))
-    
+* spoon.support.reflect.declaration.CtFieldImpl
 
-* [spoon.support.compiler.jdt.JDTTreeBuilderHelper.createQualifiedTypeName(char[][])](./spoon.support.compiler.jdt.JDTTreeBuilderHelper.createQualifiedTypeName(char[][]).md)
-    (Covered by: 5 test(s))
-    
+    - [setShadow(boolean)](methods/spoon.support.reflect.declaration.CtFieldImpl.setShadow(boolean).md)
 
-* [spoon.reflect.visitor.TypeContext.getSimpleName()](./spoon.reflect.visitor.TypeContext.getSimpleName().md)
-    (Covered by: 5 test(s))
-    
+        (**Pseudo-tested**, tests: 172, distance: 7) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtFieldImpl.java#L189)
 
-* [spoon.support.reflect.declaration.CtConstructorImpl.hasModifier(spoon.reflect.declaration.ModifierKind)](./spoon.support.reflect.declaration.CtConstructorImpl.hasModifier(spoon.reflect.declaration.ModifierKind).md)
-    (Covered by: 7 test(s))
-    
 
-* [spoon.support.template.Parameters.getParameterName(spoon.reflect.reference.CtFieldReference)](./spoon.support.template.Parameters.getParameterName(spoon.reflect.reference.CtFieldReference).md)
-    (Covered by: 7 test(s))
-    
+* spoon.support.compiler.jdt.JDTTreeBuilder
 
-* [spoon.support.template.Parameters.isParameterSource(spoon.reflect.reference.CtFieldReference)](./spoon.support.template.Parameters.isParameterSource(spoon.reflect.reference.CtFieldReference).md)
-    (Covered by: 7 test(s))
-    
+    - [endVisit(org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration,org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope)](methods/spoon.support.compiler.jdt.JDTTreeBuilder.endVisit(org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration,org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope).md)
 
-* [spoon.support.reflect.reference.CtTypeReferenceImpl.isInterface()](./spoon.support.reflect.reference.CtTypeReferenceImpl.isInterface().md)
-    (Covered by: 9 test(s))
-    
+        (**Pseudo-tested**, tests: 742, distance: 8) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/compiler/jdt/JDTTreeBuilder.java#L716)
 
-* [spoon.support.visitor.MethodTypingContext.isSameMethodFormalTypeParameter(spoon.reflect.declaration.CtTypeParameter,spoon.reflect.declaration.CtTypeParameter)](./spoon.support.visitor.MethodTypingContext.isSameMethodFormalTypeParameter(spoon.reflect.declaration.CtTypeParameter,spoon.reflect.declaration.CtTypeParameter).md)
-    (Covered by: 15 test(s))
-    
 
-* [spoon.support.reflect.code.CtLocalVariableImpl.hasModifier(spoon.reflect.declaration.ModifierKind)](./spoon.support.reflect.code.CtLocalVariableImpl.hasModifier(spoon.reflect.declaration.ModifierKind).md)
-    (Covered by: 20 test(s))
-    
+* spoon.support.reflect.declaration.CtMethodImpl
 
-* [spoon.reflect.factory.TypeFactory$2.matches(spoon.reflect.code.CtNewClass)](./spoon.reflect.factory.TypeFactory$2.matches(spoon.reflect.code.CtNewClass).md)
-    (Covered by: 20 test(s))
-    
+    - [setShadow(boolean)](methods/spoon.support.reflect.declaration.CtMethodImpl.setShadow(boolean).md)
 
-* [spoon.support.visitor.MethodTypingContext.hasSameMethodFormalTypeParameters(spoon.reflect.declaration.CtFormalTypeDeclarer)](./spoon.support.visitor.MethodTypingContext.hasSameMethodFormalTypeParameters(spoon.reflect.declaration.CtFormalTypeDeclarer).md)
-    (Covered by: 24 test(s))
-    
+        (**Pseudo-tested**, tests: 278, distance: 8) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtMethodImpl.java#L210)
 
-* [spoon.support.reflect.reference.CtTypeReferenceImpl.isInSamePackage(spoon.reflect.reference.CtTypeReference)](./spoon.support.reflect.reference.CtTypeReferenceImpl.isInSamePackage(spoon.reflect.reference.CtTypeReference).md)
-    (Covered by: 25 test(s))
-    
 
-* [spoon.reflect.visitor.DefaultJavaPrettyPrinter.isImported(spoon.reflect.reference.CtExecutableReference)](./spoon.reflect.visitor.DefaultJavaPrettyPrinter.isImported(spoon.reflect.reference.CtExecutableReference).md)
-    (Covered by: 54 test(s))
-    
+* spoon.support.visitor.java.internal.TypeReferenceRuntimeBuilderContext
 
-* [spoon.support.visitor.java.reflect.RtMethod.isLightEquals(spoon.support.visitor.java.reflect.RtMethod)](./spoon.support.visitor.java.reflect.RtMethod.isLightEquals(spoon.support.visitor.java.reflect.RtMethod).md)
-    (Covered by: 62 test(s))
-    
+    - [addClassReference(spoon.reflect.reference.CtTypeReference)](methods/spoon.support.visitor.java.internal.TypeReferenceRuntimeBuilderContext.addClassReference(spoon.reflect.reference.CtTypeReference).md)
 
-* [spoon.reflect.visitor.ImportScannerImpl.isThereAnotherClassWithSameNameInAnotherPackage(spoon.reflect.reference.CtTypeReference)](./spoon.reflect.visitor.ImportScannerImpl.isThereAnotherClassWithSameNameInAnotherPackage(spoon.reflect.reference.CtTypeReference).md)
-    (Covered by: 71 test(s))
-    
+        (**Pseudo-tested**, tests: 96, distance: 9) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/visitor/java/internal/TypeReferenceRuntimeBuilderContext.java#L41)
 
-* [spoon.reflect.visitor.ImportScannerImpl.isTypeInCollision(spoon.reflect.reference.CtReference,boolean)](./spoon.reflect.visitor.ImportScannerImpl.isTypeInCollision(spoon.reflect.reference.CtReference,boolean).md)
-    (Covered by: 73 test(s))
-    
 
-* [spoon.reflect.visitor.DefaultJavaPrettyPrinter.isImported(spoon.reflect.reference.CtFieldReference)](./spoon.reflect.visitor.DefaultJavaPrettyPrinter.isImported(spoon.reflect.reference.CtFieldReference).md)
-    (Covered by: 80 test(s))
-    
+* spoon.reflect.visitor.PrinterHelper
 
-* [spoon.support.visitor.java.reflect.RtParameter.parametersOf(java.lang.reflect.Constructor)](./spoon.support.visitor.java.reflect.RtParameter.parametersOf(java.lang.reflect.Constructor).md)
-    (Covered by: 80 test(s))
-    
+    - [isWhite(char)](methods/spoon.reflect.visitor.PrinterHelper.isWhite(char).md)
 
-* [spoon.support.visitor.java.reflect.RtParameter.getDeclaredAnnotations()](./spoon.support.visitor.java.reflect.RtParameter.getDeclaredAnnotations().md)
-    (Covered by: 82 test(s))
-    
+        (**Partially-tested**, tests: 3, distance: 12) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/PrinterHelper.java#L233)
 
-* [spoon.support.visitor.java.reflect.RtParameter.getName()](./spoon.support.visitor.java.reflect.RtParameter.getName().md)
-    (Covered by: 82 test(s))
-    
 
-* [spoon.support.reflect.reference.CtTypeReferenceImpl.canAccess(spoon.reflect.reference.CtTypeReference)](./spoon.support.reflect.reference.CtTypeReferenceImpl.canAccess(spoon.reflect.reference.CtTypeReference).md)
-    (Covered by: 85 test(s))
-    
+* spoon.support.reflect.code.CtStatementListImpl
 
-* [spoon.Launcher.getVersionMessage()](./spoon.Launcher.getVersionMessage().md)
-    (Covered by: 105 test(s))
-    
+    - [setPosition(spoon.reflect.cu.SourcePosition)](methods/spoon.support.reflect.code.CtStatementListImpl.setPosition(spoon.reflect.cu.SourcePosition).md)
+
+        (**Pseudo-tested**, tests: 2, distance: 14) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/code/CtStatementListImpl.java#L186)
+
+
+* spoon.support.reflect.code.CtUnaryOperatorImpl
+
+    - [setLabel(java.lang.String)](methods/spoon.support.reflect.code.CtUnaryOperatorImpl.setLabel(java.lang.String).md)
+
+        (**Pseudo-tested**, tests: 8, distance: 14) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/code/CtUnaryOperatorImpl.java#L107)
+
+
+* spoon.support.SerializationModelStreamer$1
+
+    - [matches(spoon.reflect.declaration.CtElement)](methods/spoon.support.SerializationModelStreamer$1.matches(spoon.reflect.declaration.CtElement).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 15) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/SerializationModelStreamer.java#L59)
+
+
+* spoon.support.reflect.code.CtConstructorCallImpl
+
+    - [setLabel(java.lang.String)](methods/spoon.support.reflect.code.CtConstructorCallImpl.setLabel(java.lang.String).md)
+
+        (**Pseudo-tested**, tests: 15, distance: 15) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/code/CtConstructorCallImpl.java#L155)
+
+
+* spoon.support.visitor.replace.ReplacementVisitor
+
+    - [visitCtConstructor(spoon.reflect.declaration.CtConstructor)](methods/spoon.support.visitor.replace.ReplacementVisitor.visitCtConstructor(spoon.reflect.declaration.CtConstructor).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 17) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/visitor/replace/ReplacementVisitor.java#L754)
+
+
+* spoon.support.compiler.jdt.JDTTreeBuilderHelper$1
+
+    - [onAccess(char[][],int)](methods/spoon.support.compiler.jdt.JDTTreeBuilderHelper$1.onAccess(char[][],int).md)
+
+        (**Partially-tested**, tests: 4, distance: 18) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/compiler/jdt/JDTTreeBuilderHelper.java#L484)
+
+
+* spoon.support.compiler.jdt.ReferenceBuilder
+
+    - [getCtCircularTypeReference(org.eclipse.jdt.internal.compiler.lookup.TypeBinding)](methods/spoon.support.compiler.jdt.ReferenceBuilder.getCtCircularTypeReference(org.eclipse.jdt.internal.compiler.lookup.TypeBinding).md)
+
+        (**Pseudo-tested**, tests: 7, distance: 18) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/compiler/jdt/ReferenceBuilder.java#L888)
+
+
+* spoon.reflect.visitor.filter.LocalVariableReferenceFunction$Context
+
+    - [exit(spoon.reflect.declaration.CtElement)](methods/spoon.reflect.visitor.filter.LocalVariableReferenceFunction$Context.exit(spoon.reflect.declaration.CtElement).md)
+
+        (**Pseudo-tested**, tests: 9, distance: 21) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/filter/LocalVariableReferenceFunction.java#L158)
+
+
+* spoon.refactoring.CtRenameLocalVariableRefactoring$QueryDriver
+
+    - [exit(spoon.reflect.declaration.CtElement)](methods/spoon.refactoring.CtRenameLocalVariableRefactoring$QueryDriver.exit(spoon.reflect.declaration.CtElement).md)
+
+        (**Pseudo-tested**, tests: 2, distance: 25) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/refactoring/CtRenameLocalVariableRefactoring.java#L100)
+
+
+* spoon.support.visitor.replace.ReplacementVisitor$CtLoopBodyReplaceListener
+
+    - [set(spoon.reflect.code.CtStatement)](methods/spoon.support.visitor.replace.ReplacementVisitor$CtLoopBodyReplaceListener.set(spoon.reflect.code.CtStatement).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 29) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/visitor/replace/ReplacementVisitor.java#L793)
+
+
+* spoon.reflect.visitor.filter.ReturnOrThrowFilter
+
+    - [matches(spoon.reflect.code.CtCFlowBreak)](methods/spoon.reflect.visitor.filter.ReturnOrThrowFilter.matches(spoon.reflect.code.CtCFlowBreak).md)
+
+        (**Partially-tested**, tests: 1, distance: 33) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/filter/ReturnOrThrowFilter.java#L32)
+
+
+* spoon.support.visitor.replace.ReplacementVisitor$CtNewArrayDimensionExpressionsReplaceListener
+
+    - [set(java.util.List)](methods/spoon.support.visitor.replace.ReplacementVisitor$CtNewArrayDimensionExpressionsReplaceListener.set(java.util.List).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 34) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/visitor/replace/ReplacementVisitor.java#L1291)
+
+
+* spoon.reflect.visitor.AccessibleVariablesFinder$1VariableScanner
+
+    - [visitCtTryWithResource(spoon.reflect.code.CtTryWithResource)](methods/spoon.reflect.visitor.AccessibleVariablesFinder$1VariableScanner.visitCtTryWithResource(spoon.reflect.code.CtTryWithResource).md)
+
+        (**Pseudo-tested**, tests: 4, distance: 41) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/AccessibleVariablesFinder.java#L114)
+
+
+* spoon.support.visitor.java.internal.VariableRuntimeBuilderContext
+
+    - [addAnnotation(spoon.reflect.declaration.CtAnnotation)](methods/spoon.support.visitor.java.internal.VariableRuntimeBuilderContext.addAnnotation(spoon.reflect.declaration.CtAnnotation).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 41) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/visitor/java/internal/VariableRuntimeBuilderContext.java#L43)
+
+
+* spoon.support.visitor.SubInheritanceHierarchyResolver$3
+
+    - [matches(spoon.reflect.declaration.CtType)](methods/spoon.support.visitor.SubInheritanceHierarchyResolver$3.matches(spoon.reflect.declaration.CtType).md)
+
+        (**Partially-tested**, tests: 5, distance: 44) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/visitor/SubInheritanceHierarchyResolver.java#L221)
+
+
+* spoon.refactoring.CtParameterRemoveRefactoring$3
+
+    - [accept(spoon.reflect.reference.CtParameterReference)](methods/spoon.refactoring.CtParameterRemoveRefactoring$3.accept(spoon.reflect.reference.CtParameterReference).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 53) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/refactoring/CtParameterRemoveRefactoring.java#L189)
+
+
+* spoon.support.reflect.reference.CtParameterReferenceImpl
+
+    - [fromDeclaringExecutable()](methods/spoon.support.reflect.reference.CtParameterReferenceImpl.fromDeclaringExecutable().md)
+
+        (**Pseudo-tested**, tests: 1, distance: 90) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/reference/CtParameterReferenceImpl.java#L82)
+
+
+* spoon.support.reflect.declaration.CtClassImpl
+
+    - [insertAfter(spoon.reflect.code.CtStatement)](methods/spoon.support.reflect.declaration.CtClassImpl.insertAfter(spoon.reflect.code.CtStatement).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 1) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtClassImpl.java#L206)
+
+    - [setLabel(java.lang.String)](methods/spoon.support.reflect.declaration.CtClassImpl.setLabel(java.lang.String).md)
+
+        (**Pseudo-tested**, tests: 22, distance: 11) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtClassImpl.java#L236)
+
+
+* spoon.template.Substitution
+
+    - [substituteMethodBody(spoon.reflect.declaration.CtClass,spoon.template.Template,java.lang.String,spoon.reflect.reference.CtTypeReference[])](methods/spoon.template.Substitution.substituteMethodBody(spoon.reflect.declaration.CtClass,spoon.template.Template,java.lang.String,spoon.reflect.reference.CtTypeReference[]).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 1) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/template/Substitution.java#L464)
+
+    - [checkTemplateContracts(spoon.reflect.declaration.CtClass)](methods/spoon.template.Substitution.checkTemplateContracts(spoon.reflect.declaration.CtClass).md)
+
+        (**Pseudo-tested**, tests: 32, distance: 4) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/template/Substitution.java#L670)
+
+
+* spoon.processing.AbstractProcessor
+
+    - [init()](methods/spoon.processing.AbstractProcessor.init().md)
+
+        (**Pseudo-tested**, tests: 24, distance: 2) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/processing/AbstractProcessor.java#L117)
+
+    - [loadProperties()](methods/spoon.processing.AbstractProcessor.loadProperties().md)
+
+        (**Pseudo-tested**, tests: 24, distance: 3) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/processing/AbstractProcessor.java#L93)
+
+
+* spoon.support.reflect.CtModifierHandler
+
+    - [hasModifier(spoon.reflect.declaration.ModifierKind)](methods/spoon.support.reflect.CtModifierHandler.hasModifier(spoon.reflect.declaration.ModifierKind).md)
+
+        (**Partially-tested**, tests: 9, distance: 3) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/CtModifierHandler.java#L72)
+
+    - [equals(java.lang.Object)](methods/spoon.support.reflect.CtModifierHandler.equals(java.lang.Object).md)
+
+        (**Partially-tested**, tests: 1, distance: 4) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/CtModifierHandler.java#L172)
+
+
+* spoon.support.compiler.ZipFile
+
+    - [isJava()](methods/spoon.support.compiler.ZipFile.isJava().md)
+
+        (**Partially-tested**, tests: 1, distance: 4) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/compiler/ZipFile.java#L63)
+
+    - [equals(java.lang.Object)](methods/spoon.support.compiler.ZipFile.equals(java.lang.Object).md)
+
+        (**Partially-tested**, tests: 1, distance: 7) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/compiler/ZipFile.java#L92)
+
+
+* spoon.support.reflect.code.CtInvocationImpl
+
+    - [addActualTypeArgument(spoon.reflect.reference.CtTypeReference)](methods/spoon.support.reflect.code.CtInvocationImpl.addActualTypeArgument(spoon.reflect.reference.CtTypeReference).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 5) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/code/CtInvocationImpl.java#L196)
+
+    - [setLabel(java.lang.String)](methods/spoon.support.reflect.code.CtInvocationImpl.setLabel(java.lang.String).md)
+
+        (**Pseudo-tested**, tests: 54, distance: 14) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/code/CtInvocationImpl.java#L158)
+
+
+* spoon.support.reflect.code.CtLambdaImpl
+
+    - [addThrownType(spoon.reflect.reference.CtTypeReference)](methods/spoon.support.reflect.code.CtLambdaImpl.addThrownType(spoon.reflect.reference.CtTypeReference).md)
+
+        (**Pseudo-tested**, tests: 2, distance: 5) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/code/CtLambdaImpl.java#L211)
+
+    - [setThrownTypes(java.util.Set)](methods/spoon.support.reflect.code.CtLambdaImpl.setThrownTypes(java.util.Set).md)
+
+        (**Pseudo-tested**, tests: 6, distance: 5) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/code/CtLambdaImpl.java#L194)
+
+
+* spoon.support.visitor.java.JavaReflectionTreeBuilder$7
+
+    - [addClassReference(spoon.reflect.reference.CtTypeReference)](methods/spoon.support.visitor.java.JavaReflectionTreeBuilder$7.addClassReference(spoon.reflect.reference.CtTypeReference).md)
+
+        (**Pseudo-tested**, tests: 147, distance: 9) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/visitor/java/JavaReflectionTreeBuilder.java#L422)
+
+    - [addArrayReference(spoon.reflect.reference.CtArrayTypeReference)](methods/spoon.support.visitor.java.JavaReflectionTreeBuilder$7.addArrayReference(spoon.reflect.reference.CtArrayTypeReference).md)
+
+        (**Pseudo-tested**, tests: 3, distance: 20) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/visitor/java/JavaReflectionTreeBuilder.java#L431)
+
+
+* spoon.template.TemplateMatcher$1
+
+    - [visitCtTypeReference(spoon.reflect.reference.CtTypeReference)](methods/spoon.template.TemplateMatcher$1.visitCtTypeReference(spoon.reflect.reference.CtTypeReference).md)
+
+        (**Pseudo-tested**, tests: 4, distance: 9) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/template/TemplateMatcher.java#L100)
+
+    - [visitCtTypeParameterReference(spoon.reflect.reference.CtTypeParameterReference)](methods/spoon.template.TemplateMatcher$1.visitCtTypeParameterReference(spoon.reflect.reference.CtTypeParameterReference).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 37) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/template/TemplateMatcher.java#L93)
+
+
+* spoon.support.reflect.code.CtLocalVariableImpl
+
+    - [hasModifier(spoon.reflect.declaration.ModifierKind)](methods/spoon.support.reflect.code.CtLocalVariableImpl.hasModifier(spoon.reflect.declaration.ModifierKind).md)
+
+        (**Partially-tested**, tests: 30, distance: 12) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/code/CtLocalVariableImpl.java#L117)
+
+    - [getVisibility()](methods/spoon.support.reflect.code.CtLocalVariableImpl.getVisibility().md)
+
+        (**Pseudo-tested**, tests: 17, distance: 13) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/code/CtLocalVariableImpl.java#L146)
+
+
+* spoon.support.visitor.TypeReferenceScanner
+
+    - [visitCtFieldReference(spoon.reflect.reference.CtFieldReference)](methods/spoon.support.visitor.TypeReferenceScanner.visitCtFieldReference(spoon.reflect.reference.CtFieldReference).md)
+
+        (**Pseudo-tested**, tests: 2, distance: 16) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/visitor/TypeReferenceScanner.java#L100)
+
+    - [visitCtFieldWrite(spoon.reflect.code.CtFieldWrite)](methods/spoon.support.visitor.TypeReferenceScanner.visitCtFieldWrite(spoon.reflect.code.CtFieldWrite).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 32) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/visitor/TypeReferenceScanner.java#L89)
+
+
+* spoon.reflect.visitor.chain.CtQueryImpl
+
+    - [logging(boolean)](methods/spoon.reflect.visitor.chain.CtQueryImpl.logging(boolean).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 1) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/chain/CtQueryImpl.java#L240)
+
+    - [detectTargetClassFromCCE(java.lang.ClassCastException,java.lang.Object)](methods/spoon.reflect.visitor.chain.CtQueryImpl.detectTargetClassFromCCE(java.lang.ClassCastException,java.lang.Object).md)
+
+        (**Pseudo-tested**, tests: 22, distance: 8) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/chain/CtQueryImpl.java#L601)
+
+    - [getStepDescription(spoon.reflect.visitor.chain.CtQueryImpl$AbstractStep,java.lang.String,java.lang.Object[])](methods/spoon.reflect.visitor.chain.CtQueryImpl.getStepDescription(spoon.reflect.visitor.chain.CtQueryImpl$AbstractStep,java.lang.String,java.lang.Object[]).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 12) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/chain/CtQueryImpl.java#L284)
+
+
+* spoon.support.reflect.cu.position.SourcePositionImpl
+
+    - [equals(java.lang.Object)](methods/spoon.support.reflect.cu.position.SourcePositionImpl.equals(java.lang.Object).md)
+
+        (**Partially-tested**, tests: 2, distance: 1) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/cu/position/SourcePositionImpl.java#L167)
+
+    - [getColumn()](methods/spoon.support.reflect.cu.position.SourcePositionImpl.getColumn().md)
+
+        (**Pseudo-tested**, tests: 2, distance: 2) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/cu/position/SourcePositionImpl.java#L119)
+
+    - [searchColumnNumber(int)](methods/spoon.support.reflect.cu.position.SourcePositionImpl.searchColumnNumber(int).md)
+
+        (**Pseudo-tested**, tests: 2, distance: 3) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/cu/position/SourcePositionImpl.java#L66)
+
+
+* spoon.support.reflect.reference.CtTypeReferenceImpl
+
+    - [applyActualTypeArguments(spoon.reflect.reference.CtTypeReference,spoon.reflect.reference.CtTypeReference)](methods/spoon.support.reflect.reference.CtTypeReferenceImpl.applyActualTypeArguments(spoon.reflect.reference.CtTypeReference,spoon.reflect.reference.CtTypeReference).md)
+
+        (**Pseudo-tested**, tests: 8, distance: 2) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/reference/CtTypeReferenceImpl.java#L720)
+
+    - [handleParentNotFound(spoon.support.SpoonClassNotFoundException)](methods/spoon.support.reflect.reference.CtTypeReferenceImpl.handleParentNotFound(spoon.support.SpoonClassNotFoundException).md)
+
+        (**Pseudo-tested**, tests: 12, distance: 2) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/reference/CtTypeReferenceImpl.java#L384)
+
+    - [setShadow(boolean)](methods/spoon.support.reflect.reference.CtTypeReferenceImpl.setShadow(boolean).md)
+
+        (**Pseudo-tested**, tests: 830, distance: 7) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/reference/CtTypeReferenceImpl.java#L784)
+
+
+* spoon.testing.utils.Check
+
+    - [assertIsSame(spoon.reflect.declaration.CtElement,spoon.reflect.declaration.CtElement)](methods/spoon.testing.utils.Check.assertIsSame(spoon.reflect.declaration.CtElement,spoon.reflect.declaration.CtElement).md)
+
+        (**Pseudo-tested**, tests: 8, distance: 2) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/testing/utils/Check.java#L43)
+
+    - [assertNotNull(java.lang.Object)](methods/spoon.testing.utils.Check.assertNotNull(java.lang.Object).md)
+
+        (**Pseudo-tested**, tests: 20, distance: 2) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/testing/utils/Check.java#L29)
+
+    - [assertExists(java.io.File)](methods/spoon.testing.utils.Check.assertExists(java.io.File).md)
+
+        (**Pseudo-tested**, tests: 5, distance: 3) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/testing/utils/Check.java#L36)
+
+
+* spoon.processing.AbstractAnnotationProcessor
+
+    - [isToBeProcessed(spoon.reflect.declaration.CtElement)](methods/spoon.processing.AbstractAnnotationProcessor.isToBeProcessed(spoon.reflect.declaration.CtElement).md)
+
+        (**Partially-tested**, tests: 2, distance: 3) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/processing/AbstractAnnotationProcessor.java#L132)
+
+    - [shoudBeConsumed(spoon.reflect.declaration.CtAnnotation)](methods/spoon.processing.AbstractAnnotationProcessor.shoudBeConsumed(spoon.reflect.declaration.CtAnnotation).md)
+
+        (**Pseudo-tested**, tests: 2, distance: 4) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/processing/AbstractAnnotationProcessor.java#L166)
+
+    - [shoudBeProcessed(spoon.reflect.declaration.CtAnnotation)](methods/spoon.processing.AbstractAnnotationProcessor.shoudBeProcessed(spoon.reflect.declaration.CtAnnotation).md)
+
+        (**Partially-tested**, tests: 2, distance: 4) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/processing/AbstractAnnotationProcessor.java#L170)
+
+
+* spoon.support.reflect.declaration.CtAnnotationImpl
+
+    - [getDefaultValue(java.lang.String)](methods/spoon.support.reflect.declaration.CtAnnotationImpl.getDefaultValue(java.lang.String).md)
+
+        (**Pseudo-tested**, tests: 26, distance: 4) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtAnnotationImpl.java#L305)
+
+    - [setTypeCasts(java.util.List)](methods/spoon.support.reflect.declaration.CtAnnotationImpl.setTypeCasts(java.util.List).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 5) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtAnnotationImpl.java#L487)
+
+    - [setShadow(boolean)](methods/spoon.support.reflect.declaration.CtAnnotationImpl.setShadow(boolean).md)
+
+        (**Pseudo-tested**, tests: 138, distance: 8) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtAnnotationImpl.java#L468)
+
+
+* spoon.support.reflect.declaration.CtAnnotationTypeImpl
+
+    - [setSuperInterfaces(java.util.Set)](methods/spoon.support.reflect.declaration.CtAnnotationTypeImpl.setSuperInterfaces(java.util.Set).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 5) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtAnnotationTypeImpl.java#L75)
+
+    - [setFormalCtTypeParameters(java.util.List)](methods/spoon.support.reflect.declaration.CtAnnotationTypeImpl.setFormalCtTypeParameters(java.util.List).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 5) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtAnnotationTypeImpl.java#L87)
+
+    - [setSuperclass(spoon.reflect.reference.CtTypeReference)](methods/spoon.support.reflect.declaration.CtAnnotationTypeImpl.setSuperclass(spoon.reflect.reference.CtTypeReference).md)
+
+        (**Pseudo-tested**, tests: 3, distance: 5) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtAnnotationTypeImpl.java#L69)
+
+
+* spoon.support.reflect.declaration.CtConstructorImpl
+
+    - [setType(spoon.reflect.reference.CtTypeReference)](methods/spoon.support.reflect.declaration.CtConstructorImpl.setType(spoon.reflect.reference.CtTypeReference).md)
+
+        (**Pseudo-tested**, tests: 3, distance: 5) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtConstructorImpl.java#L90)
+
+    - [setShadow(boolean)](methods/spoon.support.reflect.declaration.CtConstructorImpl.setShadow(boolean).md)
+
+        (**Pseudo-tested**, tests: 251, distance: 7) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtConstructorImpl.java#L199)
+
+    - [setSimpleName(java.lang.String)](methods/spoon.support.reflect.declaration.CtConstructorImpl.setSimpleName(java.lang.String).md)
+
+        (**Pseudo-tested**, tests: 25, distance: 15) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtConstructorImpl.java#L63)
+
+
+* spoon.support.reflect.declaration.CtParameterImpl
+
+    - [setDefaultExpression(spoon.reflect.code.CtExpression)](methods/spoon.support.reflect.declaration.CtParameterImpl.setDefaultExpression(spoon.reflect.code.CtExpression).md)
+
+        (**Pseudo-tested**, tests: 3, distance: 5) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtParameterImpl.java#L89)
+
+    - [setShadow(boolean)](methods/spoon.support.reflect.declaration.CtParameterImpl.setShadow(boolean).md)
+
+        (**Pseudo-tested**, tests: 260, distance: 9) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtParameterImpl.java#L181)
+
+    - [hasModifier(spoon.reflect.declaration.ModifierKind)](methods/spoon.support.reflect.declaration.CtParameterImpl.hasModifier(spoon.reflect.declaration.ModifierKind).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 15) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtParameterImpl.java#L121)
+
+
+* spoon.support.visitor.java.JavaReflectionVisitorImpl
+
+    - [visitInterfaceReference(java.lang.Class)](methods/spoon.support.visitor.java.JavaReflectionVisitorImpl.visitInterfaceReference(java.lang.Class).md)
+
+        (**Pseudo-tested**, tests: 159, distance: 5) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/visitor/java/JavaReflectionVisitorImpl.java#L345)
+
+    - [visitConstructor(java.lang.reflect.Constructor)](methods/spoon.support.visitor.java.JavaReflectionVisitorImpl.visitConstructor(java.lang.reflect.Constructor).md)
+
+        (**Pseudo-tested**, tests: 238, distance: 5) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/visitor/java/JavaReflectionVisitorImpl.java#L166)
+
+    - [visitArrayReference(java.lang.Class)](methods/spoon.support.visitor.java.JavaReflectionVisitorImpl.visitArrayReference(java.lang.Class).md)
+
+        (**Pseudo-tested**, tests: 147, distance: 7) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/visitor/java/JavaReflectionVisitorImpl.java#L326)
+
+
+* spoon.support.compiler.jdt.JDTBasedSpoonCompiler
+
+    - [generateProcessedSourceFiles(spoon.OutputType)](methods/spoon.support.compiler.jdt.JDTBasedSpoonCompiler.generateProcessedSourceFiles(spoon.OutputType).md)
+
+        (**Pseudo-tested**, tests: 11, distance: 1) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/compiler/jdt/JDTBasedSpoonCompiler.java#L187)
+
+    - [setSourceOutputDirectory(java.io.File)](methods/spoon.support.compiler.jdt.JDTBasedSpoonCompiler.setSourceOutputDirectory(java.io.File).md)
+
+        (**Pseudo-tested**, tests: 755, distance: 1) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/compiler/jdt/JDTBasedSpoonCompiler.java#L281)
+
+    - [setBinaryOutputDirectory(java.io.File)](methods/spoon.support.compiler.jdt.JDTBasedSpoonCompiler.setBinaryOutputDirectory(java.io.File).md)
+
+        (**Pseudo-tested**, tests: 755, distance: 1) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/compiler/jdt/JDTBasedSpoonCompiler.java#L291)
+
+    - [checkModel()](methods/spoon.support.compiler.jdt.JDTBasedSpoonCompiler.checkModel().md)
+
+        (**Pseudo-tested**, tests: 700, distance: 3) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/compiler/jdt/JDTBasedSpoonCompiler.java#L130)
+
+
+* spoon.support.reflect.code.CtCatchVariableImpl
+
+    - [hasModifier(spoon.reflect.declaration.ModifierKind)](methods/spoon.support.reflect.code.CtCatchVariableImpl.hasModifier(spoon.reflect.declaration.ModifierKind).md)
+
+        (**Partially-tested**, tests: 1, distance: 1) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/code/CtCatchVariableImpl.java#L184)
+
+    - [setDefaultExpression(spoon.reflect.code.CtExpression)](methods/spoon.support.reflect.code.CtCatchVariableImpl.setDefaultExpression(spoon.reflect.code.CtExpression).md)
+
+        (**Pseudo-tested**, tests: 3, distance: 5) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/code/CtCatchVariableImpl.java#L116)
+
+    - [setModifiers(java.util.Set)](methods/spoon.support.reflect.code.CtCatchVariableImpl.setModifiers(java.util.Set).md)
+
+        (**Pseudo-tested**, tests: 8, distance: 13) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/code/CtCatchVariableImpl.java#L189)
+
+    - [getVisibility()](methods/spoon.support.reflect.code.CtCatchVariableImpl.getVisibility().md)
+
+        (**Pseudo-tested**, tests: 4, distance: 24) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/code/CtCatchVariableImpl.java#L213)
+
+
+* spoon.testing.utils.ModelUtils
+
+    - [canBeBuilt(java.io.File,int)](methods/spoon.testing.utils.ModelUtils.canBeBuilt(java.io.File,int).md)
+
+        (**Pseudo-tested**, tests: 8, distance: 1) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/testing/utils/ModelUtils.java#L100)
+
+    - [canBeBuilt(java.lang.String,int)](methods/spoon.testing.utils.ModelUtils.canBeBuilt(java.lang.String,int).md)
+
+        (**Pseudo-tested**, tests: 44, distance: 1) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/testing/utils/ModelUtils.java#L104)
+
+    - [canBeBuilt(java.lang.String,int,boolean)](methods/spoon.testing.utils.ModelUtils.canBeBuilt(java.lang.String,int,boolean).md)
+
+        (**Pseudo-tested**, tests: 55, distance: 1) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/testing/utils/ModelUtils.java#L124)
+
+    - [canBeBuilt(java.io.File,int,boolean)](methods/spoon.testing.utils.ModelUtils.canBeBuilt(java.io.File,int,boolean).md)
+
+        (**Pseudo-tested**, tests: 63, distance: 2) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/testing/utils/ModelUtils.java#L108)
+
+
+* spoon.support.visitor.MethodTypingContext
+
+    - [checkSameTypingContext(spoon.support.visitor.ClassTypingContext,spoon.reflect.declaration.CtFormalTypeDeclarer)](methods/spoon.support.visitor.MethodTypingContext.checkSameTypingContext(spoon.support.visitor.ClassTypingContext,spoon.reflect.declaration.CtFormalTypeDeclarer).md)
+
+        (**Pseudo-tested**, tests: 65, distance: 2) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/visitor/MethodTypingContext.java#L313)
+
+    - [hasSameMethodFormalTypeParameters(spoon.reflect.declaration.CtFormalTypeDeclarer)](methods/spoon.support.visitor.MethodTypingContext.hasSameMethodFormalTypeParameters(spoon.reflect.declaration.CtFormalTypeDeclarer).md)
+
+        (**Partially-tested**, tests: 43, distance: 4) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/visitor/MethodTypingContext.java#L222)
+
+    - [isSameMethodFormalTypeParameter(spoon.reflect.declaration.CtTypeParameter,spoon.reflect.declaration.CtTypeParameter)](methods/spoon.support.visitor.MethodTypingContext.isSameMethodFormalTypeParameter(spoon.reflect.declaration.CtTypeParameter,spoon.reflect.declaration.CtTypeParameter).md)
+
+        (**Partially-tested**, tests: 20, distance: 5) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/visitor/MethodTypingContext.java#L238)
+
+    - [getIndexOfTypeParam(spoon.reflect.declaration.CtFormalTypeDeclarer,spoon.reflect.reference.CtTypeReference)](methods/spoon.support.visitor.MethodTypingContext.getIndexOfTypeParam(spoon.reflect.declaration.CtFormalTypeDeclarer,spoon.reflect.reference.CtTypeReference).md)
+
+        (**Pseudo-tested**, tests: 20, distance: 6) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/visitor/MethodTypingContext.java#L266)
+
+
+* spoon.template.TemplateMatcher
+
+    - [getVarargs(spoon.reflect.declaration.CtClass,java.util.List)](methods/spoon.template.TemplateMatcher.getVarargs(spoon.reflect.declaration.CtClass,java.util.List).md)
+
+        (**Pseudo-tested**, tests: 4, distance: 2) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/template/TemplateMatcher.java#L116)
+
+    - [addMatch(java.lang.Object,java.lang.Object)](methods/spoon.template.TemplateMatcher.addMatch(java.lang.Object,java.lang.Object).md)
+
+        (**Partially-tested**, tests: 4, distance: 4) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/template/TemplateMatcher.java#L203)
+
+    - [invokeCallBack(java.lang.Object,java.lang.Object)](methods/spoon.template.TemplateMatcher.invokeCallBack(java.lang.Object,java.lang.Object).md)
+
+        (**Partially-tested**, tests: 4, distance: 5) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/template/TemplateMatcher.java#L481)
+
+    - [isCurrentTemplate(java.lang.Object,spoon.reflect.declaration.CtElement)](methods/spoon.template.TemplateMatcher.isCurrentTemplate(java.lang.Object,spoon.reflect.declaration.CtElement).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 6) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/template/TemplateMatcher.java#L517)
+
+
+* spoon.refactoring.CtParameterRemoveRefactoring
+
+    - [checkAllExecutables()](methods/spoon.refactoring.CtParameterRemoveRefactoring.checkAllExecutables().md)
+
+        (**Pseudo-tested**, tests: 2, distance: 3) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/refactoring/CtParameterRemoveRefactoring.java#L177)
+
+    - [checkExecutable(spoon.reflect.declaration.CtExecutable)](methods/spoon.refactoring.CtParameterRemoveRefactoring.checkExecutable(spoon.reflect.declaration.CtExecutable).md)
+
+        (**Pseudo-tested**, tests: 2, distance: 4) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/refactoring/CtParameterRemoveRefactoring.java#L183)
+
+    - [isAllowedParameterUsage(spoon.reflect.reference.CtParameterReference)](methods/spoon.refactoring.CtParameterRemoveRefactoring.isAllowedParameterUsage(spoon.reflect.reference.CtParameterReference).md)
+
+        (**Partially-tested**, tests: 1, distance: 54) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/refactoring/CtParameterRemoveRefactoring.java#L216)
+
+    - [isRemovedParamOfRefactoredInvocation(spoon.reflect.reference.CtParameterReference)](methods/spoon.refactoring.CtParameterRemoveRefactoring.isRemovedParamOfRefactoredInvocation(spoon.reflect.reference.CtParameterReference).md)
+
+        (**Partially-tested**, tests: 1, distance: 55) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/refactoring/CtParameterRemoveRefactoring.java#L274)
+
+
+* spoon.support.reflect.declaration.CtAnnotationMethodImpl
+
+    - [setThrownTypes(java.util.Set)](methods/spoon.support.reflect.declaration.CtAnnotationMethodImpl.setThrownTypes(java.util.Set).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 5) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtAnnotationMethodImpl.java#L88)
+
+    - [setFormalCtTypeParameters(java.util.List)](methods/spoon.support.reflect.declaration.CtAnnotationMethodImpl.setFormalCtTypeParameters(java.util.List).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 5) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtAnnotationMethodImpl.java#L100)
+
+    - [setParameters(java.util.List)](methods/spoon.support.reflect.declaration.CtAnnotationMethodImpl.setParameters(java.util.List).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 5) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtAnnotationMethodImpl.java#L112)
+
+    - [setBody(spoon.reflect.code.CtStatement)](methods/spoon.support.reflect.declaration.CtAnnotationMethodImpl.setBody(spoon.reflect.code.CtStatement).md)
+
+        (**Pseudo-tested**, tests: 3, distance: 5) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtAnnotationMethodImpl.java#L76)
+
+
+* spoon.support.visitor.java.reflect.RtParameter
+
+    - [parametersOf(java.lang.reflect.Constructor)](methods/spoon.support.visitor.java.reflect.RtParameter.parametersOf(java.lang.reflect.Constructor).md)
+
+        (**Partially-tested**, tests: 238, distance: 6) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/visitor/java/reflect/RtParameter.java#L162)
+
+    - [getName()](methods/spoon.support.visitor.java.reflect.RtParameter.getName().md)
+
+        (**Partially-tested**, tests: 251, distance: 7) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/visitor/java/reflect/RtParameter.java#L57)
+
+    - [isVarArgs()](methods/spoon.support.visitor.java.reflect.RtParameter.isVarArgs().md)
+
+        (**Pseudo-tested**, tests: 251, distance: 7) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/visitor/java/reflect/RtParameter.java#L97)
+
+    - [getDeclaredAnnotations()](methods/spoon.support.visitor.java.reflect.RtParameter.getDeclaredAnnotations().md)
+
+        (**Partially-tested**, tests: 251, distance: 8) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/visitor/java/reflect/RtParameter.java#L83)
+
+
+* spoon.support.reflect.declaration.CtEnumImpl
+
+    - [isSubtypeOf(spoon.reflect.reference.CtTypeReference)](methods/spoon.support.reflect.declaration.CtEnumImpl.isSubtypeOf(spoon.reflect.reference.CtTypeReference).md)
+
+        (**Partially-tested**, tests: 1, distance: 1) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtEnumImpl.java#L70)
+
+    - [valuesMethod()](methods/spoon.support.reflect.declaration.CtEnumImpl.valuesMethod().md)
+
+        (**Pseudo-tested**, tests: 1, distance: 2) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtEnumImpl.java#L165)
+
+    - [setFormalCtTypeParameters(java.util.List)](methods/spoon.support.reflect.declaration.CtEnumImpl.setFormalCtTypeParameters(java.util.List).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 5) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtEnumImpl.java#L239)
+
+    - [setSuperclass(spoon.reflect.reference.CtTypeReference)](methods/spoon.support.reflect.declaration.CtEnumImpl.setSuperclass(spoon.reflect.reference.CtTypeReference).md)
+
+        (**Pseudo-tested**, tests: 3, distance: 5) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtEnumImpl.java#L161)
+
+    - [getEnumValue(java.lang.String)](methods/spoon.support.reflect.declaration.CtEnumImpl.getEnumValue(java.lang.String).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 9) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtEnumImpl.java#L102)
+
+
+* spoon.support.StandardEnvironment
+
+    - [reportEnd()](methods/spoon.support.StandardEnvironment.reportEnd().md)
+
+        (**Pseudo-tested**, tests: 183, distance: 2) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/StandardEnvironment.java#L265)
+
+    - [getProcessorProperties(java.lang.String)](methods/spoon.support.StandardEnvironment.getProcessorProperties(java.lang.String).md)
+
+        (**Pseudo-tested**, tests: 24, distance: 4) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/StandardEnvironment.java#L177)
+
+    - [report(spoon.processing.Processor,org.apache.log4j.Level,java.lang.String)](methods/spoon.support.StandardEnvironment.report(spoon.processing.Processor,org.apache.log4j.Level,java.lang.String).md)
+
+        (**Pseudo-tested**, tests: 51, distance: 4) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/StandardEnvironment.java#L241)
+
+    - [prefix(java.lang.StringBuffer,org.apache.log4j.Level)](methods/spoon.support.StandardEnvironment.prefix(java.lang.StringBuffer,org.apache.log4j.Level).md)
+
+        (**Pseudo-tested**, tests: 51, distance: 5) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/StandardEnvironment.java#L194)
+
+    - [print(java.lang.String,org.apache.log4j.Level)](methods/spoon.support.StandardEnvironment.print(java.lang.String,org.apache.log4j.Level).md)
+
+        (**Pseudo-tested**, tests: 51, distance: 5) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/StandardEnvironment.java#L250)
+
+
+* spoon.reflect.visitor.DefaultJavaPrettyPrinter
+
+    - [getLineNumberMapping()](methods/spoon.reflect.visitor.DefaultJavaPrettyPrinter.getLineNumberMapping().md)
+
+        (**Pseudo-tested**, tests: 162, distance: 2) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/DefaultJavaPrettyPrinter.java#L1986)
+
+    - [visitCtWhile(spoon.reflect.code.CtWhile)](methods/spoon.reflect.visitor.DefaultJavaPrettyPrinter.visitCtWhile(spoon.reflect.code.CtWhile).md)
+
+        (**Pseudo-tested**, tests: 12, distance: 11) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/DefaultJavaPrettyPrinter.java#L1884)
+
+    - [visitCtTryWithResource(spoon.reflect.code.CtTryWithResource)](methods/spoon.reflect.visitor.DefaultJavaPrettyPrinter.visitCtTryWithResource(spoon.reflect.code.CtTryWithResource).md)
+
+        (**Pseudo-tested**, tests: 5, distance: 15) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/DefaultJavaPrettyPrinter.java#L1701)
+
+    - [visitCtParameterReference(spoon.reflect.reference.CtParameterReference)](methods/spoon.reflect.visitor.DefaultJavaPrettyPrinter.visitCtParameterReference(spoon.reflect.reference.CtParameterReference).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 43) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/DefaultJavaPrettyPrinter.java#L1621)
+
+    - [visitCtLocalVariableReference(spoon.reflect.reference.CtLocalVariableReference)](methods/spoon.reflect.visitor.DefaultJavaPrettyPrinter.visitCtLocalVariableReference(spoon.reflect.reference.CtLocalVariableReference).md)
+
+        (**Pseudo-tested**, tests: 3, distance: 43) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/DefaultJavaPrettyPrinter.java#L1335)
+
+    - [visitCtCatchVariableReference(spoon.reflect.reference.CtCatchVariableReference)](methods/spoon.reflect.visitor.DefaultJavaPrettyPrinter.visitCtCatchVariableReference(spoon.reflect.reference.CtCatchVariableReference).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 71) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/DefaultJavaPrettyPrinter.java#L1351)
+
+
+* spoon.support.reflect.declaration.CtAnonymousExecutableImpl
+
+    - [setParameters(java.util.List)](methods/spoon.support.reflect.declaration.CtAnonymousExecutableImpl.setParameters(java.util.List).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 5) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtAnonymousExecutableImpl.java#L118)
+
+    - [setThrownTypes(java.util.Set)](methods/spoon.support.reflect.declaration.CtAnonymousExecutableImpl.setThrownTypes(java.util.Set).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 5) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtAnonymousExecutableImpl.java#L144)
+
+    - [setType(spoon.reflect.reference.CtTypeReference)](methods/spoon.support.reflect.declaration.CtAnonymousExecutableImpl.setType(spoon.reflect.reference.CtTypeReference).md)
+
+        (**Pseudo-tested**, tests: 3, distance: 5) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtAnonymousExecutableImpl.java#L183)
+
+    - [setModifiers(java.util.Set)](methods/spoon.support.reflect.declaration.CtAnonymousExecutableImpl.setModifiers(java.util.Set).md)
+
+        (**Pseudo-tested**, tests: 4, distance: 14) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtAnonymousExecutableImpl.java#L87)
+
+    - [setSimpleName(java.lang.String)](methods/spoon.support.reflect.declaration.CtAnonymousExecutableImpl.setSimpleName(java.lang.String).md)
+
+        (**Pseudo-tested**, tests: 4, distance: 14) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtAnonymousExecutableImpl.java#L170)
+
+    - [getVisibility()](methods/spoon.support.reflect.declaration.CtAnonymousExecutableImpl.getVisibility().md)
+
+        (**Pseudo-tested**, tests: 20, distance: 24) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtAnonymousExecutableImpl.java#L68)
+
+
+* spoon.support.reflect.declaration.CtModuleImpl
+
+    - [addRequiredModule(spoon.reflect.declaration.CtModuleRequirement)](methods/spoon.support.reflect.declaration.CtModuleImpl.addRequiredModule(spoon.reflect.declaration.CtModuleRequirement).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 5) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtModuleImpl.java#L361)
+
+    - [addUsedService(spoon.reflect.declaration.CtUsedService)](methods/spoon.support.reflect.declaration.CtModuleImpl.addUsedService(spoon.reflect.declaration.CtUsedService).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 5) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtModuleImpl.java#L204)
+
+    - [addOpenedPackage(spoon.reflect.declaration.CtPackageExport)](methods/spoon.support.reflect.declaration.CtModuleImpl.addOpenedPackage(spoon.reflect.declaration.CtPackageExport).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 5) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtModuleImpl.java#L312)
+
+    - [addProvidedService(spoon.reflect.declaration.CtProvidedService)](methods/spoon.support.reflect.declaration.CtModuleImpl.addProvidedService(spoon.reflect.declaration.CtProvidedService).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 5) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtModuleImpl.java#L411)
+
+    - [addExportedPackage(spoon.reflect.declaration.CtPackageExport)](methods/spoon.support.reflect.declaration.CtModuleImpl.addExportedPackage(spoon.reflect.declaration.CtPackageExport).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 5) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtModuleImpl.java#L258)
+
+    - [computeRoleFromModuleDirectory(spoon.reflect.declaration.CtModuleDirective)](methods/spoon.support.reflect.declaration.CtModuleImpl.computeRoleFromModuleDirectory(spoon.reflect.declaration.CtModuleDirective).md)
+
+        (**Pseudo-tested**, tests: 5, distance: 7) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtModuleImpl.java#L104)
+
+
+* spoon.reflect.visitor.CtScanner
+
+    - [scan(spoon.reflect.path.CtRole,java.lang.Object)](methods/spoon.reflect.visitor.CtScanner.scan(spoon.reflect.path.CtRole,java.lang.Object).md)
+
+        (**Pseudo-tested**, tests: 361, distance: 6) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/CtScanner.java#L198)
+
+    - [visitCtModuleReference(spoon.reflect.reference.CtModuleReference)](methods/spoon.reflect.visitor.CtScanner.visitCtModuleReference(spoon.reflect.reference.CtModuleReference).md)
+
+        (**Pseudo-tested**, tests: 5, distance: 7) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/CtScanner.java#L928)
+
+    - [visitCtComment(spoon.reflect.code.CtComment)](methods/spoon.reflect.visitor.CtScanner.visitCtComment(spoon.reflect.code.CtComment).md)
+
+        (**Pseudo-tested**, tests: 35, distance: 15) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/CtScanner.java#L885)
+
+    - [visitCtJavaDocTag(spoon.reflect.code.CtJavaDocTag)](methods/spoon.reflect.visitor.CtScanner.visitCtJavaDocTag(spoon.reflect.code.CtJavaDocTag).md)
+
+        (**Pseudo-tested**, tests: 22, distance: 21) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/CtScanner.java#L902)
+
+    - [visitCtCodeSnippetStatement(spoon.reflect.code.CtCodeSnippetStatement)](methods/spoon.reflect.visitor.CtScanner.visitCtCodeSnippetStatement(spoon.reflect.code.CtCodeSnippetStatement).md)
+
+        (**Pseudo-tested**, tests: 5, distance: 23) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/CtScanner.java#L838)
+
+    - [visitCtBreak(spoon.reflect.code.CtBreak)](methods/spoon.reflect.visitor.CtScanner.visitCtBreak(spoon.reflect.code.CtBreak).md)
+
+        (**Pseudo-tested**, tests: 58, distance: 34) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/CtScanner.java#L304)
+
+    - [visitCtContinue(spoon.reflect.code.CtContinue)](methods/spoon.reflect.visitor.CtScanner.visitCtContinue(spoon.reflect.code.CtContinue).md)
+
+        (**Pseudo-tested**, tests: 38, distance: 37) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/CtScanner.java#L372)
+
+
+* spoon.support.reflect.eval.VisitorPartialEvaluator
+
+    - [visitCtReturn(spoon.reflect.code.CtReturn)](methods/spoon.support.reflect.eval.VisitorPartialEvaluator.visitCtReturn(spoon.reflect.code.CtReturn).md)
+
+        (**Pseudo-tested**, tests: 2, distance: 10) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/eval/VisitorPartialEvaluator.java#L458)
+
+    - [visitCtField(spoon.reflect.declaration.CtField)](methods/spoon.support.reflect.eval.VisitorPartialEvaluator.visitCtField(spoon.reflect.declaration.CtField).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 11) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/eval/VisitorPartialEvaluator.java#L439)
+
+    - [visitVariableAccess(spoon.reflect.code.CtVariableAccess)](methods/spoon.support.reflect.eval.VisitorPartialEvaluator.visitVariableAccess(spoon.reflect.code.CtVariableAccess).md)
+
+        (**Pseudo-tested**, tests: 2, distance: 14) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/eval/VisitorPartialEvaluator.java#L506)
+
+    - [visitCtLocalVariable(spoon.reflect.code.CtLocalVariable)](methods/spoon.support.reflect.eval.VisitorPartialEvaluator.visitCtLocalVariable(spoon.reflect.code.CtLocalVariable).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 18) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/eval/VisitorPartialEvaluator.java#L446)
+
+    - [visitCtAssignment(spoon.reflect.code.CtAssignment)](methods/spoon.support.reflect.eval.VisitorPartialEvaluator.visitCtAssignment(spoon.reflect.code.CtAssignment).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 20) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/eval/VisitorPartialEvaluator.java#L515)
+
+    - [visitCtWhile(spoon.reflect.code.CtWhile)](methods/spoon.support.reflect.eval.VisitorPartialEvaluator.visitCtWhile(spoon.reflect.code.CtWhile).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 20) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/eval/VisitorPartialEvaluator.java#L521)
+
+    - [visitCtDo(spoon.reflect.code.CtDo)](methods/spoon.support.reflect.eval.VisitorPartialEvaluator.visitCtDo(spoon.reflect.code.CtDo).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 20) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/eval/VisitorPartialEvaluator.java#L266)
+
+
+* spoon.support.visitor.equals.EqualsChecker
+
+    - [scanCtStatement(spoon.reflect.code.CtStatement)](methods/spoon.support.visitor.equals.EqualsChecker.scanCtStatement(spoon.reflect.code.CtStatement).md)
+
+        (**Pseudo-tested**, tests: 205, distance: 10) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/visitor/equals/EqualsChecker.java#L71)
+
+    - [visitCtUnaryOperator(spoon.reflect.code.CtUnaryOperator)](methods/spoon.support.visitor.equals.EqualsChecker.visitCtUnaryOperator(spoon.reflect.code.CtUnaryOperator).md)
+
+        (**Pseudo-tested**, tests: 5, distance: 13) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/visitor/equals/EqualsChecker.java#L149)
+
+    - [visitCtImport(spoon.reflect.declaration.CtImport)](methods/spoon.support.visitor.equals.EqualsChecker.visitCtImport(spoon.reflect.declaration.CtImport).md)
+
+        (**Pseudo-tested**, tests: 30, distance: 13) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/visitor/equals/EqualsChecker.java#L261)
+
+    - [visitCtExecutableReference(spoon.reflect.reference.CtExecutableReference)](methods/spoon.support.visitor.equals.EqualsChecker.visitCtExecutableReference(spoon.reflect.reference.CtExecutableReference).md)
+
+        (**Pseudo-tested**, tests: 43, distance: 13) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/visitor/equals/EqualsChecker.java#L213)
+
+    - [visitCtArrayTypeReference(spoon.reflect.reference.CtArrayTypeReference)](methods/spoon.support.visitor.equals.EqualsChecker.visitCtArrayTypeReference(spoon.reflect.reference.CtArrayTypeReference).md)
+
+        (**Pseudo-tested**, tests: 62, distance: 13) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/visitor/equals/EqualsChecker.java#L167)
+
+    - [visitCtBinaryOperator(spoon.reflect.code.CtBinaryOperator)](methods/spoon.support.visitor.equals.EqualsChecker.visitCtBinaryOperator(spoon.reflect.code.CtBinaryOperator).md)
+
+        (**Pseudo-tested**, tests: 6, distance: 17) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/visitor/equals/EqualsChecker.java#L131)
+
+    - [visitCtBreak(spoon.reflect.code.CtBreak)](methods/spoon.support.visitor.equals.EqualsChecker.visitCtBreak(spoon.reflect.code.CtBreak).md)
+
+        (**Pseudo-tested**, tests: 2, distance: 42) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/visitor/equals/EqualsChecker.java#L177)
+
+    - [visitCtOperatorAssignment(spoon.reflect.code.CtOperatorAssignment)](methods/spoon.support.visitor.equals.EqualsChecker.visitCtOperatorAssignment(spoon.reflect.code.CtOperatorAssignment).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 59) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/visitor/equals/EqualsChecker.java#L113)
+
+
+* spoon.support.reflect.declaration.CtTypeParameterImpl
+
+    - [isSubtypeOf(spoon.support.visitor.GenericTypeAdapter,spoon.reflect.declaration.CtTypeParameter,spoon.reflect.declaration.CtTypeParameter)](methods/spoon.support.reflect.declaration.CtTypeParameterImpl.isSubtypeOf(spoon.support.visitor.GenericTypeAdapter,spoon.reflect.declaration.CtTypeParameter,spoon.reflect.declaration.CtTypeParameter).md)
+
+        (**Partially-tested**, tests: 1, distance: 2) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtTypeParameterImpl.java#L269)
+
+    - [isSameInSameScope(spoon.reflect.declaration.CtTypeParameter,spoon.reflect.reference.CtTypeReference)](methods/spoon.support.reflect.declaration.CtTypeParameterImpl.isSameInSameScope(spoon.reflect.declaration.CtTypeParameter,spoon.reflect.reference.CtTypeReference).md)
+
+        (**Partially-tested**, tests: 1, distance: 3) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtTypeParameterImpl.java#L296)
+
+    - [setFields(java.util.List)](methods/spoon.support.reflect.declaration.CtTypeParameterImpl.setFields(java.util.List).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 5) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtTypeParameterImpl.java#L125)
+
+    - [setTypeMembers(java.util.List)](methods/spoon.support.reflect.declaration.CtTypeParameterImpl.setTypeMembers(java.util.List).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 5) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtTypeParameterImpl.java#L429)
+
+    - [setNestedTypes(java.util.Set)](methods/spoon.support.reflect.declaration.CtTypeParameterImpl.setNestedTypes(java.util.Set).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 5) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtTypeParameterImpl.java#L164)
+
+    - [setFormalCtTypeParameters(java.util.List)](methods/spoon.support.reflect.declaration.CtTypeParameterImpl.setFormalCtTypeParameters(java.util.List).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 5) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtTypeParameterImpl.java#L417)
+
+    - [setSuperInterfaces(java.util.Set)](methods/spoon.support.reflect.declaration.CtTypeParameterImpl.setSuperInterfaces(java.util.Set).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 5) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtTypeParameterImpl.java#L387)
+
+    - [setMethods(java.util.Set)](methods/spoon.support.reflect.declaration.CtTypeParameterImpl.setMethods(java.util.Set).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 5) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtTypeParameterImpl.java#L380)
+
+    - [setModifiers(java.util.Set)](methods/spoon.support.reflect.declaration.CtTypeParameterImpl.setModifiers(java.util.Set).md)
+
+        (**Pseudo-tested**, tests: 23, distance: 15) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/reflect/declaration/CtTypeParameterImpl.java#L203)
+
+
+* spoon.reflect.visitor.ImportScannerImpl
+
+    - [visitCtEnum(spoon.reflect.declaration.CtEnum)](methods/spoon.reflect.visitor.ImportScannerImpl.visitCtEnum(spoon.reflect.declaration.CtEnum).md)
+
+        (**Pseudo-tested**, tests: 13, distance: 6) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/ImportScannerImpl.java#L149)
+
+    - [visitCtInterface(spoon.reflect.declaration.CtInterface)](methods/spoon.reflect.visitor.ImportScannerImpl.visitCtInterface(spoon.reflect.declaration.CtInterface).md)
+
+        (**Pseudo-tested**, tests: 29, distance: 6) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/ImportScannerImpl.java#L155)
+
+    - [addFieldImport(spoon.reflect.reference.CtFieldReference)](methods/spoon.reflect.visitor.ImportScannerImpl.addFieldImport(spoon.reflect.reference.CtFieldReference).md)
+
+        (**Pseudo-tested**, tests: 19, distance: 11) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/ImportScannerImpl.java#L477)
+
+    - [declaringTypeIsLocalOrImported(spoon.reflect.reference.CtTypeReference)](methods/spoon.reflect.visitor.ImportScannerImpl.declaringTypeIsLocalOrImported(spoon.reflect.reference.CtTypeReference).md)
+
+        (**Partially-tested**, tests: 25, distance: 12) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/ImportScannerImpl.java#L379)
+
+    - [classNamePresentInJavaLang(spoon.reflect.reference.CtTypeReference)](methods/spoon.reflect.visitor.ImportScannerImpl.classNamePresentInJavaLang(spoon.reflect.reference.CtTypeReference).md)
+
+        (**Pseudo-tested**, tests: 14, distance: 13) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/ImportScannerImpl.java#L510)
+
+    - [isImportedInMethodImports(spoon.reflect.reference.CtExecutableReference)](methods/spoon.reflect.visitor.ImportScannerImpl.isImportedInMethodImports(spoon.reflect.reference.CtExecutableReference).md)
+
+        (**Partially-tested**, tests: 72, distance: 18) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/ImportScannerImpl.java#L459)
+
+    - [addMethodImport(spoon.reflect.reference.CtExecutableReference)](methods/spoon.reflect.visitor.ImportScannerImpl.addMethodImport(spoon.reflect.reference.CtExecutableReference).md)
+
+        (**Pseudo-tested**, tests: 19, distance: 21) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/ImportScannerImpl.java#L429)
+
+    - [isInCollisionWithLocalMethod(spoon.reflect.reference.CtExecutableReference)](methods/spoon.reflect.visitor.ImportScannerImpl.isInCollisionWithLocalMethod(spoon.reflect.reference.CtExecutableReference).md)
+
+        (**Pseudo-tested**, tests: 3, distance: 31) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/ImportScannerImpl.java#L413)
+
+    - [getSignature(spoon.reflect.reference.CtExecutableReference)](methods/spoon.reflect.visitor.ImportScannerImpl.getSignature(spoon.reflect.reference.CtExecutableReference).md)
+
+        (**Partially-tested**, tests: 4, distance: 56) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/ImportScannerImpl.java#L471)
+
+
+* spoon.support.visitor.clone.CloneBuilder
+
+    - [scanCtStatement(spoon.reflect.code.CtStatement)](methods/spoon.support.visitor.clone.CloneBuilder.scanCtStatement(spoon.reflect.code.CtStatement).md)
+
+        (**Pseudo-tested**, tests: 66, distance: 10) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/visitor/clone/CloneBuilder.java#L87)
+
+    - [visitCtModuleRequirement(spoon.reflect.declaration.CtModuleRequirement)](methods/spoon.support.visitor.clone.CloneBuilder.visitCtModuleRequirement(spoon.reflect.declaration.CtModuleRequirement).md)
+
+        (**Pseudo-tested**, tests: 3, distance: 11) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/visitor/clone/CloneBuilder.java#L285)
+
+    - [visitCtPackageExport(spoon.reflect.declaration.CtPackageExport)](methods/spoon.support.visitor.clone.CloneBuilder.visitCtPackageExport(spoon.reflect.declaration.CtPackageExport).md)
+
+        (**Pseudo-tested**, tests: 3, distance: 11) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/visitor/clone/CloneBuilder.java#L278)
+
+    - [visitCtModule(spoon.reflect.declaration.CtModule)](methods/spoon.support.visitor.clone.CloneBuilder.visitCtModule(spoon.reflect.declaration.CtModule).md)
+
+        (**Pseudo-tested**, tests: 3, distance: 12) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/visitor/clone/CloneBuilder.java#L271)
+
+    - [visitCtCodeSnippetStatement(spoon.reflect.code.CtCodeSnippetStatement)](methods/spoon.support.visitor.clone.CloneBuilder.visitCtCodeSnippetStatement(spoon.reflect.code.CtCodeSnippetStatement).md)
+
+        (**Pseudo-tested**, tests: 5, distance: 12) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/visitor/clone/CloneBuilder.java#L50)
+
+    - [visitCtContinue(spoon.reflect.code.CtContinue)](methods/spoon.support.visitor.clone.CloneBuilder.visitCtContinue(spoon.reflect.code.CtContinue).md)
+
+        (**Pseudo-tested**, tests: 2, distance: 13) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/visitor/clone/CloneBuilder.java#L140)
+
+    - [visitCtCodeSnippetExpression(spoon.reflect.code.CtCodeSnippetExpression)](methods/spoon.support.visitor.clone.CloneBuilder.visitCtCodeSnippetExpression(spoon.reflect.code.CtCodeSnippetExpression).md)
+
+        (**Pseudo-tested**, tests: 3, distance: 13) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/visitor/clone/CloneBuilder.java#L44)
+
+    - [visitCtBreak(spoon.reflect.code.CtBreak)](methods/spoon.support.visitor.clone.CloneBuilder.visitCtBreak(spoon.reflect.code.CtBreak).md)
+
+        (**Pseudo-tested**, tests: 3, distance: 13) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/visitor/clone/CloneBuilder.java#L127)
+
+    - [visitCtAnonymousExecutable(spoon.reflect.declaration.CtAnonymousExecutable)](methods/spoon.support.visitor.clone.CloneBuilder.visitCtAnonymousExecutable(spoon.reflect.declaration.CtAnonymousExecutable).md)
+
+        (**Pseudo-tested**, tests: 4, distance: 13) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/visitor/clone/CloneBuilder.java#L115)
+
+    - [visitCtLambda(spoon.reflect.code.CtLambda)](methods/spoon.support.visitor.clone.CloneBuilder.visitCtLambda(spoon.reflect.code.CtLambda).md)
+
+        (**Pseudo-tested**, tests: 6, distance: 13) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/visitor/clone/CloneBuilder.java#L208)
+
+    - [visitCtAnnotation(spoon.reflect.declaration.CtAnnotation)](methods/spoon.support.visitor.clone.CloneBuilder.visitCtAnnotation(spoon.reflect.declaration.CtAnnotation).md)
+
+        (**Pseudo-tested**, tests: 44, distance: 13) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/visitor/clone/CloneBuilder.java#L109)
+
+    - [visitCtInvocation(spoon.reflect.code.CtInvocation)](methods/spoon.support.visitor.clone.CloneBuilder.visitCtInvocation(spoon.reflect.code.CtInvocation).md)
+
+        (**Pseudo-tested**, tests: 54, distance: 13) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/visitor/clone/CloneBuilder.java#L166)
+
+    - [visitCtConstructorCall(spoon.reflect.code.CtConstructorCall)](methods/spoon.support.visitor.clone.CloneBuilder.visitCtConstructorCall(spoon.reflect.code.CtConstructorCall).md)
+
+        (**Pseudo-tested**, tests: 15, distance: 14) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/support/visitor/clone/CloneBuilder.java#L201)
+
+
+* spoon.reflect.visitor.CtBiScannerDefault
+
+    - [visitCtAnnotationFieldAccess(spoon.reflect.code.CtAnnotationFieldAccess)](methods/spoon.reflect.visitor.CtBiScannerDefault.visitCtAnnotationFieldAccess(spoon.reflect.code.CtAnnotationFieldAccess).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 5) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/CtBiScannerDefault.java#L317)
+
+    - [visitCtIf(spoon.reflect.code.CtIf)](methods/spoon.reflect.visitor.CtBiScannerDefault.visitCtIf(spoon.reflect.code.CtIf).md)
+
+        (**Pseudo-tested**, tests: 5, distance: 5) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/CtBiScannerDefault.java#L364)
+
+    - [visitCtNewClass(spoon.reflect.code.CtNewClass)](methods/spoon.reflect.visitor.CtBiScannerDefault.visitCtNewClass(spoon.reflect.code.CtNewClass).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 8) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/CtBiScannerDefault.java#L505)
+
+    - [visitCtFieldWrite(spoon.reflect.code.CtFieldWrite)](methods/spoon.reflect.visitor.CtBiScannerDefault.visitCtFieldWrite(spoon.reflect.code.CtFieldWrite).md)
+
+        (**Pseudo-tested**, tests: 4, distance: 9) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/CtBiScannerDefault.java#L829)
+
+    - [visitCtUnaryOperator(spoon.reflect.code.CtUnaryOperator)](methods/spoon.reflect.visitor.CtBiScannerDefault.visitCtUnaryOperator(spoon.reflect.code.CtUnaryOperator).md)
+
+        (**Pseudo-tested**, tests: 5, distance: 9) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/CtBiScannerDefault.java#L740)
+
+    - [visitCtTypeAccess(spoon.reflect.code.CtTypeAccess)](methods/spoon.reflect.visitor.CtBiScannerDefault.visitCtTypeAccess(spoon.reflect.code.CtTypeAccess).md)
+
+        (**Pseudo-tested**, tests: 66, distance: 9) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/CtBiScannerDefault.java#L729)
+
+    - [visitCtModule(spoon.reflect.declaration.CtModule)](methods/spoon.reflect.visitor.CtBiScannerDefault.visitCtModule(spoon.reflect.declaration.CtModule).md)
+
+        (**Pseudo-tested**, tests: 5, distance: 11) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/CtBiScannerDefault.java#L896)
+
+    - [visitCtVariableWrite(spoon.reflect.code.CtVariableWrite)](methods/spoon.reflect.visitor.CtBiScannerDefault.visitCtVariableWrite(spoon.reflect.code.CtVariableWrite).md)
+
+        (**Pseudo-tested**, tests: 5, distance: 13) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/CtBiScannerDefault.java#L765)
+
+    - [visitCtBinaryOperator(spoon.reflect.code.CtBinaryOperator)](methods/spoon.reflect.visitor.CtBiScannerDefault.visitCtBinaryOperator(spoon.reflect.code.CtBinaryOperator).md)
+
+        (**Pseudo-tested**, tests: 6, distance: 13) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/CtBiScannerDefault.java#L131)
+
+    - [visitCtThrow(spoon.reflect.code.CtThrow)](methods/spoon.reflect.visitor.CtBiScannerDefault.visitCtThrow(spoon.reflect.code.CtThrow).md)
+
+        (**Pseudo-tested**, tests: 6, distance: 14) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/CtBiScannerDefault.java#L643)
+
+    - [visitCtConstructorCall(spoon.reflect.code.CtConstructorCall)](methods/spoon.reflect.visitor.CtBiScannerDefault.visitCtConstructorCall(spoon.reflect.code.CtConstructorCall).md)
+
+        (**Pseudo-tested**, tests: 7, distance: 15) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/CtBiScannerDefault.java#L492)
+
+    - [visitCtNewArray(spoon.reflect.code.CtNewArray)](methods/spoon.reflect.visitor.CtBiScannerDefault.visitCtNewArray(spoon.reflect.code.CtNewArray).md)
+
+        (**Pseudo-tested**, tests: 17, distance: 15) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/CtBiScannerDefault.java#L478)
+
+    - [visitCtFor(spoon.reflect.code.CtFor)](methods/spoon.reflect.visitor.CtBiScannerDefault.visitCtFor(spoon.reflect.code.CtFor).md)
+
+        (**Pseudo-tested**, tests: 2, distance: 20) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/CtBiScannerDefault.java#L339)
+
+    - [visitCtForEach(spoon.reflect.code.CtForEach)](methods/spoon.reflect.visitor.CtBiScannerDefault.visitCtForEach(spoon.reflect.code.CtForEach).md)
+
+        (**Pseudo-tested**, tests: 4, distance: 20) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/CtBiScannerDefault.java#L352)
+
+    - [visitCtSuperAccess(spoon.reflect.code.CtSuperAccess)](methods/spoon.reflect.visitor.CtBiScannerDefault.visitCtSuperAccess(spoon.reflect.code.CtSuperAccess).md)
+
+        (**Pseudo-tested**, tests: 2, distance: 24) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/CtBiScannerDefault.java#L842)
+
+    - [visitCtLambda(spoon.reflect.code.CtLambda)](methods/spoon.reflect.visitor.CtBiScannerDefault.visitCtLambda(spoon.reflect.code.CtLambda).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 27) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/CtBiScannerDefault.java#L520)
+
+    - [visitCtWhile(spoon.reflect.code.CtWhile)](methods/spoon.reflect.visitor.CtBiScannerDefault.visitCtWhile(spoon.reflect.code.CtWhile).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 32) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/CtBiScannerDefault.java#L776)
+
+    - [visitCtTryWithResource(spoon.reflect.code.CtTryWithResource)](methods/spoon.reflect.visitor.CtBiScannerDefault.visitCtTryWithResource(spoon.reflect.code.CtTryWithResource).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 32) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/CtBiScannerDefault.java#L666)
+
+    - [visitCtArrayRead(spoon.reflect.code.CtArrayRead)](methods/spoon.reflect.visitor.CtBiScannerDefault.visitCtArrayRead(spoon.reflect.code.CtArrayRead).md)
+
+        (**Pseudo-tested**, tests: 2, distance: 42) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/CtBiScannerDefault.java#L67)
+
+    - [visitCtCatchVariableReference(spoon.reflect.reference.CtCatchVariableReference)](methods/spoon.reflect.visitor.CtBiScannerDefault.visitCtCatchVariableReference(spoon.reflect.reference.CtCatchVariableReference).md)
+
+        (**Pseudo-tested**, tests: 3, distance: 42) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/CtBiScannerDefault.java#L442)
+
+    - [visitCtOperatorAssignment(spoon.reflect.code.CtOperatorAssignment)](methods/spoon.reflect.visitor.CtBiScannerDefault.visitCtOperatorAssignment(spoon.reflect.code.CtOperatorAssignment).md)
+
+        (**Pseudo-tested**, tests: 1, distance: 55) [[View code]](https://github.com/INRIA/spoon/blob/fd878bc71b73fc1da82356eaa6578f760c70f0de/src/main/java//spoon/reflect/visitor/CtBiScannerDefault.java#L549)
+

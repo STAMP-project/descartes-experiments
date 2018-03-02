@@ -1,0 +1,29 @@
+# loadAvroKryoUtils()
+
+**Class:** org.apache.flink.api.java.typeutils.AvroUtils
+
+[[View code]](https://github.com/apache/flink/blob/740f711c4ec9c4b7cdefd01c9f64857c345a68a1/flink-core/src/main/java//org/apache/flink/api/java/typeutils/AvroUtils.java#L45)
+
+This method is **pseudo-tested**.
+
+
+It can not be accessed from other classes. 
+It has been covered by 1 test method(s) with a minimum stack distance of 6.
+
+## Transformations
+
+
+The body of this method has been replaced by the following instuctions and no transformation was detected by the test suite:
+
+```Java
+return null;
+```
+
+
+
+
+
+## Observed test methods
+
+* org.apache.flink.api.java.typeutils.runtime.kryo.KryoGenericTypeSerializerTest.testJavaDequeue() at distance(s): 6
+
