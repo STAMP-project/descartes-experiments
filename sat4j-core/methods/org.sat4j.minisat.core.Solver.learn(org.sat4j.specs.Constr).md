@@ -168,3 +168,9 @@ The body of this method was removed but the test suite was not able to detect th
 * org.sat4j.tools.TestAllMUSes.testAlmostGlobalInconsistencyIndex() at distance(s): 19
 * org.sat4j.tools.TestAllMUSes.testAlmostGlobalInconsistencyIIIndex() at distance(s): 19
 
+## Remarks
+It is a key function to the solver. This fact might indicate that the problem instances used for the tests are "easy" and the solver succeeds because it doesn't have to learn new clauses (searching in a binary tree + backjumping). Execution time might be impacted when the code is removed. The tests cases take longer to complete without this method. 
+
+## Involved commit(s)
+
+[46291e4d15a654477bd17b0ce905926d24e042ca](https://gitlab.ow2.org/sat4j/sat4j/commit/46291e4d15a654477bd17b0ce905926d24e042ca)
