@@ -31,3 +31,10 @@ return true;
 
 * org.sat4j.BugSAT26.testConsecutiveCallToSolver() at distance(s): 1
 
+## Remarks
+The scenario that targest this test is decribed [here](https://jira.ow2.org/browse/SAT-26). 
+The test case was augmented with new assertions to make it more useful.
+It can be checked [here](https://gitlab.ow2.org/sat4j/sat4j/commit/afab137a4c1a54219f3990713b4647ff84b8bfea).
+
+## Involved commit(s)
+[afab137a4c1a54219f3990713b4647ff84b8bfea](https://gitlab.ow2.org/sat4j/sat4j/commit/afab137a4c1a54219f3990713b4647ff84b8bfea
