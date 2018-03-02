@@ -37,3 +37,8 @@ return true;
 * org.xwiki.velocity.internal.util.VelocityParserTest.getKeyWordComment() at distance(s): 1
 * org.xwiki.velocity.internal.util.VelocityParserTest.getKeyWordMultiLinesComment() at distance(s): 1
 
+## Remarks
+A new test case was added to target this method and make it return `true`.
+
+## Involved commit(s)
+[534c264fc53002997418f24653744da41c806b9f](https://github.com/xwiki/xwiki-commons/commit/534c264fc53002997418f24653744da41c806b9f)
