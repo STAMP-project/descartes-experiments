@@ -12,7 +12,7 @@ For each project there is a folder that contains a set of markdown files.
 One of these files is a project summary. Each of the rest files are devoted to 
 describe the methods we have found to have potential testing issues.
 
-Each method has been classified as ***pseudo-tested** or **partially-tested**. 
+Each method has been classified as **pseudo-tested** or **partially-tested**. 
 A **pseudo-tested** method is one for which no extreme mutation has been detected.
 A **partially-tested** method has mixed results, only some transformations were
 detected.
@@ -22,7 +22,7 @@ covering the method, the minimum stack distance from each test to the method
 the mutants applied and whether those mutants were detected or not.
 
 Some additional information about how these methods are covered by the test
-suite is provied [here](interplay_report/index.md).
+suite is provided [here](interplay_report/index.md).
 
 ## Projects
 
