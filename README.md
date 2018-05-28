@@ -9,7 +9,7 @@ executing [PITest](http://pitest.org) with a different mutation engine named
 
 The following sections describe the main materials included in this repository.
 
-#### Data
+### Data
 
 All the data from the experiments with Descartes and PITest is contained in an 
 external file hosted in **figshare** available for download 
