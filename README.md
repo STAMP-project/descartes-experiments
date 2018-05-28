@@ -9,13 +9,18 @@ executing [PITest](http://pitest.org) with a different mutation engine named
 
 The following sections describe the main materials included in this repository.
 
-## Data
+#### Data
 
 All the data from the experiments with Descartes and PITest is contained in an 
 external file hosted in **figshare** available for download 
 [here](https://ndownloader.figshare.com/files/11634542). 
 Some of the files are bigger than 100 MB (even 1 GB) which is the limit set by
 Github.
+
+### Scripts
+
+The [scripts folder](scripts/) contains a set of scripts supporting the analysis
+of the experiments performed with Descartes.
 
 ### Direct communications
 
