@@ -19,7 +19,7 @@ class Project:
 
     @staticmethod
     def available_projects(folder=DEFAULT_BASE_FOLDER):
-        return json_load(f'{DEFAULT_BASE_FOLDER}/projects.json').map(Project)
+        return map(Project, json_load(f'{DEFAULT_BASE_FOLDER}/projects.json'))
 
     def __init__(self, information, base_folder=DEFAULT_BASE_FOLDER):
         
@@ -27,14 +27,14 @@ class Project:
             self.__setattr__(attr, value)
 
         self.base_folder = base_folder
-        self.stop_methods = self._load_stop_methods
+        self.stop_methods = self._load_stop_methods()
     
     def _load_stop_methods(self):
-        data = json_load(f'{self.base_folder}/methods.json')
+        data = json_load(f'{self.base_folder}/{self.id}/methods.json')
         return set(method_id(item) for item in data if not STOP_METHOD_CATEGORIES.isdisjoint(item['classifications']))
     
     def _load_report(self, name):
-        return MutationReport.from_file(json_load(f'{self.base_folder}/{self.id}/{name}.json'), self.stop_methods)
+        return MutationReport.from_file(f'{self.base_folder}/{self.id}/{name}.json', self.stop_methods)
 
     @property
     def descartes(self):
@@ -48,8 +48,7 @@ class MutationReport:
 
     @staticmethod
     def from_file(path, stop_methods=set()):
-        with open(path) as _file:
-            return MutationReport(json.load(_file), stop_methods)
+        return MutationReport(json_load(path), stop_methods)
     
     def __init__(self, data, stop_methods=set()):
         self.data = data
@@ -68,6 +67,11 @@ class MutationReport:
         return [m for m in self.mutants if m.is_meaningful and m.method not in self.stop_methods]
     
     @property
+    def covered_mutants(self):
+        return [m for m in self.mutants if m.is_covered]
+
+
+    @property
     def tests_by_method(self):
         result = {}
         for mutant in self.mutants:
@@ -83,7 +87,12 @@ class Mutant:
 
     @property
     def killer_test(self):
-        return self.data['tests']['killer']
+        tests = self.data['tests']
+        if 'killer'in tests:
+            killer = self.data['tests']['killer']
+            return killer if killer else None
+        failing = tests['failing']
+        return failing[0] if failing else None
 
     @property
     def method(self):
@@ -108,10 +117,14 @@ class Mutant:
     @property
     def is_covered(self):
         return self.data['status'] != 'NO_COVERAGE'
+    
+    @property
+    def is_timed_out(self):
+        return self.data['status'] == 'TIMED_OUT'
 
     @property
     def is_trivial(self):
-        return self.detected and not self.killer_test
+        return not self.is_timed_out and self.detected and not self.killer_test
 
     @staticmethod
     def score(mutants):
