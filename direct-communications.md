@@ -34,3 +34,4 @@ A general issue was opened. [See here.](https://github.com/INRIA/spoon/issues/18
 
 * **[Amazon Web Services Java SDK](https://github.com/aws/aws-sdk-java/pull/1437)**
 * **[Apache Commons Collections](https://github.com/apache/commons-collections/pull/36)**
+* **[Apache Commons Codec](https://github.com/apache/commons-codec/pull/13)** With the **pseudo-tested** method we found a test case with no assertions and a wrong input. Se the discussion [here](https://issues.apache.org/jira/browse/CODEC-246). 
