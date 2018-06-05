@@ -73,6 +73,8 @@
 - [X] [spoon.support.visitor.MethodTypingContext.getIndexOfTypeParam(spoon.reflect.declaration.CtFormalTypeDeclarer,spoon.reflect.reference.CtTypeReference)](methods/spoon.support.visitor.MethodTypingContext.getIndexOfTypeParam(spoon.reflect.declaration.CtFormalTypeDeclarer,spoon.reflect.reference.CtTypeReference).md)
 - [ ] [spoon.support.visitor.clone.CloneBuilder.visitCtCodeSnippetExpression(spoon.reflect.code.CtCodeSnippetExpression)](methods/spoon.support.visitor.clone.CloneBuilder.visitCtCodeSnippetExpression(spoon.reflect.code.CtCodeSnippetExpression).md)
 - [ ] [spoon.support.reflect.cu.position.SourcePositionImpl.searchColumnNumber(int)](methods/spoon.support.reflect.cu.position.SourcePositionImpl.searchColumnNumber(int).md)
+    > Lines were implemented first for debugging purposes. Columns were added later and they are not fully tested.
+    
 - [X] [spoon.reflect.visitor.ImportScannerImpl.isInCollisionWithLocalMethod(spoon.reflect.reference.CtExecutableReference)](methods/spoon.reflect.visitor.ImportScannerImpl.isInCollisionWithLocalMethod(spoon.reflect.reference.CtExecutableReference).md)
     > Being the `ImportScannerImpl` this method should play an  important role, as it detects name collisions.
 - [ ] [spoon.support.reflect.declaration.CtFieldImpl.setShadow(boolean)](methods/spoon.support.reflect.declaration.CtFieldImpl.setShadow(boolean).md)
