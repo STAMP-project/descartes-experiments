@@ -1,5 +1,3 @@
-Test 
-
 - [X] [org.ow2.authzforce.core.pdp.impl.combining.DPOverridesCombiningAlg$OverridingEffectFirstRuleCollector.hasRuleWithOverriddenEffectAndPepAction()](methods/org.ow2.authzforce.core.pdp.impl.combining.DPOverridesCombiningAlg$OverridingEffectFirstRuleCollector.hasRuleWithOverriddenEffectAndPepAction().md)
 > It is part of the policy agreement and therefore involved in an important feature. Policy combining. It is critical in the policy evaluation.
 
