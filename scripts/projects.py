@@ -5,21 +5,30 @@ from glob import glob
 
 
 DEFAULT_BASE_FOLDER = os.path.abspath('../data')
-STOP_METHOD_CATEGORIES = set([ 'EMPTY', 'ABSTRACT', 'HASH_CODE', 'SYNTHETIC', 'DEPRECATED', 'ENUM_METHOD', 'CONSTRUCTOR', 'SIMPLE_SETTER', 'SIMPLE_GETTER',  'RETURNS_CONSTANT' ])
+STOP_METHOD_CATEGORIES = set([ 'EMPTY', 'ABSTRACT', 'HASH_CODE', 'SYNTHETIC', 'DEPRECATED', 'ENUM_METHOD', 'CONSTRUCTOR', 'SIMPLE_SETTER', 'SIMPLE_GETTER',  'RETURNS_CONSTANT', 'STATIC_INITIALIZER'])
 
 def json_load(path):
     with open(path) as _file:
         return json.load(_file)
 
 def method_id(record):
-    record['package'] = record['package'].replace('/', '.')
-    return '{package}{class}.{name}{description}'.format(**record) 
+    package = record['package'].replace('/', '.')
+    if not package.endswith('.'):
+        package += '.'
+    return package + '{class}.{name}{description}'.format(**record)
+
+def is_stop_method(method):
+    return not STOP_METHOD_CATEGORIES.isdisjoint(method['classifications'])
+
+def is_written_method(method):
+    classifications = set(method['classifications'])
+    return classifications.isdisjoint(['SYNTHETIC', 'ABSTRACT', 'ENUM_METHOD']) and not (classifications.issuperset(['CONSTRUCTOR', 'DELEGATION']) and method['description'] == 'V()')
 
 class Project:
 
     @staticmethod
     def available_projects(folder=DEFAULT_BASE_FOLDER):
-        return map(Project, json_load(f'{DEFAULT_BASE_FOLDER}/projects.json'))
+        return map(Project, json_load(f'{folder}/projects.json'))
 
     def __init__(self, information, base_folder=DEFAULT_BASE_FOLDER):
         
@@ -27,14 +36,15 @@ class Project:
             self.__setattr__(attr, value)
 
         self.base_folder = base_folder
-        self.stop_methods = self._load_stop_methods()
-    
-    def _load_stop_methods(self):
-        data = json_load(f'{self.base_folder}/{self.id}/methods.json')
-        return set(method_id(item) for item in data if not STOP_METHOD_CATEGORIES.isdisjoint(item['classifications']))
-    
+        self.methods = json_load(f'{self.base_folder}/{self.id}/methods.json')
+        self.stop_methods = [method for method in self.methods if is_stop_method(method)]
+        self.target_methods = [method for method in self.methods if not is_stop_method(method)]
+        self.written_methods = [method for method in self.methods if is_written_method(method)]
+
+        self._stop_method_set = set(method_id(method) for method in self.stop_methods)
+
     def _load_report(self, name):
-        return MutationReport.from_file(f'{self.base_folder}/{self.id}/{name}.json', self.stop_methods)
+        return MutationReport.from_file(f'{self.base_folder}/{self.id}/{name}.json', self._stop_method_set)
 
     @property
     def descartes(self):
@@ -124,7 +134,7 @@ class Mutant:
 
     @property
     def is_trivial(self):
-        return not self.is_timed_out and self.detected and not self.killer_test
+        return self.detected and not self.killer_test
 
     @staticmethod
     def score(mutants):
