@@ -31,3 +31,8 @@ correlation between both scores.
 
 [IPython Notebook](score_comparison.ipynb)
 
+### pseudo_tested_methods
+
+This script inspects a set of projects and shows the number of pseudo-tested methods found on each one of them. It also provides a comparison between pseudo-tested and required methods using the traditional mutation score as a metric. The results show that pseudo-tested methods are mainly the worst tested in the codebase. It also shows that there are pseudo-tested methods where traditional mutants can detected.
+
+[IPython Notebook](pseudo_tested_methods.ipynb)
