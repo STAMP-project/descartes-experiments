@@ -41,4 +41,4 @@ This script inspects a set of projects and shows the number of pseudo-tested met
 
 This script uses the [**hypergeometric distribution**](https://en.wikipedia.org/wiki/Hypergeometric_distribution) to show that pseudo-tested methods are most likely to be the worst tested in the codebase, using the traditional mutation score as an adequacy criterion. The IPython notebook describes the experiment with more details.
 
-[IPython Notebook](pseudo_tested_methods.ipynb)
+[IPython Notebook](hypergeometric_test.ipynb)
