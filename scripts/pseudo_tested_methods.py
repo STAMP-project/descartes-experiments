@@ -1,11 +1,10 @@
 from projects import Project, method_id, Mutant
-from tables import ConsoleTableBuilder
+from tables import ConsoleTableBuilder, percentage
 import matplotlib.pyplot as plt
 from itertools import chain, cycle
 from collections import defaultdict
 
-def percentage(x):
-    return f'{100*x:.0f}%'
+
 
 class Record:
     def __init__(self, project):

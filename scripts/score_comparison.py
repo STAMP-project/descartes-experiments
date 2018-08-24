@@ -1,9 +1,9 @@
-
-from table_printer import table
 from projects import Project, Mutant
 import matplotlib.pyplot as plt
+from matplotlib.lines import Line2D
 from scipy.stats import spearmanr
-from tables import ConsoleTableBuilder
+from tables import ConsoleTableBuilder, percentage
+import numpy as np
 
 class ScoreRecord:
     def __init__(self, mutants):
@@ -26,7 +26,6 @@ def get_both_scores(project):
     return (get_score_record(descartes, methods), get_score_record(gregor, methods))
 
 def render_table(names, scores, build_table=ConsoleTableBuilder):
-    percentage = lambda x: f'{100*x:.2f}'
     table = build_table(
         ('Project',), 
         ('Mutants', 'r'), 
@@ -40,12 +39,41 @@ def render_table(names, scores, build_table=ConsoleTableBuilder):
     table.display()
 
 def show_plot(descartes, gregor):
-    plt.xlim(50, 100)
-    plt.ylim(50, 100)
-    plt.scatter([100*i for i in descartes], [100*j for j in gregor])
+    plt.scatter(descartes, gregor)
+
+    ticks = np.linspace(.5, 1, 6)
+    lables = [percentage(t) for t in ticks]
+    plt.xticks(ticks, lables)
+    plt.yticks(ticks, lables)
+
     plt.xlabel('Descartes')
     plt.ylabel('Gregor')
-    plt.show()
+
+def bland_altman_plot(descartes, gregor):
+    x = np.add(descartes, gregor)/2
+    y = np.subtract(descartes, gregor)
+
+    mean = np.mean(y)
+    stdv = np.std(y)
+    plt.figure()
+    plt.ylim(mean-3*stdv, mean + 3*stdv)
+    plt.xlabel("(Descartes-Gregor)/2")
+    plt.ylabel("Descartes - Gregor")
+    plt.scatter(x, y)
+
+    ax = plt.gca()
+    xmin, xmax = ax.get_xbound()
+    color = 'red'
+
+    #Lines
+    lower = mean - 2*stdv
+    upper = mean + 2*stdv
+    ax.add_line(Line2D([xmin, xmax], [mean, mean], color=color))
+    ax.add_line(Line2D([xmin, xmax], [lower, lower], color=color, linestyle='--'))
+    ax.add_line(Line2D([xmin, xmax], [upper, upper], color=color, linestyle='--'))
+
+
+
 
 def main():
     projects = list(Project.available_projects())
@@ -61,6 +89,8 @@ def main():
     print(f'The Spearman correlation coefficient is {correlation.correlation} with a p-value of {correlation.pvalue}')
     #Show plot
     show_plot(descartes_scores, gregor_scores)
+    bland_altman_plot(descartes_scores, gregor_scores)
+    plt.show()
 
 if __name__ == '__main__':
     main()

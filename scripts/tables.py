@@ -6,6 +6,12 @@ CONSOLE_ALIGNMENTS = {'l': str.ljust, 'r': str.rjust, 'c': str.center}
 
 ALIGNMENTS = set(['l', 'r', 'c'])
 
+def percentage(x):
+    '''
+    Percentage string format
+    '''
+    return f'{100*x:.0f}%'
+
 class Column:
     def __init__(self, title, alignment='l', given_format='{}'):
         self.title = str(title)
