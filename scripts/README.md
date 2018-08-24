@@ -36,3 +36,9 @@ correlation between both scores.
 This script inspects a set of projects and shows the number of pseudo-tested methods found on each one of them. It also provides a comparison between pseudo-tested and required methods using the traditional mutation score as a metric. The results show that pseudo-tested methods are mainly the worst tested in the codebase. It also shows that there are pseudo-tested methods where traditional mutants can detected.
 
 [IPython Notebook](pseudo_tested_methods.ipynb)
+
+## hypergeometric_test
+
+This script uses the [**hypergeometric distribution**](https://en.wikipedia.org/wiki/Hypergeometric_distribution) to show that pseudo-tested methods are most likely to be the worst tested in the codebase, using the traditional mutation score as an adequacy criterion. The IPython notebook describes the experiment with more details.
+
+[IPython Notebook](pseudo_tested_methods.ipynb)
