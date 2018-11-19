@@ -42,7 +42,7 @@ This script inspects a set of projects and shows the number of pseudo-tested met
 We have observed that many pseudo-tested methods are private and therefore not directly accessible
 from a test case. This posses a testability issue and a challenge to correctly assess the behavior implemented by those methods. This script shows the ratio of private methods in pseudo-tested methods, the methods considered for analysis and all the methods for each project.
 
-[IPython Notebook](private_methods_ratio.py)
+[IPython Notebook](private_methods_ratio.ipynb)
 
 ## hypergeometric_test
 
