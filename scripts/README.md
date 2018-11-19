@@ -37,6 +37,13 @@ This script inspects a set of projects and shows the number of pseudo-tested met
 
 [IPython Notebook](pseudo_tested_methods.ipynb)
 
+## Private methods
+
+We have observed that many pseudo-tested methods are private and therefore not directly accessible
+from a test case. This posses a testability issue and a challenge to correctly assess the behavior implemented by those methods. This script shows the ratio of private methods in pseudo-tested methods, the methods considered for analysis and all the methods for each project.
+
+[IPython Notebook](private_methods_ratio.py)
+
 ## hypergeometric_test
 
 This script uses the [**hypergeometric distribution**](https://en.wikipedia.org/wiki/Hypergeometric_distribution) to show that pseudo-tested methods are most likely to be the worst tested in the codebase, using the traditional mutation score as an adequacy criterion. The IPython notebook describes the experiment with more details.
