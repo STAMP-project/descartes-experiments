@@ -1,0 +1,240 @@
+[INFO] 
+[INFO] -----------< org.xwiki.platform:xwiki-platform-webjars-api >------------
+[INFO] Building XWiki Platform - WebJars - API 11.2-SNAPSHOT          [129/398]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ xwiki-platform-webjars-api ---
+[INFO] Deleting /home/hudsonagent/jenkins_root/workspace/xwiki-platform_pitest/xwiki-platform-core/xwiki-platform-webjars/xwiki-platform-webjars-api/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-plugins) @ xwiki-platform-webjars-api ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-jcl-log4j-isolation) @ xwiki-platform-webjars-api ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-glasshfish-jaxb) @ xwiki-platform-webjars-api ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-jakarta.xml.bind-api) @ xwiki-platform-webjars-api ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-open-json) @ xwiki-platform-webjars-api ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-glassfish-el) @ xwiki-platform-webjars-api ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-commons-lang3) @ xwiki-platform-webjars-api ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-commons-configuration2) @ xwiki-platform-webjars-api ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-jakarta.activation-api) @ xwiki-platform-webjars-api ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-javax.mail) @ xwiki-platform-webjars-api ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-bouncycastle-ids) @ xwiki-platform-webjars-api ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-javase-dependencies) @ xwiki-platform-webjars-api ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-jsr305) @ xwiki-platform-webjars-api ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-upper-bounds) @ xwiki-platform-webjars-api ---
+[INFO] artifact io.sf.jclf:jclf: checking for updates from xwiki-releases
+[INFO] artifact io.sf.jclf:jclf: checking for updates from central
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-no-legacy-dependencies) @ xwiki-platform-webjars-api ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-valid-poms) @ xwiki-platform-webjars-api ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (check-dependency-version) @ xwiki-platform-webjars-api ---
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.3:prepare-agent (jacoco-prepare) @ xwiki-platform-webjars-api ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- xwiki-commons-tool-remote-resource-plugin:11.2-SNAPSHOT:process (xwiki-license-resources) @ xwiki-platform-webjars-api ---
+[WARNING] Invalid project model for artifact [org.apache.httpcomponents:httpclient:4.5.7]. It will be ignored by the remote resources Mojo.
+[WARNING] Invalid project model for artifact [org.apache.httpcomponents:httpcore:4.4.11]. It will be ignored by the remote resources Mojo.
+[WARNING] Invalid project model for artifact [org.quartz-scheduler:quartz:2.3.0]. It will be ignored by the remote resources Mojo.
+[WARNING] Invalid project model for artifact [org.apache.httpcomponents:httpmime:4.5.7]. It will be ignored by the remote resources Mojo.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ xwiki-platform-webjars-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ xwiki-platform-webjars-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 7 source files to /home/hudsonagent/jenkins_root/workspace/xwiki-platform_pitest/xwiki-platform-core/xwiki-platform-webjars/xwiki-platform-webjars-api/target/classes
+[INFO] 
+[INFO] --- maven-bundle-plugin:4.1.0:manifest (bundle-manifest) @ xwiki-platform-webjars-api ---
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ xwiki-platform-webjars-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ xwiki-platform-webjars-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to /home/hudsonagent/jenkins_root/workspace/xwiki-platform_pitest/xwiki-platform-core/xwiki-platform-webjars/xwiki-platform-webjars-api/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.0:test (default-test) @ xwiki-platform-webjars-api ---
+[INFO] Surefire report directory: /home/hudsonagent/jenkins_root/workspace/xwiki-platform_pitest/xwiki-platform-core/xwiki-platform-webjars/xwiki-platform-webjars-api/target/surefire-reports
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.xwiki.webjars.WebJarsResourceReferenceHandlerTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.284 s - in org.xwiki.webjars.WebJarsResourceReferenceHandlerTest
+[INFO] Running org.xwiki.webjars.WebJarsScriptServiceTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.11 s - in org.xwiki.webjars.WebJarsScriptServiceTest
+[INFO] Running org.xwiki.webjars.internal.WebJarsResourceReferenceResolverTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in org.xwiki.webjars.internal.WebJarsResourceReferenceResolverTest
+[INFO] Running org.xwiki.webjars.internal.WebJarsResourceReferenceSerializerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.xwiki.webjars.internal.WebJarsResourceReferenceSerializerTest
+[INFO] Running org.xwiki.webjars.internal.FilesystemResourceReferenceSerializerTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.111 s - in org.xwiki.webjars.internal.FilesystemResourceReferenceSerializerTest
+[INFO] Running org.xwiki.webjars.WebJarResourceReferenceTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.xwiki.webjars.WebJarResourceReferenceTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[JENKINS] Recording test results
+[INFO] 
+[INFO] --- maven-jar-plugin:3.1.1:jar (default-jar) @ xwiki-platform-webjars-api ---
+[INFO] Building jar: /home/hudsonagent/jenkins_root/workspace/xwiki-platform_pitest/xwiki-platform-core/xwiki-platform-webjars/xwiki-platform-webjars-api/target/xwiki-platform-webjars-api-11.2-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:3.0.0:check (default) @ xwiki-platform-webjars-api ---
+[INFO] Starting audit...
+[WARN] /home/hudsonagent/jenkins_root/workspace/xwiki-platform_pitest/xwiki-platform-core/xwiki-platform-webjars/xwiki-platform-webjars-api/src/main/java/org/xwiki/webjars/internal/FilesystemResourceReferenceCopier.java:106: Comment matches to-do format 'TODO'. [TodoComment]
+Audit done.
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:3.0.0:check (blocker) @ xwiki-platform-webjars-api ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- license-maven-plugin:3.0:check (default) @ xwiki-platform-webjars-api ---
+[INFO] Checking licenses...
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.3:check (jacoco-check) @ xwiki-platform-webjars-api ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- pitest-maven:1.4.0:mutationCoverage (pitest-check) @ xwiki-platform-webjars-api ---
+[INFO] Found plugin : JSON report plugin
+[INFO] Found plugin : Produces a JSON file reporting mutation results aggregated by method and each method classfied according to its mutation status
+[INFO] Found plugin : Generates an HTML document containing classes and methods with found testing issues
+[INFO] Found plugin : Default csv report plugin
+[INFO] Found plugin : Default xml report plugin
+[INFO] Found plugin : Default html report plugin
+[INFO] Found plugin : Removes mutation in methods which are of no interest
+[INFO] Found plugin : Static initializer code detector plugin
+[INFO] Found plugin : Static initializer filter plugin
+[INFO] Found plugin : Excluded annotations plugin
+[INFO] Found plugin : Inlined finally block filter plugin
+[INFO] Found plugin : Try with resources filter
+[INFO] Found plugin : Implicit null check filter
+[INFO] Found plugin : For each loop filter
+[INFO] Found plugin : Logging calls filter
+[INFO] Found plugin : Infinite for loop filter
+[INFO] Found plugin : Long running iterator loop filter
+[INFO] Found plugin : For loop counter filter
+[INFO] Found plugin : Kotlin junk mutations filter
+[INFO] Found plugin : Max mutations per class limit
+[INFO] Found plugin : Equals shortcut equivalent mutant filter
+[INFO] Found plugin : Trivial return vals equivalence filter
+[INFO] Found plugin : Mutant export plugin
+[INFO] Found shared classpath plugin : Engine for extreme mutation operators
+[INFO] Found shared classpath plugin : Default mutation engine
+[INFO] Found shared classpath plugin : JUnit 5 test framework support
+[INFO] Found shared classpath plugin : JUnit plugin
+[INFO] Found shared classpath plugin : TestNG plugin
+[INFO] Adding org.pitest:pitest-junit5-plugin to SUT classpath
+[INFO] Adding eu.stamp-project:descartes to SUT classpath
+[INFO] Adding org.pitest:pitest to SUT classpath
+[INFO] Mutating from /home/hudsonagent/jenkins_root/workspace/xwiki-platform_pitest/xwiki-platform-core/xwiki-platform-webjars/xwiki-platform-webjars-api/target/classes
+[INFO] Defaulting target classes to match packages in build directory
+5:36:06 PM PIT >> INFO : Verbose logging is disabled. If you encounter an problem please enable it before reporting an issue.
+5:36:06 PM PIT >> INFO : Sending 10 test classes to minion
+5:36:06 PM PIT >> INFO : Sent tests to minion
+5:36:06 PM PIT >> INFO : MINION : 5:36:06 PM PIT >> INFO : Checking environment
+
+5:36:07 PM PIT >> INFO : MINION : 5:36:07 PM PIT >> INFO : Found  6 tests
+
+5:36:07 PM PIT >> INFO : MINION : 5:36:07 PM PIT >> INFO : Dependency analysis reduced number of potential tests by 0
+
+5:36:07 PM PIT >> INFO : MINION : 5:36:07 PM PIT >> INFO : 6 tests received
+
+/-\|/-5:36:07 PM PIT >> INFO : Calculated coverage in 1 seconds.
+5:36:07 PM PIT >> INFO : Created  7 mutation test units
+/-\|/-\5:36:12 PM PIT >> INFO : Completed in 5 seconds
+================================================================================
+- Timings
+================================================================================
+> scan classpath : < 1 second
+> coverage and dependency analysis : 1 seconds
+> build mutation tests : < 1 second
+> run mutation analysis : 4 seconds
+--------------------------------------------------------------------------------
+> Total  : 5 seconds
+--------------------------------------------------------------------------------
+================================================================================
+- Statistics
+================================================================================
+>> Generated 45 mutations Killed 12 (27%)
+>> Ran 12 tests (0.27 tests per mutation)
+================================================================================
+- Mutators
+================================================================================
+> ""
+>> Generated 9 Killed 1 (11%)
+> KILLED 1 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 8 
+--------------------------------------------------------------------------------
+> "A"
+>> Generated 9 Killed 1 (11%)
+> KILLED 1 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 8 
+--------------------------------------------------------------------------------
+> void
+>> Generated 3 Killed 3 (100%)
+> KILLED 3 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> null
+>> Generated 18 Killed 5 (28%)
+> KILLED 5 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 13 
+--------------------------------------------------------------------------------
+> false
+>> Generated 3 Killed 1 (33%)
+> KILLED 1 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 2 
+--------------------------------------------------------------------------------
+> true
+>> Generated 3 Killed 1 (33%)
+> KILLED 1 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 2 
+--------------------------------------------------------------------------------
+[INFO] 
+[INFO] --- revapi-maven-plugin:0.10.5:check (revapi-check) @ xwiki-platform-webjars-api ---
+[WARNING] Failed to resolve dependencies of old artifacts: Resolution of some artifacts failed: Could not locate the file of the maven artifact: com.bea.xml:jsr173-ri:jar:1.0.. The API analysis might produce unexpected results.
+[WARNING] Failed to resolve dependencies of new artifacts: Resolution of some artifacts failed: Could not locate the file of the maven artifact: com.bea.xml:jsr173-ri:jar:1.0.. The API analysis might produce unexpected results.
+[INFO] Comparing [org.xwiki.platform:xwiki-platform-webjars-api:jar:11.0.3] against [org.xwiki.platform:xwiki-platform-webjars-api:jar:11.2-SNAPSHOT] (including their transitive dependencies).
+[INFO] API checks completed without failures.
+[INFO] 
+[INFO] --- spoon-maven-plugin:3.1:check (default) @ xwiki-platform-webjars-api ---
+2019-02-22 17:36:12,804 WARN spoon.Launcher - Spoon is now using the 'no classpath mode' by default. If you want to ensure using Spoon in full classpath mode, please use the new flag: --cpmode fullclasspath.
+2019-02-22 17:36:12,804 WARN spoon.Launcher - Spoon now parse by default the comments. Consider using the option --disable-comments if you want the old behaviour.
+2019-02-22 17:36:12,808 INFO spoon.Launcher - Spoon version 7.3.0
+2019-02-22 17:36:12,808 INFO spoon.Launcher - running Spoon...
+2019-02-22 17:36:12,808 INFO spoon.Launcher - start processing...
+2019-02-22 17:36:12,967 INFO spoon.Launcher - org.xwiki.tool.spoon.ForbiddenInvocationProcessor
+2019-02-22 17:36:12,968 INFO spoon.Launcher - end of processing: 
+2019-02-22 17:36:12,968 INFO spoon.Launcher - no errors, no warnings
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ xwiki-platform-webjars-api ---
+[INFO] Installing /home/hudsonagent/jenkins_root/workspace/xwiki-platform_pitest/xwiki-platform-core/xwiki-platform-webjars/xwiki-platform-webjars-api/target/xwiki-platform-webjars-api-11.2-SNAPSHOT.jar to /home/hudsonagent/.m2/repository/org/xwiki/platform/xwiki-platform-webjars-api/11.2-SNAPSHOT/xwiki-platform-webjars-api-11.2-SNAPSHOT.jar
+[INFO] Installing /home/hudsonagent/jenkins_root/workspace/xwiki-platform_pitest/xwiki-platform-core/xwiki-platform-webjars/xwiki-platform-webjars-api/pom.xml to /home/hudsonagent/.m2/repository/org/xwiki/platform/xwiki-platform-webjars-api/11.2-SNAPSHOT/xwiki-platform-webjars-api-11.2-SNAPSHOT.pom
+[JENKINS] Archiving disabled
